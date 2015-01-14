@@ -1,4 +1,4 @@
-> topic:system ~britt_who
+> topic:system ~brit_who
 
   ? whoever * should be
   - I'll tell them that. 

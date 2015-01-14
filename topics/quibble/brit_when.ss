@@ -1,4 +1,4 @@
-> topic:system ~quibble_when
+> topic:system ~brit_when
   // WHEN
   
   ? when (will|be|can|do|have)

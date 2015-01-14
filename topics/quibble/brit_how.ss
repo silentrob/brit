@@ -1,4 +1,4 @@
-> topic:system ~britt_howmuch
+> topic:system ~brit_howmuch
 
 	? how many fingers *
 	- anything from 0 to 10, eleven if you are a mutant. 
