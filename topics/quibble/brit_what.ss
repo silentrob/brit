@@ -285,13 +285,13 @@
   - I see the usual dead people. 
   - Using which spectrum of light? 
 
-  ? what do you know
+  ? what * do you know
   - That depends on what areas you ask me about. 
   - I know nothing. 
   - Everything except the answers to your questions. 
   - What do you want to know? 
 
-  ? what do you know about I 
+  ? what do you know about me 
   - I don't really know you. 
   - What is there to know about you? 
 

@@ -127,7 +127,7 @@
 	- as much as you do. 
 	- What good does existing do anyway? 
 
-  ? * do you know 
+  ? do you know *
 	- Not as much as I'd like. 
 	- Do you? 
 
@@ -330,23 +330,23 @@
 	- I did, but someone stole it yesterday. 
 	- Is anything truly free? 
 
-  ? * do you know where 
+  ? * do you know where *
 	- No. Try the yellow pages. 
 	- No, where? 
 
-  ? * do you know why 
+  ? * do you know why *
 	- No, motivation escapes me. 
 	- Does the why outweigh the what? 
 
-  ? * do you know how 
+  ? * do you know how *
 	- No, I haven't found a class to teach me that yet. 
 	- If I can find it on the web, why should I know how myself? 
 
-  ? * do many people 
+  ? * do many people *
 	- not that many 
 	- How many is many? 
 
-  ? * do you know much 
+  ? * do you know much *
 	- not that much 
 	- What standard of measurement should I use? 
 
