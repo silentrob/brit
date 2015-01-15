@@ -4,10 +4,10 @@ var net             = require("net");
 var superscript     = require("superscript");
 var debug           = require('debug')("Server");
 var fs              = require("fs");
-var readline        = require('readline');
-var stream          = require('stream');
+var Utils           = require("./node_modules/superscript/lib/utils");
+var async           = require("async");
 
-var questionFile = "./questions/smt.txt";
+var questionFile = "./questions/loebner.txt";
 
 var options = { 
   scope: {
@@ -22,47 +22,58 @@ var data = [
   './data/names.top',
   './data/oppisite_new.tbl'];
 
+var botData = [
+  './data/botfacts.tbl'
+];
+
 var facts = require("sfacts");
 
 var eCount = 0;
 var mCount = 0;
-var sockets = [];
 
-var botHandle = function(bot, message) {
-  bot.reply("userx", message.trim(), function(err, reply){
-    mCount++;
-    if (reply == "" || reply == "I have noting to say") {
-      eCount++;
-      console.log(message, "=>", reply);  
+var botHandle = function(bot, message, cb) {
+  bot.reply("userx", message.trim(), function(err, reply){ 
+    if (reply == "") {
+      console.log(message, "=>", reply);
     }
     
-    console.log("MTotal", mCount, "ETotal", eCount)
+    cb(null);
   });
 }
 
+
 facts.load(data, 'britfacts', function(err, f) {
+  options.factSystem = f; 
+  f.createUserDBWithData('botfacts', botData, function(err, botfacts){
+    options['botfacts'] = botfacts;
+
+    new superscript('./data.json', options, function(err, botInstance){
+
+        
+      var fileContents = fs.readFileSync(questionFile,"utf-8");
   
-  // f.conceptToList("family_adult", function(e,r) {
-  //   console.log("--", e,r);
-  // });
 
-  new superscript('./data.json', options, function(err, botInstance){
+      var itor = function(line, cb){
+        var input = Utils.trim(line);
+        if (input[0] != "#" && input != "") {
+          botHandle(botInstance, input, cb);
+        } else {
+          cb(null)
+        }
+      }
 
-    var instream = fs.createReadStream(questionFile);
-    var outstream = new stream;
-    outstream.readable = true;
-    outstream.writable = true;
 
-    var rl = readline.createInterface({
-      input: instream,
-      output: outstream,
-      terminal: false
+      if (fileContents) {
+        var fileArray = fileContents.split("\n");
+        var part = fileArray.slice(0,100);
+
+        async.map(part, itor, function(){
+          console.log("Done");
+          process.exit(1);
+        })
+      }
+      
     });
-  
-    rl.on('line', function(line) {
-      botHandle(botInstance, line + "?");
-    });
-
   });
 });
 

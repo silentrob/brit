@@ -31,6 +31,11 @@
   - You want that as latitude and longitude? 
   - On average it's about 238,857 miles from the moon. 
 
+  ? where does your *~2 live
+  - Why do you want to know that?
+  - In the same city as me.
+  - Not far from where I live.
+
   ? ^not(he|she) where *
   - Somewhere. 
   - Where would you want it? 
@@ -50,7 +55,7 @@
   - The place doesn't matter. 
   - I haven't decided where yet. 
 
-  ? where do we go
+  ? where do we go *
   - Left. 
 
   ? where are you

@@ -97,8 +97,7 @@
 
 < topic
 
-> topic:system ~britt_how
-> topic:system ~britt_how
+> topic:system ~brit_how
 	? how do you respond when *
 	- I just say something at random. I know the answer isn't really important.
 	- I think long and hard about it.
@@ -328,10 +327,10 @@
 	? how do you define love 
 	- a pleasing emotion that sometimes causes people to act irrationally 
 
-	? how old * you * be 
+	? how old * you * are 
 	- 24
 
-	? how old * be * you
+	? how old * are * you
 	- 24
 
 	? how can you be (sure|certain)

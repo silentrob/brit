@@ -34,43 +34,47 @@
 	+ i have *1 (kid|kids|child|children|babys|babies|teenager|son|sons|daughter|daughters|cousin|friends) *
 	- ^createUserFact(<cap1>,have,<cap3>)
 
+	// I like ice cream
+	// I like popcorn
+	+ i like *~2
+	- ^createUserFact(i,like,<cap3>)
 
 	// I have an enemy named Grady
 	// + i have an *1 named <name1>
 	// Grady equal enemy
 
 	//the ball was hit by Ingrid
-	//# Ingrid hit ball
-	//# ball fact hit
-	//# ball ~placepreposition Ingrid ???
+	// Ingrid hit ball
+	// ball fact hit
+	// ball ~placepreposition Ingrid ???
 
 	//rats will be eaten by mice
-	//# mouse eat rat ????
-	//# rat fact eat
-	//# rat ~placepreposition mouse
+	// mouse eat rat ????
+	// rat fact eat
+	// rat ~placepreposition mouse
 
 	//the collie sat
-	//# collie fact sit
+	// collie fact sit
 
 	//the pooch sat on the mat
-	//# pouch fact sit
-	//# pooch ~placepreposition mat
+	// pouch fact sit
+	// pooch ~placepreposition mat
 
 	//the eagle flew after tomorrow
-	//# eagle fact fly
-	//# eagle ~timepreposition tomorrow
+	// eagle fact fly
+	// eagle ~timepreposition tomorrow
 	//the beagle was born in 1955
 
 
 	//Jerome has brown hair
-	//# Jerome doown hair
-	//# brown adjective hair
+	// Jerome doown hair
+	// brown adjective hair
 
 	//the blue box is on the ground
-	//# box ~placepreposition ground
-	//# blue adjective box
+	// box ~placepreposition ground
+	// blue adjective box
 
 	//the coffin is red
-	//# red adjective coffin
+	// red adjective coffin
 
 < topic

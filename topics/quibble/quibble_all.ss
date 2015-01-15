@@ -1,7 +1,7 @@
 > topic:system ~quibble_all
 
   // This matches fav"or"ite and we really want a or b
-  + * or *
+  + * (or) *
   - ^makeChoice()
 
   ?:TG *
@@ -44,6 +44,9 @@
   - ^respond(~brit_do) 
 
   + * 
+  - ^respond(~brit_misc) 
+
+  + * 
   - ^respond(~honest_response ) 
 
 < topic
@@ -84,6 +87,11 @@
 
   + good
   - Thanks
+
+  // Will you please play a game with me?
+  ?:YN:ENTY:sport * you * play * i
+  - No.
+  - Not today.
 
   ? are you <adjective1>
   - Maybe a little.

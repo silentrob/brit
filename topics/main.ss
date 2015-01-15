@@ -71,5 +71,12 @@
 	- Sue!
 
 
++ who is your favorite character in (*)
+@ favorite_char
+
 + who is your favorite *~3 character
+@ favorite_char
+
++ favorite_char
 - What makes you think I like <cap1>?
+- What makes you think I have one?

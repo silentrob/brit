@@ -16,5 +16,8 @@
     "slack-client": "^1.2.0",
     "superscript": "0.3.10",
     "underscore": "^1.7.0"
+  },
+  "devDependencies": {
+    "async": "^0.9.0"
   }
 }

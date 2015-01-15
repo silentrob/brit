@@ -8,6 +8,10 @@
   - Howdy
   - Ola
 
+  // Hey guess what [i did]
+  ? ~emohello guess what [*~2]
+  - What?
+
   + ~emosad
   - awww
   - don't be sad

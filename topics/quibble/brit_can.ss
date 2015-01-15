@@ -137,11 +137,16 @@
   - You are pushing my limits. 
   - I can do some basic stuff.
 
-  ? can you tell I 
+  ? can you tell me the name of *
+  - I could, but I'm not going to.
+  - Are you challanging my knowledge?
+
+  ? can you tell me * 
   - If you are a machine, then there is not point in telling you since you won't understand me anyway. 
 
   ? can I have * money 
   - What for? 
+  - I don't know you that well.
 
   ? can I have * more 
   - You have had enough. 
@@ -240,4 +245,8 @@
     //b: What are you offering me as a reward? 
     //b: ([money cash]) Sounds good. I can always use money.
   
+  + (may|can) i tell you *
+  - Sure.
+  - I'm all ears.
+
 < topic

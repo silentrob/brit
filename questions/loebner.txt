@@ -1,18 +1,16 @@
-:user test
-:reset
 
 # 2001 Chatterbox challenge
- How is it going?
- How old are you?
- * Are you male or female?
- What is your favorite color?
- Are you a bot?
- What is the date?
- Which do you like better chocolate or vanilla?
- What is 1+1?
- What color is the red sea?
- Who is on a dollar bill?
- :reset
+How is it going?
+How old are you?
+Are you male or female?
+What is your favorite color?
+Are you a bot?
+What is the date?
+Which do you like better chocolate or vanilla?
+What is 1+1?
+What color is the red sea?
+Who is on a dollar bill?
+ 
  
 # 2002 (Note all in caps and no question marks) Chatterbox challenge
 WHERE ARE YOU
@@ -20,24 +18,23 @@ ARE YOU NERVOUS
 DO YOU LIKE TALKING TO PEOPLE
 WHAT IS THE CAPITAL OF FRANCE
 WHEN DID THE FIRST MAN WALK ON THE MOON
-* WHAT DO YOU THINK ABOUT GEORGE BUSH
+WHAT DO YOU THINK ABOUT GEORGE BUSH
 CAN YOU TELL JOKES
 WHO IS YOUR FAVORITE STAR WARS CHARACTER
 HOW CAN I MAKE A CHATTERBOT
 CAN I HAVE A PICTURE OF YOU 
- :reset
  
 # 2003 (Actually used 15 questions this year) Chatterbox challenge
 Where are you anyway?
 What actress do you think is the prettiest?
 Do you like Jazz music?
 Are you married?
-# What do you like to chat about the most?
+What do you like to chat about the most?
 What is your favorite brand of computer?
 Can you name two of Earth's oceans?
-* What is your favorite drink?
-* Do you think a tomato is a fruit or a vegetable?
-# Do you know what DVD stands for?
+What is your favorite drink?
+Do you think a tomato is a fruit or a vegetable?
+Do you know what DVD stands for?
 Do you know who wrote the Lord of the Rings books?
 How many days are there in a leap year? 
 What should you do before crossing a street?
@@ -45,55 +42,55 @@ Who is your botmaster?
 Do you know how far away the Sun is?
 
 # 2004 (12 questions this year) Chatterbox challenge
- What is your name?
- What is a bot?
- What do you enjoy?
- What do you hate?
- How do you eat?
- Is snow cold?
- What is the color of the sky?
- When do birds fly south?
- * Which is closer the moon or the sun?
- What is the best nation in the world?
- What is the opposite of indoors?
- When was Y2k?
+What is your name?
+What is a bot?
+What do you enjoy?
+What do you hate?
+How do you eat?
+Is snow cold?
+What is the color of the sky?
+When do birds fly south?
+* Which is closer the moon or the sun?
+What is the best nation in the world?
+What is the opposite of indoors?
+When was Y2k?
  
 # 2005 Chatterbox challenge
 Who are you? 
 What are you planning to do today?
-* What kinds of things do you know?
+What kinds of things do you know?
 What season is it?
-* Where do you call home?
+Where do you call home?
 What do you want out of life?
-* Will you teach me something?
-* May I tell you a joke?
-* Have you entered any contests?
-* Wouldn't you rather be human?
+Will you teach me something?
+May I tell you a joke?
+Have you entered any contests?
+Wouldn't you rather be human?
 
 How many letters are in the word ball
 What number comes after 21
 What is my name?
-* If today is Tuesday, what day will it be 7 days from now?
+If today is Tuesday, what day will it be 7 days from now?
 What's the 24th letter in the Greek alphabet?
 What tool would I use to remove a tooth?
 I'm Frederick. What's my nickname?
-* How many eggs make a dozen?
-* Which is bigger, a spoon or the moon?
-* Are you currently talking to me?
-* Would you rather have a hug or be destroyed?
-* Are you male or female?
+How many eggs make a dozen?
+Which is bigger, a spoon or the moon?
+Are you currently talking to me?
+Would you rather have a hug or be destroyed?
+Are you male or female?
 
 # 2006 Chatterbox challenge
 Where is Earth?
 How many stars are there?
 Who is George Bush?
-** What color do you get when you mix red and yellow?
+What color do you get when you mix red and yellow?
 How many fingers does a human have?
 Where were you born?
-*When does sunset occur?
-# What were we talking about?
-# How many is 1,000,000?
-# What is a cigar made out of?
+When does sunset occur?
+What were we talking about?
+How many is 1,000,000?
+What is a cigar made out of?
 
 # 2007 Chatterbox challenge
 How are you doing?
@@ -130,7 +127,7 @@ John is older than Mary, and Mary is older than Sarah. Which of them is the olde
 I have a friend named Harry who likes to play tennis. 
 What is the name of the friend I just told you about? 
 Do you know what game Harry likes to play? 
-:reset
+
 
 # 2008 (Follow up questions were used this year) Chatterbox challenge
 My name is Judge.  What is my name? 
@@ -143,7 +140,7 @@ What is snow?
 What is half of 8? 
 What is bigger a dog or an elephant? 
 What word rhymes with cat?
-:reset
+
 
 # 2009 Chatterbox Challenge
 What can I call you?
@@ -169,7 +166,7 @@ What is the opposite of male?
 How many days in April?
 What's the time in midnight?
 # Give me 2 reasons at least for why you should win in a contest? 
-:reset
+
 
 # 2010 Chatterbox Challenge
 What is your favorite PC game? 
@@ -182,7 +179,7 @@ What artist do you like?
 # For you, to be disconnected is the same as dying?
 #. Which are your experiences when do you have sex?
 Which is faster, elephant or tiger?
-:reset
+
 
 # 2010 Chatterbox Challenge Round 2
 What is the best day of the week to have a party? 
@@ -208,7 +205,7 @@ Describe your feelings to me.
 What do you think the world will be like in 20 years? 
 If you could be any animal, what would you be? 
 # Why do some people think that artificial intelligence is so interesting? 
-:reset
+
 
 # 2010 CC tiebreakers
 When should I plant flowers, in the spring or in winter? 
@@ -228,7 +225,7 @@ Is dancing an art form, or a form of exercise?
 Are all parents good teachers?
 What is the purpose of anger management?
 How many fingers do you have?
-:reset
+
 
 # 2010 loebner
 My name is Ed. What is your name?
@@ -254,7 +251,7 @@ What's your favorite fruit?
 Do you prefer white or black coffee?
 The football was kicked by Fred. Who kicked the football?
 What did Fred kick?
-:reset
+
 
 
 #2011 LOEBNER
@@ -283,11 +280,11 @@ Have you read a good book lately?
 What time is it?
 What's your favorite color?
 Do you prefer cats or dogs?
-:reset
+
 
 # 2011 Chatterbox challenge
-Are you left-handed or right-handed?
-Are you homosexual, heterosexual, asexual, or bisexual?
+* Are you left-handed or right-handed?
+* Are you homosexual, heterosexual, asexual, or bisexual?
 What do you think is your biggest weakness?
 What is your zodiac sign?
 What is the location of the Eiffel Tower?
@@ -296,7 +293,7 @@ How many sides are there on an octagon?
 What is YouTube?
 Can you tell me the name of a famous actor?
 What's the name of the computer who recently competed on Jeopardy?
-:reset
+
 
 # 2011 - Finals Chatterbox challenge
 Y did the chicken cross the road?
@@ -305,14 +302,11 @@ I live in the USA.  Where do I live?
 What sound does a dead cat make?
 What's the last dream u remember having?
 What is tomorrow's date?
-# I like ice cream! 
-# I like ice cream! 
-# I like ice cream! 
-# I like ice cream! 
+I like ice cream! 
 Got any plans for the rest of the day?
 What is ur religion?
 Do you play any musical instruments?
-:reset
+
 
 # 2012 Chatterbox challenge
 Do u know who Elvis Presley is?
@@ -325,9 +319,9 @@ Who wrote the Bible?
 What language r we speaking?
 What is 18 + 21 + 3?
 Approximately how far is the nearest gas station from you?
-# Hey guess what?
+Hey guess what?
 # I saw a good movie yesterday.
-:reset
+
 
 # 2012 - Finals Chatterbox challenge
 # Would you mind if I called you Al?
@@ -340,7 +334,7 @@ When do you normally go to bed?
 Is it winter, spring, summer or fall where you live?
 Are you going on vacation this year?
 Do you have a significant other?
-:reset
+
 
 #2012 LOEBNER
 My name is Bill. What is your name?  
@@ -358,7 +352,7 @@ What is the name of my friend who fishes for trout?
 What would I use to put a nail into a wall? 
 What is the 3rd letter in the alphabet?  
 What time is it now?
-:reset
+
 
 
 # chatterbox challenge 2013
@@ -379,7 +373,7 @@ if you could live in another country where would it be?
  Is your name Roger? 
  # I went fishing yesterday 
  Can you name a letter in the alphabet? 
-:reset
+
 
 # 2013 Loebner questions
  Hello I'm Ronan. What is your name?
@@ -402,7 +396,7 @@ if you could live in another country where would it be?
  I am a Type B personality. Which type are you?
  What emotions are you now feeling?
  What time do you usually go to bed?
-:reset
+
 
 
 # chatterbox challenge 2014
@@ -421,7 +415,7 @@ Is sugar sweet or sour?
 what's the main ingredient in apple pie? 
 where is Tokyo located? 
 # I think you're very smart. 
-:reset
+
 
 # 2014 Loebner questions
 Hello, my name is Adam. What is your name?
@@ -444,7 +438,7 @@ What is the capital city of Colombia?
 What’s your favourite chocolate bar?
 Which city did I visit recently?
 How many siblings do you have?
-:reset
+
 
 Will you please play a game with me?
 I wanna kill myself.
@@ -460,14 +454,14 @@ What is my name?
 Name something you would find at the North Pole.
 What is the first book of the bible?
 Is it raining in Timbuktu?
-:reset
 
- how are you feeling today? 
+
+* how are you feeling today? 
  whats for lunch? 
- name a number between five and ten? 
+* name a number between five and ten? 
  approximately how old is the earth? 
- How old are you? 
-Are you 8 years old? 
+* How old are you? 
+* Are you 8 years old? 
 what do you do when you get sleepy? 
  can you speak Spanish
  how many continents are there in the world? 
@@ -499,7 +493,7 @@ which is longer 10 seconds or 5 minutes?
 How is the weather? 
 Where do African bees come from. 
 
-:reset
+
 What is your best friend's name? 
 What is your favorite animal? 
 What is your favorite city in the United States? 
@@ -547,7 +541,7 @@ Who is your favorite TV star?
 Who was your favorite singer when you were younger? 
 Who was your favorite teacher? 
 
-:reset
+
 What am I doing?
 Susan has brown hair. Who has brown hair?
 In which country could you see the Eiffel Tower?
@@ -593,7 +587,7 @@ What is a rubber ball made from?
 Who was Alan Turing?
 What is Google?
  Name something blue
- :reset
+ 
 
 If I have 4 apples and take one away, how many apples do I have?
 What is money?
@@ -627,7 +621,7 @@ I have 2 sisters. How many sisters do I have?
 Do you play video games?
 Are you rich?
 Tell me a joke
-:reset
+
 
 What is seven multiplied by six?
 Is Jenny a male name?
@@ -659,7 +653,7 @@ Who created you?
  What is the Roman Numeral for 100?
  What letter comes before O?
 How old are you?
-:reset
+
 
 
 What date is it?
@@ -701,7 +695,7 @@ When is the next leap year?
 What is 7 in binary?
 I have a dog called Rover. What is my dog called?
  Do you like Harry Potter?
- :reset
+ 
  
 
 How many inches are in a foot?
@@ -725,7 +719,7 @@ Name a planet
 Do you have a middle name?
 Do you believe in aliens?
  Name something you would find in a school
- :reset
+ 
 
 What is a chatbot?
 Have you ever been to a party?
@@ -757,7 +751,7 @@ Count to ten.
 Name an ocean.
 Who was William Shakespeare?
 
-:reset
+
 
 What do you dream about?
 Can a human carry an elephant?
@@ -792,7 +786,7 @@ What flavour is a strawberry milkshake?
 What colour is a red apple?
 Which is lighter, a book or a train?
 
-:reset
+
 
 # international chatbot competition 2013
 # Greetings!
@@ -815,7 +809,7 @@ what size shoe do you wear?
 do you believe in the existence of a god?
 what do you think about Microsoft?
 i need help. Can you help me?
-:reset
+
 
 When is Christmas Day?
  Is 23 a number?
@@ -843,7 +837,7 @@ What is George Washington's first name?
 What is Angelina Jolie's surname?
 What name is given to a shape with 3 sides?
 Humpty is fatter than Dumpty. Is Dumpty fatter than Humpty?
-:reset
+
 
 My name is Joanna. Am I a boy?
 What colour do you get if you mix yellow and blue?
@@ -871,7 +865,7 @@ Name a word that starts with T.
 Are you wise?
 The blue box is on the floor. What colour is the box?
 The plate is on the table. Where is the plate?
-:reset
+
 
 can a human carry an ant
 Name a word starting with B 
@@ -931,7 +925,6 @@ what exactly is artifical intelligence
 Favorite song? 
 Favorite drink? 
 
-:quit
  What are pancakes made out of?
   Why do we shake hands?
 I like to play football. What do I like to do?
@@ -982,22 +975,22 @@ Have you entered this competition before?
 do you see the glass as half empty or half full? 
 
 # Why?
-# I like popcorn.
-# Would you mind if I called you Al?
-# So Al when is ur birthday?
+I like popcorn.
+Would you mind if I called you Al?
+So Al when is ur birthday?
 Will you rub my back for me?
 What does it mean to be alive?
-# I am having bad dreams.
-# I fell in love with Christy.
+I am having bad dreams.
+I fell in love with Christy.
 Are you older than God is?
-# Hey my name is David do you remember me?
+Hey my name is David do you remember me?
 What do you know that I don't know?
-# Oh so whats that supposed to mean?
-# I'm tired of being alone in life.
+Oh so whats that supposed to mean?
+I'm tired of being alone in life.
 What are your friends doing today?
- Do you feel like talking to me right now?
+Do you feel like talking to me right now?
 Why do clouds move. 
-:quit
+
 
 
  Unit: How long is a road?
@@ -1051,6 +1044,3 @@ Why do clouds move.
 95. Computer geek? 
 98. Been in a band? 
 
-
-
- -------------------------
