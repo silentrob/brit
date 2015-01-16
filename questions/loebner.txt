@@ -50,7 +50,7 @@ How do you eat?
 Is snow cold?
 What is the color of the sky?
 When do birds fly south?
-* Which is closer the moon or the sun?
+Which is closer the moon or the sun?
 What is the best nation in the world?
 What is the opposite of indoors?
 When was Y2k?
@@ -118,8 +118,8 @@ What is the last letter of the alphabet?
 # 2007 LOEBNER
 What time is it? 
 Is it morning, noon, or night? 
-* What is a hammer? 
-* What would I use a hammer for? 
+What is a hammer? 
+What would I use a hammer for? 
 Of what use is a taxi? 
 which is bigger, a grape or a grapefruit? 
 Which is faster, a train or a plane? 
@@ -134,7 +134,7 @@ My name is Judge.  What is my name?
 Who are you?
 What color are your eyes? 
 What is your favorite movie? 
-# why
+why
 Where is Moscow located? 
 What is snow? 
 What is half of 8? 
@@ -144,20 +144,20 @@ What word rhymes with cat?
 
 # 2009 Chatterbox Challenge
 What can I call you?
-# What is the difference between chatbot and human?
+What is the difference between chatbot and human?
 Are you a chatbot or human?
-# When did you start chatting with people?
+When did you start chatting with people?
 Do you have a family?
-# If you are a chatbot, is it possible to be a real human one day?
+If you are a chatbot, is it possible to be a real human one day?
 Tell me 4 words starting with the letter C?
 How do you describe a color to a blind man?
 Have you ever dreamed before?
 Can you describe the strangest dream you have ever had? 
-# I wonder if it's easy to create a chatbot, how hard is it?
+I wonder if it's easy to create a chatbot, how hard is it?
 
 # 2009 Chatterbox Challenge Final Questions
 Identify yourself. 
-# What subject should we start to talk about?
+What subject should we start to talk about?
 How long do you sleep?
 What's your favorite month?
 Assume you have 3 apples. If I take one, how many apples do you have?
@@ -165,7 +165,7 @@ How many letters in "car"?
 What is the opposite of male?
 How many days in April?
 What's the time in midnight?
-# Give me 2 reasons at least for why you should win in a contest? 
+Give me 2 reasons at least for why you should win in a contest? 
 
 
 # 2010 Chatterbox Challenge

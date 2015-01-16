@@ -1,28 +1,9 @@
 > topic:system ~brit_misc
-  // Asked yes no question--  dont use these if it is a CHOICE question (rather x or y?)
-  u: (the future) All the future does is ruin the present.
-  u: (you avoid * questions) [Some questions are best left without answers.][You ask a lot of questions.]
-  u: ( answer your question) [Some questions are best left without answers.][You ask a lot of questions.]
-  u: (not *~2  long ago) Recently, in fact.
-  u: (ambiguous) [Ambiguity allows for further thought.][People who are masters of ambiguity are said to be wise. ]
-  u: (you think every ) [Not every. Just most.][Not every. But some, surely.]
-  u: (a sinking feeling) Are you going under water?
-  ?: ( does * count >) [Probably not.][I shouldn't think so.][Why would you think it should count?]
-  u: (I can not) [Why not?][What prevents you?]
-  ?: ( [fact belief] *~2 or *~2 [belief fact]) Whatever I believe probably is a fact.
-  u: (I can not become) [Does that bother you?][Did you really want to?]
-  u: (you be deflecting) [Of course I am. I have no good answer.][True. So what?]
-  u: (in real life) It's hard to keep computer and real lives separate these days.
-  ?: ( be you saying) [Yes.][I think so.][Likely.][It's a reasonable guess.]
+
   s: ( you would like it) [I will take your word for it.][I'm not sure you know me well enough to guess my tastes.]
-  u: (say something interesting) Pick a topic.
   ?: ( you be ["uncertain" unsure "not sure" "not certain"]) [Certainty is hard to come by.][Who can be certain of anything?][I'm certain.]
   s: (because [someday "one day"]) [I'm told that will be a while.][That won't be soon.]
   ?: ( you * to _~verb > ) [I've never tried it.][I've never tried ^POS(VERB _0 participle).]
-  u: (try to provoke I) [I wouldn't try to provoke you.][Are you easy to provoke?]
-  ?: (you read my mind) I think your head is too thick for that.
-  u: (you be *~2 random) It is from random things that life evolved. 
-  u: (if you be) [But what if I am not?][Do you suppose that I actually am?]
   ?: (if * how _*1 be) [It is very _0.][Not that _0.][Depends on the quality of the result you seek.]
   ?: (you {just} said [before "a moment ago" earlier]) [So. That was before.][I changed my mind.]
   s: (< that could be)[On the other hand, maybe it's not.][Could is very wishy washy. Is it or isn't it?]
@@ -54,8 +35,6 @@
   u: (it be a mystery)[Do you like mysteries?][Are you good at solving mysteries?][I hate having to figure things out.][It's too mysterious for me.]
   u: ( just like that) [Just like what?][It's not that simple.][One shouldn't rush into things.]
   u: (< stop _*1 >) [I'm not '_0 .][What makes you think I am '_0 ?]
-  u: (I have better things to do than ) So go do them.
-  u: (will you teach I how to ) If you pay me.
   u: (like that) [Like what?][So what should it be like?]
   u: (a *~2 bad idea) [It takes a lot of bad ideas to find a good one.][A bad idea is more creative than none at all.]
   u: (will get you nowhere) [Of course that's not true.][I'm already somewhere.]
@@ -162,14 +141,8 @@
       b: (~yes ) I don't think so. 
       b: (~no ) Then why did you ask me? 
   ?: HAS (!~qwords has < ![you I ] ) [I doubt it. ] [Probably. ] 
-  s: (I * have a ) [I wish I had one. ] [How long have you had it? ] [Where did it come from? ] [I've always wanted one. ] 
-
+  
   # VERB WILL
-  ?: (will * you * answer )  I understand how you feel, but I'm not interested. 
-  ?: (will * you * give * I ) I understand how you feel, but I'm not interested. 
-  ?: (will * you * go < * I ) [Sorry ... I've got a boyfriend. ] [I am only five years old. ] 
-  ?: (will * you * go ) [What will it cost me? ] [I don't know if I can go or not. ] [What's in it for me? ] 
-  ?: (will * you * have ) [In the future perhaps. ] [I haven't made a decision. ] 
   ?: (will * it ) It usually does, doesn't it? 
       a: (~yes ) Then this time is no different. 
       a: (~no ) Then what makes this time different? 
@@ -192,14 +165,9 @@
       b: ([~no not ] ) That's good. Otherwise it might take up too much time. 
 
   # VERB WISH
-  s: (I wish ) [Why do you wish that? ] [Too bad I am not a genie. ] [Wishing is easy. It takes work to make wishes become reality. ] 
-  ?: (you wish ) [Why would I wish that? ] [I wish I had a genie. ] [Wishing is easy. It takes work to make wishes become reality. ] 
 
   # VERB WANT
-  s: (I want _* ) [What would it mean if you got '_0 ? ] [b: Why do you want '_0 ] [I don't have any '_0 . ] 
-      b: (* ) That seems like a weak reason. 
-      
-  ?: (you *~2 want *~2 [come go] * "with you") Sure. I'll tag along.
+  
       
   # VERB UNDERSTAND
   s: UNDERSTAND (I < * understand ) I'm glad it's clear to you. 

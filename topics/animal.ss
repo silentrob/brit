@@ -12,4 +12,7 @@
   + what is a baby *1 called
   - aBaby(<cap>)
 
+  + ^not(egg) ~dairyitems comes from what animal
+  - A cow.
+
 < topic

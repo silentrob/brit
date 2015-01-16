@@ -1,4 +1,4 @@
-> topic wordlogic (letters characters rhymes syllables syllable opposite)
+> topic wordlogic (letters characters rhymes syllables syllable opposite define)
 
 	+ how many (letters|chars|characters) [are] [there] [in] [the word] *~3
 	- ^wordLength(<cap2>)
@@ -23,5 +23,13 @@
 
 	+ what is the opposite of *~2
 	- The opposite of <cap1> is ^oppisite(<cap1>).
+
+
+	// Define the term.
+	? * define [a] *1
+	- ^wordnetDefine()
 	
+	? * definition of *1
+	- ^wordnetDefine()
+
 < topic

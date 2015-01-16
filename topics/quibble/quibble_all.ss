@@ -1,8 +1,7 @@
 > topic:system ~quibble_all
 
-  // This matches fav"or"ite and we really want a or b
   + * (or) *
-  - ^makeChoice()
+  - ^respond(~brit_or) 
 
   ?:TG *
   - ^respond(~brit_tag) 
@@ -34,13 +33,10 @@
   + * (because|cause) *
   - ^respond(~brit_because) 
 
-  + * will *
-  - ^respond(~brit_will) 
-
-  + * can *
+  + * (can) *
   - ^respond(~brit_can) 
 
-  + * do * 
+  + * (do) * 
   - ^respond(~brit_do) 
 
   + * 

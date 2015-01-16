@@ -20,7 +20,7 @@ var data = [
   './data/trigrams.tbl',
   './data/concepts.top',
   './data/names.top',
-  './data/oppisite_new.tbl'];
+  './data/oppisite.tbl'];
 
 var botData = [
   './data/botfacts.tbl'
@@ -34,9 +34,10 @@ var mCount = 0;
 var botHandle = function(bot, message, cb) {
   bot.reply("userx", message.trim(), function(err, reply){ 
     if (reply == "") {
-      console.log(message, "=>", reply);
+      console.log(message);
+    } else {
+      // console.log(message , "=>" , reply );
     }
-    
     cb(null);
   });
 }
@@ -48,11 +49,9 @@ facts.load(data, 'britfacts', function(err, f) {
     options['botfacts'] = botfacts;
 
     new superscript('./data.json', options, function(err, botInstance){
-
-        
+      
       var fileContents = fs.readFileSync(questionFile,"utf-8");
   
-
       var itor = function(line, cb){
         var input = Utils.trim(line);
         if (input[0] != "#" && input != "") {
@@ -62,17 +61,15 @@ facts.load(data, 'britfacts', function(err, f) {
         }
       }
 
-
       if (fileContents) {
         var fileArray = fileContents.split("\n");
-        var part = fileArray.slice(0,100);
+        var part = fileArray.slice(100,200);
 
         async.map(part, itor, function(){
           console.log("Done");
           process.exit(1);
         })
       }
-      
     });
   });
 });

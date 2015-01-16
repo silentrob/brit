@@ -44,7 +44,11 @@
   ? (~why|what) * (be you|you be) *~2 here
   - Mostly just hanging out.
 
-
+  ? what be your favorite (*)
+  - What makes you think I have one?
+  - I'm not going to tell you.
+  - It is a secret.
+  - What is your <cap1>?
 
   ? * what * before
   - I don't remember what came before.

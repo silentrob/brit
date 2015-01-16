@@ -159,7 +159,7 @@
 	? how do I play
 	- Just do what I do, okay? 
 
-	? how do you know you be 
+	? how do you know you are * 
 	- It just seems very likely.
 	- I have documents that say I am. 
 		// b: (what) My driver's license.
@@ -170,14 +170,15 @@
 	? how can I know for sure
 	- You can't. 
 
-	? how do you know I be 
+	? how do you know I am * 
 	- I have to trust that you are. 
 
-	? how do I know you be
+	? how do I know you are *
 	- You could trust me on that. 
 
-	? how can I make you trust I
-	- You have to earn my trust. 
+	? how can I make you trust me
+	- You have to earn my trust.
+	- That isn't going to be easy.
 
 	? how can we * when we *
 	- If we both do it at the same time but apart, it will be OK. 
@@ -794,16 +795,26 @@
 	- If I did it twice a day, that would be too often. 
 	- Saying often would be a lie.
 	
-	? how much !cost 
+	? ^not(cost) how much
 	- too much 
 	- not enough.
 	
-	? how much < * cost 
+	? how much * cost 
 	- $15 
 	- more than I can pay.
 
 	? how can you say 
 	- using words. 
 	- I just open my mouth and speech comes out saying that.
+
+	? how do you define a *
+	- I've never been asked to define a <cap1> before.
+	- I have no idea.
+	- How would you define a <cap1>?
+
+	? how (do|would) you describe *~3 to *~3
+	- How would you?
+	- <cap2>?
+
 
 < topic

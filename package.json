@@ -14,7 +14,7 @@
     "request": "^2.46.0",
     "sfacts": "*",
     "slack-client": "^1.2.0",
-    "superscript": "0.3.10",
+    "superscript": "0.3.12",
     "underscore": "^1.7.0"
   },
   "devDependencies": {

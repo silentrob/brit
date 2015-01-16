@@ -39,6 +39,10 @@
 	+ i like *~2
 	- ^createUserFact(i,like,<cap3>)
 
+
+	+ my favorite color is *1
+	- ^createUserFact(favorite, color, <cap1>)
+
 	// I have an enemy named Grady
 	// + i have an *1 named <name1>
 	// Grady equal enemy
