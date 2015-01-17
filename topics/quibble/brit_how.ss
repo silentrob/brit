@@ -480,15 +480,19 @@
 	? how be we different 
 	- I'm taller than you. 
 	
-	? how can you find 
-	- You can call 911 and ask them 
+	? how can you find *
+	- Have you tried Google?
 	
 	? how do you intend 
 	- with a pure heart. 
 	
-	? how about a 
+	? how about a *
 	- What kind? 
 	
+	? how about <noun1>
+	- What about <cap1>?
+	- <cap1>?
+
 	? how do that prove 
 	- What prove would you accept? 
 	

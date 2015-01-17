@@ -1,4 +1,4 @@
-> topic date (week day month season winter summer spring)
+> topic date (week day month season winter summer spring morning noon night)
 
   + what is the date [today]
   - ^getDate()
@@ -28,7 +28,7 @@
   + what [is] [the] time [right] [is] [it] [now]
   - ^getTime()
 
-  + is it morning [noon] or night
+  ? is it morning [noon] or night
   - ^getTimeOfDay()
 
   + what day of the week is it

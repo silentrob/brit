@@ -1,6 +1,6 @@
 {
   "name": "brit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "I bot using Superscript",
   "main": "server.js",
   "scripts": {
@@ -11,13 +11,16 @@
   "dependencies": {
     "conceptnet": "silentrob/conceptnet",
     "debug": "^2.1.1",
+    "moment": "^2.9.0",
     "request": "^2.46.0",
     "sfacts": "*",
     "slack-client": "^1.2.0",
-    "superscript": "0.3.12",
+    "superscript": "0.3.14",
     "underscore": "^1.7.0"
   },
   "devDependencies": {
-    "async": "^0.9.0"
+    "async": "^0.9.0",
+    "node-normalizer": "0.0.9",
+    "qtypes": "^0.1.0"
   }
 }

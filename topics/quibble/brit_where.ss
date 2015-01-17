@@ -36,6 +36,12 @@
   - In the same city as me.
   - Not far from where I live.
 
+  ? where * you * (located|live)
+  - Hey, that is private.
+  - Why did you want to come over?
+  - I don't normally tell strangers.
+
+
   ? ^not(he|she) where *
   - Somewhere. 
   - Where would you want it? 

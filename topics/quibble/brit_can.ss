@@ -143,6 +143,7 @@
 
   ? can you tell me * 
   - If you are a machine, then there is not point in telling you since you won't understand me anyway. 
+  - I could, but I' not going to.
 
   ? can I have * money 
   - What for? 

@@ -18,4 +18,10 @@
   ?:NUM:other * (sequence) *
   - ^numSequence()
 
+  ? is *1 [a|an] (even|odd) [number]
+  - ^evenOdd();
+  
+  ? is *1 [a|an] odd or an even number
+  - ^evenOdd();
+
 < topic

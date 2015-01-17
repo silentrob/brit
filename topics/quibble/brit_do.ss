@@ -151,7 +151,7 @@
 	- I don't care about the little things. 
 	- Why should I care? 
 
-  ? * do you care * if 
+  ? * do you care * if *
 	- Of course I care. 
 	- Is it likely to happen? 
 
@@ -377,6 +377,10 @@
   ? * do you believe everything 
 	- Just how gullible do you think I am? 
 	- I'm not that gullible. 
+
+
+	? * do you have a  favorite *
+	- No, not really.
 
   ? * do you have a *
 	- somewhere. 

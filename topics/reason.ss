@@ -32,8 +32,9 @@
 	? is [the] <noun1> <adjective1>
 	- ^resolveFact()
 
-	?:CH * prefer *
+	?:CH * (prefer|like) *
 	- ^makeChoice()
+
 
 	?:NUM:money *
 	- ^findMoney()

@@ -81,13 +81,19 @@
   - You seem really positive.
   - Indeed.
 
-  + good
+  
+  + good [answer]
   - Thanks
 
   // Will you please play a game with me?
   ?:YN:ENTY:sport * you * play * i
   - No.
   - Not today.
+
+  // How old is the ...
+  ?:NUM:period * old *
+  - Really old.
+  - I'm not sure exactly but I'm sure it is old.
 
   ? are you <adjective1>
   - Maybe a little.

@@ -11,5 +11,9 @@
   ?:TG * is it
   - It can be, all depenends I guess.
 
+  ?:TG * would you
+  - Yep, I probably would.
+  - It depends, I don't think I would.
+  
 
 < topic

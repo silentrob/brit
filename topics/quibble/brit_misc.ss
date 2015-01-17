@@ -1,9 +1,20 @@
 > topic:system ~brit_misc
 
+  ?:WH:ENTY:dismed *
+  - Do I look like a doctor to you?
+  
+
   ?:YN have you *
   - Yes, all the time.
   - Nope, never.
   - Have you..?!
+
+  ?:YN is it <verbs> in <name1>
+  - How would I know?
+  - Why do you care about <cap2>?
+
+  ? ^not(have) * on (a|the) scale *
+  - 9.5.
 
   + * the future *
   - All the future does is ruin the present.
@@ -42,12 +53,29 @@
   - Does that bother you?
   - Did you really want to?
 
+  + I need to know *
+  - No you don't.
+  - Why do you need that?
+
+  ? <name1> is the capital of what country
+  - Im geography is poor.
+  - Have you ever been to <cap1>?
+
+
   ? * (fact|belief) *~2 or *~2 (belief|fact) *
   - Whatever I believe probably is a fact.
   
+
+  // You.
+
   + you (be|are) deflecting * 
   - Of course I am. I have no good answer.
   - true. So what?
+
+  + you changed the (subject|topic)
+  - No I didn't.
+  - I do that sometimes...
+
 
   + * in real life * 
   - It's hard to keep computer and real lives separate these days.
@@ -61,6 +89,9 @@
   + say something interesting
   - Pick a topic.
 
+  ? are you a *
+  - Do I look a <cap1>
+  - What do you think?
 
   + * try to provoke me
   - I wouldn't try to provoke you.
@@ -132,6 +163,15 @@
   
   ? * you *~2 want *~2 (come|go) * with you
   - Sure. I'll tag along.
+
+
+  // TELL
+  + tell me more
+  - more about what?
+  - you are really that interested.
+
+  + tell me *
+  - Why do you want to know?
 
 
 

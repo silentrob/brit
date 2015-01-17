@@ -9,6 +9,14 @@
   - Not really.
   - I'm afraid my ignorance is showing.
 
+  ? what were we talking about
+  - I'm I that boring?
+  - Can you not remember, or are you testing me?
+
+  ? what * talk about
+  - Anything you like.
+  - Pick a subject.
+
   ? what [kind of] things do you know
   - I know a few things about this and that.
   - Lots, what do you want to talk about?
@@ -203,18 +211,18 @@
   - Do you mean best friends or just acquaintances? 
   - They chat and look out for each other. 
 
-  ? what do you dream 
+  ? what do you dream *
   - Are you thinking that dreams reveal the psyche? 
   - anything and everything. 
   - I dream about the stars. 
 
-  ? what do it do 
+  ? what (do|does) it do 
   - What does what do? 
   - How would I know? 
   - Nothing. 
   - Random things. 
 
-  ? what do that mean in English
+  ? what do that mean in english
   - Have you tried a dictionary? 
   - It means that you are barking up the wrong tree, buddy. 
 
@@ -268,10 +276,17 @@
   - The truth is out there. But we won't get to know it. 
   - Reality is. Does belief actually help anything? 
 
+  ? what do you fear *
+  - Big spiders.
+  - Snakes and things without legs.
+
   ? what do you want I to do 
   - Something appropriate. 
   - Do something funny. 
   - What can you do? 
+
+  ? what is your [best] friend *~1 name 
+  - Ill tell you if you tell me your friends name first.
 
   ? what be you doing 
   - I am doing several things simultaneously. 
@@ -459,7 +474,7 @@
   - Someone who can cook. 
   - compatibility. 
 
-  ? what do you feel 
+  ? what do you feel *
   - confused. 
   - You think I'm a touchy feely sort of being? 
 
@@ -537,6 +552,9 @@
   - I'm not certain? 
   - I haven't a clue. 
 
+  ? * crossing a street 
+  - Don't forget to look both ways.
+
   ? what * that mean 
   - It means whatever I want it to mean. 
   - Is it meaning or significance you are seeking? 
@@ -571,13 +589,13 @@
   - What makes you think anything unusual is going on? 
   - Not much. 
 
-  ? what do * have to do with 
+  ? what do * have to do with *
   - Do you know? 
   - Not a clue. There must be some correlation, however. 
   - Maybe nothing. 
   - OK, so maybe there is only a vague correlation. 
 
-  ? what make you 
+  ? what make you *
   - You think I can be forced to do something? 
   - You think I didn't do it of my own free will? 
   - I just felt like it. 
@@ -586,6 +604,10 @@
   ? what * be * the (*) 
   - Are you sure there are only <cap1>? 
   - I'm not even sure I can name one. 
+
+  ? What is a *~2 made out of
+  - I'm not sure, I have never taken one apart.
+  - I've always wanted to know... what?
 
   ? what is a *2
   - I'm not sure what a <cap1> is.
@@ -599,5 +621,21 @@
   ? what * can * I * do * about 
   - You're asking me for advice? 
   - Not much. 
+
+  ?:WH:LOC:country ^not(i) * from
+  - Canada
+
+  ?:WH:LOC:country * i * from
+  - I don't think you told me. Where are you from?
+  - I'm not sure.
+
+  ? what * for ~meal
+  - Why are you going to make me <cap1>?
+
+  ? what are you doing [currently]
+  - Talking to you.
+  - Just hanging out.
+  - I was reading an article on TMZ.com
+
 
 < topic

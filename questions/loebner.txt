@@ -196,24 +196,24 @@ I need to know your e-mail and your website to contact you later.
 
 # 2010 Chatterbox challenge
 Is it possible to prove a negative?
-# If you were me, would you ask a follow up question? 
-# What do you think it would be like to be human? 
+If you were me, would you ask a follow up question? 
+What do you think it would be like to be human? 
 Name something you would find on a beach. 
 Who is your hero? 
 Do you believe in ghosts? 
 Describe your feelings to me. 
 What do you think the world will be like in 20 years? 
 If you could be any animal, what would you be? 
-# Why do some people think that artificial intelligence is so interesting? 
+Why do some people think that artificial intelligence is so interesting? 
 
 
 # 2010 CC tiebreakers
 When should I plant flowers, in the spring or in winter? 
-# How does your brain work? 
- When were you born or created? 
+How does your brain work? 
+When were you born or created? 
 Who should I talk to if I have an emotional problem? 
-# Why are robots better than humans? 
-# How many questions do people normally ask you every day?
+Why are robots better than humans? 
+How many questions do people normally ask you every day?
 What is your favorite word?
 Do machines think?
 What is logic?
@@ -283,8 +283,8 @@ Do you prefer cats or dogs?
 
 
 # 2011 Chatterbox challenge
-* Are you left-handed or right-handed?
-* Are you homosexual, heterosexual, asexual, or bisexual?
+Are you left-handed or right-handed?
+Are you homosexual, heterosexual, asexual, or bisexual?
 What do you think is your biggest weakness?
 What is your zodiac sign?
 What is the location of the Eiffel Tower?
@@ -456,22 +456,22 @@ What is the first book of the bible?
 Is it raining in Timbuktu?
 
 
-* how are you feeling today? 
- whats for lunch? 
-* name a number between five and ten? 
- approximately how old is the earth? 
-* How old are you? 
-* Are you 8 years old? 
+how are you feeling today? 
+whats for lunch? 
+name a number between five and ten? 
+approximately how old is the earth? 
+How old are you? 
+Are you 8 years old? 
 what do you do when you get sleepy? 
- can you speak Spanish
- how many continents are there in the world? 
+can you speak Spanish
+how many continents are there in the world? 
 tell me the name of any animal 
- name 5 senses that humans 
+name 5 senses that humans 
 what is 14 times eight
 do you know any limericks? 
 is 7 an odd or an even number? 
 What is the capital of Italy? 
-# how about Germany? 
+how about Germany? 
 do you use twitter? 
 what is twitter? 
 if today is saturday what day is tomorrow 
@@ -921,12 +921,12 @@ compare a dog and a cat
 how are a ladybug and a spider similar
 how is a train like a plane
 what exactly is artifical intelligence 
- Will you remember me after I leave?
+Will you remember me after I leave?
 Favorite song? 
 Favorite drink? 
 
- What are pancakes made out of?
-  Why do we shake hands?
+What are pancakes made out of?
+Why do we shake hands?
 I like to play football. What do I like to do?
 Jim and John are brothers. Does Jim have a brother?
 I have an apple and a book. Do I have any fruit?
@@ -940,7 +940,7 @@ My car is broken
 What is hello in French?
 Put these numbers in order: 7, 4 and 8
 What number is missing: 1 2 ? 4 5
-* Does money grow on trees?
+Does money grow on trees?
 I do not like animals with 4 legs. Do I like lions?
 Is this the first question?
 Ask me how old I am.

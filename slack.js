@@ -2,7 +2,10 @@
 
 // Auth Token - You can generate your token from 
 // https://<slack_name>.slack.com/services/new/bot
-var token = "xoxb-3213409173-zvdtN02pbjjDln2Q0lIPv1zM";
+
+
+// var token = "xoxb-3213409173-zvdtN02pbjjDln2Q0lIPv1zM"; // chloi
+var token = "xoxb-3438375882-S8B2ChDlY1sqKhkvLjtycqeX"; // jiffy
 
 // This is the main Bot interface
 var superscript = require("superscript");
@@ -19,8 +22,6 @@ var options = {
     cnet : require("conceptnet")({host:'127.0.0.1', user:'root', pass:''})
   }
 }
-
-
 
 
 var atReplyRE = /<@(.*?)>/;
