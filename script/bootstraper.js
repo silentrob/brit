@@ -16,11 +16,23 @@ var worldData = [
 ];
 
 facts.load(worldData, "britfacts", function(err, res){
-  
   var parse = require("superscript/lib/parse")(res);
-  parse.loadDirectory('./topics', function(err, result) {
-    fs.writeFile('./data.json', JSON.stringify(result), function (err) {
-  		console.log("Loaded");
+  var exists = fs.existsSync('./data.json');
+  var contents = {};
+  var sums = {};
+
+  if (exists) {
+    contents = fs.readFileSync('./data.json', 'utf-8');
+    contents = JSON.parse(contents);
+    sums = contents.checksums;
+  }
+
+  parse.loadDirectory('./topics', sums,  function(err, result) {
+    parse.merge(contents, result, function(err, results) {
+
+      fs.writeFile('./data.json', JSON.stringify(results), function (err) {
+  		  console.log("Loaded");
+      });
     });
   });
 });

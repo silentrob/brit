@@ -1,15 +1,15 @@
 > topic:system ~brit_misc
 
-  ?:WH:ENTY:dismed *
+  ?:ENTY:dismed what *
   - Do I look like a doctor to you?
-  
+
 
   ?:YN have you *
   - Yes, all the time.
   - Nope, never.
   - Have you..?!
 
-  ?:YN is it <verbs> in <name1>
+  ?:YN be it <verbs> in <name1>
   - How would I know?
   - Why do you care about <cap2>?
 
@@ -45,15 +45,15 @@
   - Probably not.
   - I shouldn't think so.][Why would you think it should count?
 
-  + I can not 
+  + i can not 
   - Why not?
   - What prevents you?
 
-  + I can not become * 
+  + i can not become * 
   - Does that bother you?
   - Did you really want to?
 
-  + I need to know *
+  + i need to know *
   - No you don't.
   - Why do you need that?
 

@@ -1,4 +1,3 @@
-
 > pre
 
 	+ *
@@ -13,4 +12,3 @@
   - ^respond(~quibble_all)
 
 < post
-

@@ -19,9 +19,12 @@
   - ^numSequence()
 
   ? is *1 [a|an] (even|odd) [number]
-  - ^evenOdd();
+  - ^evenOdd()
   
   ? is *1 [a|an] odd or an even number
-  - ^evenOdd();
+  - ^evenOdd()
+
+  ? * square root *
+  - What do I look like a calulator?
 
 < topic

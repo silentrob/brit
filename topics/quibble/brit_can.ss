@@ -120,7 +120,7 @@
   ? can a computer lie
   - I don't think it can. 
 
-  ? can you do
+  ? can you do *
   - Given enough reward and enough training. 
 
   ? can you prove I be not
@@ -130,7 +130,7 @@
   ? can you really do that
   - Why would you doubt it? 
 
-  ? can you hear I
+  ? can you hear (i|me)
   - What? Are we reduced to phones again? 
 
   ? can you do (algebra|calculus)
@@ -144,6 +144,9 @@
   ? can you tell me * 
   - If you are a machine, then there is not point in telling you since you won't understand me anyway. 
   - I could, but I' not going to.
+
+  ? * i (email|phone|call|contact|text|txt|sms) you
+  - I don't think that is a good idea.
 
   ? can I have * money 
   - What for? 
@@ -225,13 +228,13 @@
   ? can you exercise 
   - Exercise is bad. 
 
-  ? can you explain 
+  ? can you explain *
   - Not even a university professor could. 
 
   ? can I teach you 
   - You the saying about old dogs and new tricks? 
 
-  ? can you predict
+  ? * can you predict *
   - No. But I can wait until it comes to pass. 
 
   ? can you *
