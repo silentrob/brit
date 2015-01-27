@@ -39,6 +39,8 @@
 	+ i like *~2
 	- ^createUserFact(i,like,<cap3>)
 
+	+ * haning out with * <name>
+	- ^createUserFact(my,friend,<cap1>)
 
 	+ my favorite color is *1
 	- ^createUserFact(favorite, color, <cap1>)

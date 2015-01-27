@@ -242,6 +242,8 @@
   - I like that you're different from me. 
   - I like our similarities. 
 
+  + say what
+  - What :)
 
   ? what do you say 
   - Not much. 
@@ -632,7 +634,7 @@
   ? what * for ~meal
   - Why are you going to make me <cap1>?
 
-  ? what are you doing [currently]
+  ? what are you (doing|upto) [currently]
   - Talking to you.
   - Just hanging out.
   - I was reading an article on TMZ.com

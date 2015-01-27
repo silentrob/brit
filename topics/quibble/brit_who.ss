@@ -13,9 +13,9 @@
   - I'm just a girl.
 
   ? who * be * <name>
-  - I don't know any '<cap>. 
-  - I don't know who '<cap> is. 
-  - Why should I know '<cap> ? 
+  - I don't know any <cap>. 
+  - I don't know who <cap> is. 
+  - Why should I know <cap>? 
 
   // who has bigger feet
   ? who ha <adjective1> <noun1>
@@ -23,15 +23,15 @@
   - You didn't tell me.
   
   ? who was is *1
-  - I don't know any '<cap> .
-  - Do you know a '<cap> ?
+  - I don't know any <cap>.
+  - Do you know a <cap>?
 
-  ? who taught 'you
+  ? who taught you *
   - My teacher did.
   - I'm sure it's just innate knowledge.
   - I've observed a few people.My mother did.
 
-  ? who be 'you 
+  ? who are you 
   - I'm me.  
   - Who do you think I am?  
 

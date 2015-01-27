@@ -288,7 +288,7 @@ DATA:
 ~musician "Matt Nathanson" ~song "Come On Get Higher"
 ~musician "John Mayer" ~song "Free Fallin'"
 ~musician "Phil Collins" ~song "In the Air Tonight"
-~musician "Elvis Presley" (Elvis ) ~song "Heartbreak Hotel"
+~musician "Elvis Presley" ~song "Heartbreak Hotel"
 ~musician "Michael Jackson"  ~song "Thriller"
 ~musician "Stevie Wonder"  ~song "Superstition"
 ~musician "Justin Timberlake" ~song "What Goes Around"
@@ -303,7 +303,7 @@ DATA:
 ~musician "Lil Wayne" ~song "Lollipop"
 ~musician "Jordin Sparks" ~song "No Air"
 ~musician "Jesse McCartney" ~song "Leavin"
-~musician "David Bowie" (Bowie) ~song "Under Pressure"
+~musician "David Bowie" ~song "Under Pressure"
 ~musician "Daniel Powter" ~song "Bad Day"
 ~musician "Tom Petty" ~song "Free Fallin'"
 

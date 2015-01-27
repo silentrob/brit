@@ -11,6 +11,19 @@
 - Your friends name is ^get(friend).
 
 
+
++ * (hanging out|spending time) with <name1>
+- {^known(true)} How is <cap2> doing?
+- {^known(false)} Who is <cap2>?
+
+
+
+? * do you know who <name1> be 
+- {^known(true)} Yes, How is <cap2> doing?
+- {^known(false)} No, who is <cap2>?
+
+
+
 + [*] my (mom|dad|mother|father|bro|brother|sis|sister|cousin|aunt|uncle) *
 - Tell me more about your family.
 - Who else in your family?
@@ -37,3 +50,4 @@
 + favorite_char
 - What makes you think I like <cap1>?
 - What makes you think I have one?
+

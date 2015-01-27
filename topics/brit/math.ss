@@ -25,6 +25,6 @@
   - ^evenOdd()
 
   ? * square root *
-  - What do I look like a calulator?
+  - Do I look like a calulator?
 
 < topic

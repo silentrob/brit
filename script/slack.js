@@ -61,8 +61,11 @@ var receiveData = function(slack, bot, data) {
   // Fetch the user who sent the message;
   var user = data._client.users[data.user];
   var channel;
+  var message = "";
   var messageData = data.toJSON();
-  var message = "" + messageData.text.trim();
+  if (messageData && messageData.text) {
+    message = "" + messageData.text.trim();  
+  }
   
   var match = message.match(atReplyRE)
   

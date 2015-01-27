@@ -26,7 +26,7 @@
 ## Superscript
 - at replies in slack
 - add chrono-node for better date parsing
-- add caching for topic files
+- inline redirect system messages are erroing because of incomplete message objects "<name>"
 - replies in system topics need to be tested
 
 # Empty Lobner questions.

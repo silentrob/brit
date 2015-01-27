@@ -1,6 +1,6 @@
 {
   "name": "brit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "I bot using Superscript",
   "main": "server.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "request": "^2.46.0",
     "sfacts": "*",
     "slack-client": "^1.2.0",
-    "superscript": "0.3.17",
+    "superscript": "0.4.3",
     "underscore": "^1.7.0"
   },
   "devDependencies": {

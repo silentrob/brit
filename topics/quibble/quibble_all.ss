@@ -81,12 +81,15 @@
   - You seem really positive.
   - Indeed.
 
-  
+  // Im good.
+  + i *~2 good
+  - Great. ^topicRedirect(motivate, __ask_question__)
+
   + good [answer]
   - Thanks
 
   // Will you please play a game with me?
-  ?:YN:ENTY:sport * you * play * i
+  ?:ENTY:sport do you * play * i
   - No.
   - Not today.
 
@@ -118,7 +121,8 @@
   - Okay, talk to you again soon.
 
   // I'm going to go now
-  + I *~3 (leave you|go) *~2  (now|soon)
+  // Ive got to go
+  + I *~3 (leave you|go|got) *~2 [now|soon]
   @ ~emogoodbye
 
   // are you for real

@@ -13,9 +13,9 @@
   - I think <cap1> is <cap3>.
 
   ? (which|what) be (<adjective1>|<adverb1>) *~2 or *~2
-  - <cap3> is <cap2>.
+  - <cap4> is <cap3>.
   - I guess <cap4>.
-  - I think <cap3>.
+  - I think <cap5>.
 
   ? would you  * or *~2
   - <cap2>.

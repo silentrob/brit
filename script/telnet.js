@@ -52,7 +52,7 @@ var botHandle = function(err, bot) {
       return;
     }
 
-    bot.reply(socket.name, message.trim(), function(err, reply){
+    bot.reply(socket.remoteAddress, message.trim(), function(err, reply){
 
       // Find the right socket
 
@@ -72,7 +72,7 @@ var botHandle = function(err, bot) {
     var i = sockets.indexOf(socket);
     var soc = sockets[i];
 
-    bot.userDisconnect(soc.name);
+    // bot.userDisconnect(soc.name);
     console.log("User '" + soc.name + "' has disconnected.\n");
 
     if (i != -1) {
@@ -82,6 +82,7 @@ var botHandle = function(err, bot) {
 
   var newSocket = function (socket) {
     socket.name = socket.remoteAddress + ":" + socket.remotePort;
+    
     console.log("User '" + socket.name + "' has connected.\n");
 
     sockets.push(socket);
@@ -90,7 +91,7 @@ var botHandle = function(err, bot) {
     socket.write('Welcome to the Telnet server!\n');
     socket.write("Hello " + socket.name + "! " + "Type /quit to disconnect.\n\n");
 
-    bot.userConnect(socket.name);
+    // bot.userConnect(socket.name);
 
     // Send their prompt.
     socket.write("You> ");

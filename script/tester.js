@@ -4,7 +4,7 @@ var net             = require("net");
 var superscript     = require("superscript");
 var debug           = require('debug')("Server");
 var fs              = require("fs");
-var Utils           = require("./node_modules/superscript/lib/utils");
+var Utils           = require("../node_modules/superscript/lib/utils");
 var async           = require("async");
 
 var questionFile = "./questions/loebner.txt";
@@ -16,11 +16,12 @@ var options = {
 };
 
 var data = [
-  './data/bigrams.tbl',
-  './data/trigrams.tbl',
-  './data/concepts.top',
-  './data/names.top',
-  './data/oppisite.tbl'];
+  '../data/bigrams.tbl',
+  '../data/trigrams.tbl',
+  '../data/concepts.top',
+  '../data/names.top',
+  '../data/oppisite.tbl'
+];
 
 var botData = [
   './data/botfacts.tbl'
@@ -36,7 +37,7 @@ var botHandle = function(bot, message, cb) {
     if (reply == "") {
       console.log(message);
     } else {
-      // console.log(message , "=>" , reply );
+      console.log(message , "=>" , reply );
     }
     cb(null);
   });
