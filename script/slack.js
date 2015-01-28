@@ -80,20 +80,20 @@ var receiveData = function(slack, bot, data) {
           channel = slack.getChannelGroupOrDMByName(user.name);
           break;
         case "atReply": 
-          reply = "@" + user.name  + " " + reply;
+          reply = "@" + user.name  + " " + reply.string;
         case "public":
           channel = slack.getChannelGroupOrDMByID(messageData.channel);
           break
 
       }
       
-      channel.send(reply);
+      channel.send(reply.string);
     });
 
   } else if (messageData.channel[0] == "D") {
     bot.reply(user.name, message, function(err, reply){
       channel = slack.getChannelGroupOrDMByName(user.name);
-      channel.send(reply);
+      channel.send(reply.string);
     });
   } else {
     console.log("Ignoring...", messageData)

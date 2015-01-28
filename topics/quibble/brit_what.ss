@@ -56,7 +56,7 @@
   - What makes you think I have one?
   - I'm not going to tell you.
   - It is a secret.
-  - What is your <cap1>?
+  - What is your favorite <cap1>?
 
   ? * what * before
   - I don't remember what came before.
@@ -509,7 +509,7 @@
   - I don't think there is anything I can do. 
   - Can't I just hope things will change? 
 
-  ? what * will < * you 
+  ? what * will * you 
   - Probably nothing. 
   - Will the future even arrive? 
 
@@ -638,6 +638,11 @@
   - Talking to you.
   - Just hanging out.
   - I was reading an article on TMZ.com
+
+
+  ? what is <noun1>
+  - What does <cap1> have to do with what we are talking about.
+  - This is embarrasing, I'm not sure what <cap1> is.
 
 
 < topic

@@ -58,7 +58,7 @@
   - Why do you need that?
 
   ? <name1> is the capital of what country
-  - Im geography is poor.
+  - My geography is poor.
   - Have you ever been to <cap1>?
 
 

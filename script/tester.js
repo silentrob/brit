@@ -20,7 +20,7 @@ var data = [
   '../data/trigrams.tbl',
   '../data/concepts.top',
   '../data/names.top',
-  '../data/oppisite.tbl'
+  '../data/opposites.tbl'
 ];
 
 var botData = [
@@ -34,10 +34,10 @@ var mCount = 0;
 
 var botHandle = function(bot, message, cb) {
   bot.reply("userx", message.trim(), function(err, reply){ 
-    if (reply == "") {
+    if (reply.string == "") {
       console.log(message);
     } else {
-      console.log(message , "=>" , reply );
+      // console.log(message , "=>" , reply.string );
     }
     cb(null);
   });
@@ -64,7 +64,7 @@ facts.load(data, 'britfacts', function(err, f) {
 
       if (fileContents) {
         var fileArray = fileContents.split("\n");
-        var part = fileArray.slice(100,200);
+        var part = fileArray.slice(0,400);
 
         async.map(part, itor, function(){
           console.log("Done");

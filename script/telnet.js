@@ -10,12 +10,14 @@ var options = {
   }
 }
 
+
 var data = [
   './data/bigrams.tbl',
   './data/trigrams.tbl',
   './data/concepts.top',
   './data/names.top',
-  './data/oppisite_new.tbl'];
+  './data/opposites.tbl'
+];
 
 var botData = [
   './data/botfacts.tbl'
@@ -59,12 +61,12 @@ var botHandle = function(err, bot) {
       var i = sockets.indexOf(socket);
       var soc = sockets[i];
 
-      soc.write("\nBot> " + reply + "\n");
+      soc.write("\nBot> " + reply.string + "\n");
       soc.write("You> ");
 
       // Log it for the server terminal to see!
       debug("[" + soc.name + "] " + message);
-      debug("[Bot] " + reply + "\n");
+      debug("[Bot] " + reply.string + "\n");
     });
   }
 

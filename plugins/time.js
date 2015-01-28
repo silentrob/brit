@@ -27,12 +27,12 @@ exports.getDate = function(cb) {
 }
 
 exports.getDateTomorrow = function(cb) {
-	var date = moment().add('d', 1).format("ddd, MMMM Do");
+	var date = moment().add(1,'d').format("ddd, MMMM Do");
 	cb(null, date);
 }
 
 exports.getSeason = function(cb) {
-	var date = moment().add('d', 1).format("ddd, MMMM Do");
+	var date = moment().add(1,'d').format("ddd, MMMM Do");
 	cb(null, getSeason());
 }
 
@@ -67,9 +67,9 @@ exports.getDayOfWeek = function(cb) {
 exports.getMonth = function(cb) {
 	var reply = "";
 	if (this.message.words.indexOf("next") != -1) {
-		reply = moment().add('M', 1).format("MMMM");
+		reply = moment().add(1,'M').format("MMMM");
 	} else if (this.message.words.indexOf("previous") != -1) {
-		reply = moment().subtract('M', 1).format("MMMM");
+		reply = moment().subtract(1,'M').format("MMMM");
 	} else if (this.message.words.indexOf("first") != -1) {
 		reply = "January";
 	} else if (this.message.words.indexOf("last") != -1) {

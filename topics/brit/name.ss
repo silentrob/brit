@@ -40,8 +40,8 @@
 
 
 // What is my name
-
-?:WH (can|do|should) can I call you
+                
+?:WH *1 [can|do|should] I call you
 - You can call me Brit.
 
 ?:WH * your name
