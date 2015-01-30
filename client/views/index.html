@@ -14,6 +14,9 @@
       #messages { list-style-type: none; margin: 0; padding: 0; }
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #eee; }
+      #messageBox {
+        width:700px;
+      }
       #chatwindow {
         position:relative;
         border:1px solid #000;
@@ -61,13 +64,20 @@
     </div>
 
     <div id="chatwindow">
-        <div id="messageArea">
-          <ul id="messages"></ul>
-        </div>
-        <form action="">
-          <input id="m" autocomplete="off" /><button>Send</button>
-        </form>
+      <div id="messageArea">
+        <ul id="messages"></ul>
+      </div>
+      <form action="">
+        <input id="m" autocomplete="off" /><button>Send</button>
+      </form>
     </div>
+
+    <div id="messageBox">
+      <div id="raw"></div>
+      <div id="lemString"></div>
+      <pre><code id="mo"></code></pre>
+    </div>
+
 
     <script src="/socket.io/socket.io.js"></script>
     <script>
@@ -86,10 +96,27 @@
         var id = $("#id").find("span").val();
         var count = $("#conversation").find("span").val();
         var ct = $("#ct").find("span").val();
+        console.log(stats.lastMessage);
+
+        $("#raw").html(stats.lastMessage.raw);
+        $("#lemString").html(stats.lastMessage.lemString);
+        delete stats.lastMessage.dict
+        delete stats.lastMessage.id
+        delete stats.lastMessage.facts
+        delete stats.lastMessage.createdAt
+        delete stats.lastMessage.raw
+        delete stats.lastMessage.lemString
+        delete stats.lastMessage.props
+        delete stats.lastMessage.pnouns
+        delete stats.lastMessage.taggedWords
+        delete stats.lastMessage.words
+        delete stats.lastMessage.cwords
+        delete stats.lastMessage.lemWords
+
+        $("#mo").html(JSON.stringify(stats.lastMessage, null, 1));
 
         if (id != stats.id)
           $("#id").find("span").html(stats.id);
-
 
         if (count != stats.conversation)
           $("#conversation").find("span").html(stats.conversation);

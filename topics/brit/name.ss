@@ -30,6 +30,10 @@
   % {^hasName(false)} No. You never told me your name. What is it?
   - ^save(name,<cap1>) Nice to meet you, <cap1>.
 
+// This is a truth test.. Is my name <name> 
+? be my name <name1>
+- {^hasName(true)} {@__what_name__}
+- {^hasName(false)} Im not sure. {@__what_name__}
 
 + brit
 - Yea.

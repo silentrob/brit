@@ -41,7 +41,8 @@ var botHandle = function(err, bot) {
             socket.emit('stats', {
               id: user.id,
               conversation: user.conversation,
-              currentTopic: user.currentTopic
+              currentTopic: user.currentTopic,
+              lastMessage: user.__history__.input[0]
             });  
 
 

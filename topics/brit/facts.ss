@@ -25,6 +25,10 @@
   + my <noun1> is [called|named] <name1>
   - ^createUserFact(<cap2>,isa,<cap1>)
 
+
+  // The football was kicked by Fred.
+  + * <noun1> be <verb2> by <name1> *
+  - ^createUserFact(<cap1>,<cap2>,<cap3>)
    
   // my father like to_play_tennis
   + my ~role likes to play *1 *

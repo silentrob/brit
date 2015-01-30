@@ -252,8 +252,13 @@
   + I * <verb1> *~2 <nouns> 
   @ i_fact
 
+  // I like ice cream!
+  + ^not(you) I (like|love) *~2
+  @ i_fact
+
   + i_fact  
   - Cool.
+  - Kinda random, but okay.
   - Okay.
   - Indeed.
   - That's nice.

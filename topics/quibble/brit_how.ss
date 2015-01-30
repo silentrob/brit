@@ -95,6 +95,9 @@
 	- just enough. 
 	- many
 
+	? how many * dozen *
+	- Twelve.
+
 < topic
 
 > topic:system ~brit_how

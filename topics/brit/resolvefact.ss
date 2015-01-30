@@ -3,6 +3,9 @@
 
 > topic resolveFact 
 
+  // what did tom kick?
+  ? what do <name> <noun2>
+  - ^resolveUserFact(<cap1>, <cap2>)
 
   ? what does [my] *1 like *
   - ^resolveUserFact(<cap1>, like)
@@ -14,7 +17,6 @@
   ?:WH ^has(friend) * is the name  *~2 friend *
   - Your friends name is ^get(friend).
 
-
   // who is my brother
   ? who be [my] *1
   - ^resolveUserFact(<cap1>, isa)
@@ -22,5 +24,9 @@
   // Who likes ice cream?
   ? who like *~3
   - ^resolveUserFact(<cap1>, like)
+
+  // who kicked the football?
+  ? who <verb> the <noun>
+  - ^resolveUserFact(<cap2>,<cap1>)
 
 < topic

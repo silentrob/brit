@@ -53,7 +53,8 @@ exports.createUserFact = function(s,v,o,cb) {
 
 // What does my dad like to play?
 exports.resolveUserFact = function(subject, verb, cb) {
-  // 
+  var subject = subject.replace(/\s/g,"_").toLowerCase();
+
   console.log("resolveUserFact", subject, verb);
   var memory = this.user.memory;
   memory.db.get({subject:subject, predicate:verb}, function(err, result){
