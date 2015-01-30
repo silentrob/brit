@@ -1,5 +1,7 @@
 var debug = require("debug")("UserFacts");
 var _ = require("underscore");
+var Utils = require("superscript/lib/utils");
+
 exports.save = function(key, value, cb) {
   var memory = this.user.memory;
   var userId = this.user.id;
@@ -36,10 +38,42 @@ exports.get = function(key, cb) {
 }
 
 exports.createUserFact = function(s,v,o,cb) {
-  this.user.memory.create(s,v,o,false, function(){
-    cb(null,"");
+
+  if (s != "undefined" && v != "undefined" && o != "undefined") {
+    this.user.memory.create(s,v,o,false, function(){
+      cb(null,"");
+    });
+  } else {
+    debug("Possible Error with fact", this.message.raw);
+    cb(null,"")
+  }
+    
+}
+
+
+// What does my dad like to play?
+exports.resolveUserFact = function(subject, verb, cb) {
+  // 
+  console.log("resolveUserFact", subject, verb);
+  var memory = this.user.memory;
+  memory.db.get({subject:subject, predicate:verb}, function(err, result){
+    if (!_.isEmpty(result)) {
+      console.log("SideA", result);
+      cb(null, result[0].object);
+    } else {
+      memory.db.get({object:subject, predicate:verb}, function(err, result){
+        if (!_.isEmpty(result)) {
+          console.log("SideB", result);
+          cb(null, result[0].subject);
+        } else {
+          console.log("SideC");
+          cb(null,"");
+        }
+      });
+    }
   });
 }
+
 
 // We check to see if we know the name in the message object
 exports.known = function(bool, cb) {

@@ -232,8 +232,8 @@ My name is Ed. What is your name?
 Which is larger, an ant or an anteater?
 What month of the year is it?
 What is my name?
-Dave is older than Steve but Steve is older than Jane. Who is youngest, Steve or Jane?
-Who is oldest?
+# Dave is older than Steve but Steve is older than Jane. Who is youngest, Steve or Jane?
+# Who is oldest?
 What day will it be tomorrow?
 What's your favorite food?
 My friend Chris likes to play football. What sports do you like to play?

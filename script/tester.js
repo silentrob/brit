@@ -37,7 +37,7 @@ var botHandle = function(bot, message, cb) {
     if (reply.string == "") {
       console.log(message);
     } else {
-      // console.log(message , "=>" , reply.string );
+      console.log(message , "=>" , reply.string );
     }
     cb(null);
   });

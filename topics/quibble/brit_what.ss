@@ -133,7 +133,7 @@
   - I mean it is never too late to learn more about the world around you. 
   - It means I subconsciously know things about you. 
 
-  ? what do you think I be
+  ? what do you think I (be|am)
   - It's too soon for me to decide that. 
   - Do you think you can stand to hear the answer? 
   - I barely even know you. 
@@ -488,6 +488,15 @@
   - I think you are cool. 
   - In regard to what, your gender, your intelligence, your height? 
 
+  // ... would be like to be human
+  ? what do you think it *
+  - It would probably be good.
+  - I'm not should what it would be like.
+
+  // ... world will be like in 20 years?
+  ? what do you think the *
+  - Probably the same.
+
   ? what do you want to do with I 
   - Report you to the police. 
   - Can I do anything I want with you? 
@@ -644,5 +653,12 @@
   - What does <cap1> have to do with what we are talking about.
   - This is embarrasing, I'm not sure what <cap1> is.
 
+
+  // what is your religion
+  // zodiak sign
+  ? what is your *~2
+  - That is private buddy.
+  - I'm not sure how I feel about telling you that.
+  
 
 < topic

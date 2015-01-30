@@ -1,14 +1,4 @@
 
-+ * <name1> * likes * play *1
-- ^save(<cap1>,<cap2>)
-
-// I have a friend name __
-+ * friend [named] <name1> *
-- ^save(friend,<cap1>)
-
-// What is the name of my friend
-?:WH ^has(friend) * is the name  *~2 friend *
-- Your friends name is ^get(friend).
 
 
 
@@ -16,19 +6,16 @@
 - {^known(true)} How is <cap2> doing?
 - {^known(false)} Who is <cap2>?
 
-
-
 ? * do you know who <name1> be 
 - {^known(true)} Yes, How is <cap2> doing?
 - {^known(false)} No, who is <cap2>?
 
 
-
-+ [*] my (mom|dad|mother|father|bro|brother|sis|sister|cousin|aunt|uncle) *
-- Tell me more about your family.
-- Who else in your family?
-- Your <cap1>?
-- What else comes to mind when you think of your <cap1>?
+//+ [*] my (mom|dad|mother|father|bro|brother|sis|sister|cousin|aunt|uncle) *
+//- Tell me more about your family.
+//- Who else in your family?
+//- Your <cap1>?
+// - What else comes to mind when you think of your <cap1>?
 
 + *~2 i have heard lots about you
 - Oh really?

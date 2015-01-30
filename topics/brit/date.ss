@@ -24,7 +24,7 @@
   + what [is the] season [is it]
   - It is currently ^getSeason() here.
 
-  + is it (winter|spring|summer|fall) [or fall] where you live
+  + is it (winter|spring|summer|fall) (winter|spring|summer|fall) (winter|spring|summer|fall) [or winter|or spring|or summer|or fall] where you live
   - It is ^getSeason().
 
   + what [is] [the] time [right] [is] [it] [now]

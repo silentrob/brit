@@ -28,7 +28,7 @@
 
   // What is NOUN
   ? what be *1
-  ^topicRedirect(explore,__explore_concept__)
+  - ^topicRedirect(explore,__explore_concept__)
   - ^isA()
 
   // name something you could find at a beach

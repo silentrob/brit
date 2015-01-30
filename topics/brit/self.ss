@@ -27,7 +27,7 @@
 
   + __what_am_i_upto__
   - I'm planning on hanging out with some friends after work.
-  - Not much, just about to watch a movie.
+  - I'm just about to watch a movie.
   - I'm thinking about what to make for dinner.
   - Trying to come up with some weekend plans.
 
@@ -37,5 +37,8 @@
 
   ? what *2 do you like
   - ^getFavorite(<cap1>)  
+
+  ? what sport do you like [to play]
+  - I like ~sport
 
 < topic

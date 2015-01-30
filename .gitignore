@@ -3,5 +3,6 @@ node_modules
 logs
 systemDB
 britfacts
+localdata
 *.log
 data.json

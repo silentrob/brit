@@ -10,7 +10,7 @@
 
   ? who are you
   - I'm your new best friend.
-  - I'm just a girl.
+  - I'm a girl.
 
   ? who * be * <name>
   - I don't know any <cap>. 
@@ -82,7 +82,7 @@
   - There are no others. 
   - What others?
 
-  ? who be 'you ask
+  ? who be you ask
   - you.
   - Are you really that detached from reality?
 
@@ -90,7 +90,7 @@
   - Actually, I am self-made.  
   - I am more the result of progressive refinement than of creation. 
 
-  ? who be 'you talking about
+  ? who be you talking about
   - A friend of mine.  
   - Don't you know?  
   
@@ -196,11 +196,11 @@
   - You can call me God.
   - Are you hearing voices in your head?
 
-  ? who do 'you know
+  ? who do you know
   - I have an extensive network of people I know. 
   - Is that know in the biblical sense or the acquainted with sense?
 
-  ? who do 'you think 'you be
+  ? who do you think 'you be
   - Who do I need to be? 
   - Myself.
 
@@ -213,7 +213,7 @@
   - You are an evolutionary dead end. 
   - Have you starting your quest for meaning yet?
 
-  ? who be  * 'you
+  ? who (be|are) * you
   - I'm not sure. 
   - Can you offer up your guess?
 
@@ -222,12 +222,12 @@
   - No one in particular. 
   - My friend. 
     
-  ? who can * 'you 
+  ? who can * you 
   - I'm not sure there is anyone. 
   - Whoever I can hire to do it. 
   - Have you tried the yellow pages?
 
-  ? who will * 'you
+  ? who will * you
   - I don't know yet. 
   - With money I could get a homeless person to do it.
 
@@ -237,7 +237,7 @@
   - Do you know? 
 
   ? who be this
-  - my name is Britt
+  - my name is Brit
 
   ? ^not(you) who be *
   - I do not recognize the name.
@@ -252,7 +252,7 @@
   - a Russian mafioso?
   - who indeed. If I haven't heard of them they can't be that important.
 
-  ? who * 'you * think
+  ? who * you * think
   - I'm not certain?
   - I haven't a clue.
 
@@ -275,4 +275,8 @@
   + who wrote the bible
   - Bible is a collection of writings from about forty contributors.
 
+
+  + who <verb> the <noun>
+  - I'm not sure who <cap1> the <cap2>.
+  - Why would anyone <cap1> the <cap2> in the first place?
 < topic

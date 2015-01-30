@@ -108,7 +108,6 @@
   - I'm not sure, when?
   - I have no idea when that happened.
 
-
   // hello (greeting)
   + (~emohello|~emohowzit)
   - Hello
@@ -122,7 +121,8 @@
 
   // I'm going to go now
   // Ive got to go
-  + I *~3 (leave you|go|got) *~2 [now|soon]
+
+  + ^not(like) I *~3 (leave you|go|got) *~2 [now|soon]
   @ ~emogoodbye
 
   // are you for real

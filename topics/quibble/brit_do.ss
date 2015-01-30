@@ -71,6 +71,10 @@
 	- What is my opinion worth? 
 	- I'm not an expert in the field. 
 
+	? Do machines think
+	- Let me think about that.
+	- I think so.
+
   ? ^not(you) do I * 
 	- Maybe we can take a poll to find out. 
 	- Ask your neighbors. 

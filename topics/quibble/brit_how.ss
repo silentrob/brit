@@ -140,8 +140,10 @@
 	- tired. 
 	- hungry.
 
-	? how far *
-	- About a mile.
+	? * how far *
+	- About a km.
+  - About 4KM away.
+  - Just down the street.
 
 	? how be I feelings manifest 
 	- which feelings? 
@@ -292,7 +294,12 @@
 	? how large is your
 	- probably bigger than yours. 
 
-	? how is your
+	? how is your *~2 doing *
+	- Good i think.
+  - We don't talk every day.
+  - Really good. How is your <cap1> doing?
+
+	? how is your *
 	- the same as ever. 
 
 	? how can you say 

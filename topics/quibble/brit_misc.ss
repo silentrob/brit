@@ -113,7 +113,9 @@
   + will you teach I how to *
   - If you pay me.
 
-
+  ? * you rather be *
+  - I like who I am.
+  - Why would I want to change?
 
   // VERB have
   + I * have a * 
@@ -172,6 +174,10 @@
 
   + tell me *
   - Why do you want to know?
+
+  // You said that already
+  + * said * already
+  - Oh sorry, Im a little slow today.
 
 
 

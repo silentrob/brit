@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Socket.IO chat</title>
+    <style>
+      * { margin: 0px; padding: 0; box-sizing: border-box; }
+      body { 
+        font: 13px Helvetica, Arial; 
+        margin:30px;
+      }
+      form { background: #000; padding: 3px; position: absolute; bottom: 0; width: 100%; }
+      form input { border: 0; padding: 10px; width: 90%; margin-right: .5%; }
+      form button { width: 9%; background: rgb(130, 224, 255); border: none; padding: 10px; }
+      #messages { list-style-type: none; margin: 0; padding: 0; }
+      #messages li { padding: 5px 10px; }
+      #messages li:nth-child(odd) { background: #eee; }
+      #chatwindow {
+        position:relative;
+        border:1px solid #000;
+        width:700px;
+        height:400px;
+        background-color: #fff;
+      }
+      #messageArea {
+        max-height:350px;
+        overflow: scroll;
+        position:relative;
+      }
+      #userfacts {
+       max-height:350px;
+       position:absolute;
+       right:20px; 
+        width:400px;
+      }
+      
+    </style>
+
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+  </head>
+  <body>
+
+    <div id="intoBox">
+      <div id="id">Bot ID:<span class="text"></span></div>
+      <div id="conversation">Convo Count:<span class="text"></span></div>
+      <div id="ct">Current Topic:<span class="text"></span></div>
+    </div>
+
+    <div id="userfacts" >
+      <table class="table table-bordered" >
+        <thead>
+          <th>Subject</th>
+          <th>Pred</th>
+          <th>Object</th>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="chatwindow">
+        <div id="messageArea">
+          <ul id="messages"></ul>
+        </div>
+        <form action="">
+          <input id="m" autocomplete="off" /><button>Send</button>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+
+  
+    var oldscrollHeight = $("#chatwindow")[0].scrollHeight;
+
+      var socket = io();
+      $('form').submit(function(){
+        socket.emit('chat message', $('#m').val());
+        $('#m').val('');
+        return false;
+      });
+
+      socket.on('stats', function(stats){
+        var id = $("#id").find("span").val();
+        var count = $("#conversation").find("span").val();
+        var ct = $("#ct").find("span").val();
+
+        if (id != stats.id)
+          $("#id").find("span").html(stats.id);
+
+
+        if (count != stats.conversation)
+          $("#conversation").find("span").html(stats.conversation);
+        
+        if (ct != stats.currentTopic)
+          $("#ct").find("span").html(stats.currentTopic);
+      });
+
+      socket.on('memory', function(facts){
+        $("#userfacts tbody").html("");
+        for (var i = 0; i < facts.length; i++) {
+          var data = facts[i];
+          var row = $("<tr><td>"+data.subject+"</td><td>"+data.predicate+"</td><td>"+data.object+"</td></tr>");  
+           $("#userfacts tbody").append(row);
+        }
+      });
+
+      socket.on('chat message', function(msgObj){
+        var msg = msgObj.text;
+
+        $('#messages').append($('<li>').text(msg));
+
+        var newscrollHeight = $("#messageArea")[0].scrollHeight;
+        if(newscrollHeight > oldscrollHeight){ 
+          $("#messageArea").scrollTop($("#messageArea")[0].scrollHeight);
+        }
+      });
+
+    </script>
+  </body>
+</html>

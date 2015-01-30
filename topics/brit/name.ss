@@ -6,7 +6,7 @@
 - {^hasName(false)} ^save(name,<cap1>) Nice to meet you, <cap1>.
 - {^hasName(true)} I know, you already told me your name.
 
-? what is my name *~2
+? what is my name [*~2]
 @ __what_name__
 
 // [Now] do you know my name [now]
