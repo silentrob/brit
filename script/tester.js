@@ -1,33 +1,30 @@
-// Run this and then telnet to localhost:2000 and chat with the bot
 
-var net             = require("net");
+
 var superscript     = require("superscript");
 var debug           = require('debug')("Server");
 var fs              = require("fs");
 var Utils           = require("../node_modules/superscript/lib/utils");
 var async           = require("async");
+var mongoose        = require('mongoose');
+var sfact           = require("sfacts");
 
-var questionFile = "./questions/loebner.txt";
+var factSystem = sfact.create("/Users/robellis/projects/bot/superscript-editor/testbot");
 
-var options = { 
+mongoose.connect('mongodb://localhost/testbot', { server: { socketOptions: { keepAlive: 1 } } }, function(err){
+  if (err) console.log("Error connecting to the MongoDB --", err);
+});
+
+var botOptions = {
+  mongoose : mongoose,
+  factSystem: factSystem,
+  editMode : true,
   scope: {
     cnet : require("conceptnet")({host:'127.0.0.1', user:'root', pass:''})
   }
-};
+}
 
-var data = [
-  '../data/bigrams.tbl',
-  '../data/trigrams.tbl',
-  '../data/concepts.top',
-  '../data/names.top',
-  '../data/opposites.tbl'
-];
+var questionFile = "./questions/loebner.txt";
 
-var botData = [
-  './data/botfacts.tbl'
-];
-
-var facts = require("sfacts");
 
 var eCount = 0;
 var mCount = 0;
@@ -37,41 +34,33 @@ var botHandle = function(bot, message, cb) {
     if (reply.string == "") {
       console.log(message);
     } else {
-      // console.log(message , "=>" , reply.string );
+      console.log(message , "=>" , reply.string );
     }
     cb(null);
   });
 }
 
-
-facts.load(data, 'britfacts', function(err, f) {
-  options.factSystem = f; 
-  f.createUserDBWithData('botfacts', botData, function(err, botfacts){
-    options['botfacts'] = botfacts;
-
-    new superscript('./data.json', options, function(err, botInstance){
-      
-      var fileContents = fs.readFileSync(questionFile,"utf-8");
+ 
+new superscript(botOptions, function(err, botInstance){
   
-      var itor = function(line, cb){
-        var input = Utils.trim(line);
-        if (input[0] != "#" && input != "") {
-          botHandle(botInstance, input, cb);
-        } else {
-          cb(null)
-        }
-      }
+  var fileContents = fs.readFileSync(questionFile,"utf-8");
 
-      if (fileContents) {
-        var fileArray = fileContents.split("\n");
-        var part = fileArray.slice(0,400);
+  var itor = function(line, cb){
+    var input = Utils.trim(line);
+    if (input[0] != "#" && input != "") {
+      botHandle(botInstance, input, cb);
+    } else {
+      cb(null)
+    }
+  }
 
-        async.map(part, itor, function(){
-          console.log("Done");
-          process.exit(1);
-        })
-      }
-    });
-  });
+  if (fileContents) {
+    var fileArray = fileContents.split("\n");
+    var part = fileArray.slice(0,10);
+
+    async.map(part, itor, function(){
+      console.log("Done");
+      process.exit(1);
+    })
+  }
 });
-

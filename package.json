@@ -9,13 +9,16 @@
   "author": "Rob Ellis",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.12.0",
     "conceptnet": "silentrob/conceptnet",
     "debug": "^2.1.1",
     "moment": "^2.9.0",
+    "mongoose": "^3.8.24",
     "request": "^2.46.0",
     "sfacts": "*",
     "slack-client": "^1.2.0",
-    "superscript": "0.5.1",
+    "superscript": "^0.6.5",
+    "twilio": "^1.11.1",
     "underscore": "^1.7.0"
   },
   "devDependencies": {

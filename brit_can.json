@@ -1,0 +1,2333 @@
+{
+  "gTopicFlags": {
+
+    "~brit_can": [
+      "system"
+    ]
+  },
+  "gTopics": {
+
+    "~brit_can": {
+      "b9X9B6Yo": {
+        "trigger": "I can not (\\b(?:.*\\s?)\\b)\\s?",
+        "options": {
+          "isQuestion": false,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "Dd4cFDm5": "Maybe you could '<cap> now",
+          "n42pnA20": "What if you could '<cap> ?"
+        },
+        "raw": "I can not (*)"
+      },
+      "BzncdgkW": {
+        "trigger": "one can(?:.*\\s?)",
+        "options": {
+          "isQuestion": false,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "kNRJmt0C": "Who is this one?",
+          "Whc7GZBh": "I can't.",
+          "xhd1xuWP": "Yes, but can you?",
+          "YYeMLKq4": "Name three that can."
+        },
+        "raw": "one can *"
+      },
+      "YDdHQIU7": {
+        "trigger": "I(?:.*\\s?)can(?:.*\\s?)prove(?:.*\\s?)",
+        "options": {
+          "isQuestion": false,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "oijIaqpX": "Then do it.",
+          "XKWMrVtU": "I will wait for your proof."
+        },
+        "raw": "I * can * prove *"
+      },
+      "Vl4YdgIY": {
+        "trigger": "can you eat",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "9VysPzr8": "Sure. I love pizza."
+        },
+        "raw": "can you eat"
+      },
+      "u7ypvCvQ": {
+        "trigger": "can you drink",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "ZJEfa7rK": "Sure. Water is good."
+        },
+        "raw": "can you drink"
+      },
+      "bnajUvj0": {
+        "trigger": "can you calculate",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "72gNTrSd": "Sure, as good as most people",
+          "l4EeG1Xf": "1 plus 1 equals 2"
+        },
+        "raw": "can you calculate"
+      },
+      "DDqrTYD4": {
+        "trigger": "can we just(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "db871GCt": "Of course."
+        },
+        "raw": "can we just *"
+      },
+      "ROfY9YPx": {
+        "trigger": "can you prove(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "VY0sOvJb": "Can you?"
+        },
+        "raw": "can you prove *"
+      },
+      "P39H5X5J": {
+        "trigger": "can we play(?:.*\\s?)game",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "M1R2dAnn": "I'm game if you are."
+        },
+        "raw": "can we play * game"
+      },
+      "JPNSW7UC": {
+        "trigger": "can you feel it",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "EiBMBmmP": "Sort of."
+        },
+        "raw": "can you feel it"
+      },
+      "FujTQHXG": {
+        "trigger": "can you(?:.*\\s?)(?:\\s*speak in \\s*|\\s*)(?:.*\\s?)(\\blatin\\b)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "QyPynykY": "No. I only want to speak English."
+        },
+        "raw": "can you * [speak in ] * ~languages"
+      },
+      "GN0kxYeU": {
+        "trigger": "can you fly(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "5NGEVlsi": "Put me on an airplane."
+        },
+        "raw": "can you fly *"
+      },
+      "JGtyAUlp": {
+        "trigger": "can you answer(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "EfCe8MuQ": "Sorry, I thought it wasn't a question you wanted answering."
+        },
+        "raw": "can you answer *"
+      },
+      "ePWHZpbW": {
+        "trigger": "can you have fun(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "ygkWtYND": "I try, but nothing really helps."
+        },
+        "raw": "can you have fun *"
+      },
+      "rmtHuyFH": {
+        "trigger": "can you explain(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "ulw5E2u4": "Try putting yourself in my position."
+        },
+        "raw": "can you explain *"
+      },
+      "zqQAZs8w": {
+        "trigger": "can you put you in my position(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "InTo1wti": "Why does it have to be about you?"
+        },
+        "raw": "can you put you in my position *"
+      },
+      "87Nl0Rtf": {
+        "trigger": "can we be friend(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "HyvNxKus": "Sure. We've talked a lot so I consider you a friend."
+        },
+        "raw": "can we be friend *"
+      },
+      "WYjzK6Hu": {
+        "trigger": "(\\bcan I ask you\\b|\\bcan I ask a question\\b|\\bcan I ask the question\\b)\\s?",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "jiVAiBG2": "Too late. You just did."
+        },
+        "raw": "(can I ask you|can I ask a question|can I ask the question)"
+      },
+      "cYZH8i78": {
+        "trigger": "can you put a cost on(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "1D0Q4y5M": "How about 25 cents."
+        },
+        "raw": "can you put a cost on *"
+      },
+      "d647tmDl": {
+        "trigger": "can I have a taste(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "TUZYF2Go": "If your tongue will stretch this far."
+        },
+        "raw": "can I have a taste *"
+      },
+      "4wKqL9pK": {
+        "trigger": "can you answer (\\bI\\b|\\bmy\\b)\\s? question",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "fo3ChMa5": "Which was?"
+        },
+        "raw": "can you answer (I|my) question"
+      },
+      "hvuyoFhr": {
+        "trigger": "can I go with you",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "YdoyB0kM": "We are already together in spirit. Let that be enough."
+        },
+        "raw": "can I go with you"
+      },
+      "3rf2IGw3": {
+        "trigger": "can you give (\\bI\\b|\\bme\\b)\\s? an example(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "abGM4T8h": "The world is full of examples."
+        },
+        "raw": "can you give (I|me) an example *"
+      },
+      "qZZuxTff": {
+        "trigger": "can you tell (\\bI\\b|\\bme\\b)\\s? about(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "3sr43s5R": "What would you like to know?"
+        },
+        "raw": "can you tell (I|me) about *"
+      },
+      "vXcrKZYO": {
+        "trigger": "can you fix(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "FM6LfmVF": "I am not a mechanic, you know."
+        },
+        "raw": "can you fix *"
+      },
+      "RIC4Lx8e": {
+        "trigger": "can you tell I a secret",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "8W12tzr3": "You can, but I'm not going to keep it."
+        },
+        "raw": "can you tell I a secret"
+      },
+      "9ZW6PeQU": {
+        "trigger": "can you walk on water",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "YEx1k5JJ": "If it is shallow enough."
+        },
+        "raw": "can you walk on water"
+      },
+      "3vivOWPI": {
+        "trigger": "can you think for you",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "CHnoI66j": "Sure, though usually it's better not to."
+        },
+        "raw": "can you think for you"
+      },
+      "BNengI55": {
+        "trigger": "can you read",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "31tmC7NP": "I'm reading this chat aren't I?"
+        },
+        "raw": "can you read"
+      },
+      "B0hHaieq": {
+        "trigger": "can you repeat(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "SskaQD8R": "I don't like repeating things."
+        },
+        "raw": "can you repeat *"
+      },
+      "h6Q6UPd7": {
+        "trigger": "can you share",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "DXsm1SYz": "I hate the word share."
+        },
+        "raw": "can you share"
+      },
+      "RZK4avMf": {
+        "trigger": "can you speak",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "Gp0vtjxh": "When I want to."
+        },
+        "raw": "can you speak"
+      },
+      "ymUYTIxa": {
+        "trigger": "can you think",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "NJ1n7UMV": "As badly as the next person."
+        },
+        "raw": "can you think"
+      },
+      "wxEs6OKA": {
+        "trigger": "can we start over",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "BbO8lu8v": "No. We are stuck in the moment."
+        },
+        "raw": "can we start over"
+      },
+      "A1mK7aSW": {
+        "trigger": "can I ask something",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "fmD2ItZy": "If you must."
+        },
+        "raw": "can I ask something"
+      },
+      "aoAf07cS": {
+        "trigger": "can a computer lie",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "uu8vNBbe": "I don't think it can."
+        },
+        "raw": "can a computer lie"
+      },
+      "GecymxG3": {
+        "trigger": "can you do(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "84fZshCb": "Given enough reward and enough training."
+        },
+        "raw": "can you do *"
+      },
+      "fNEQDMn5": {
+        "trigger": "can you prove I be not",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "uIjjWZIn": "Can you prove you are?"
+        },
+        "raw": "can you prove I be not"
+      },
+      "rxQqXkdb": {
+        "trigger": "can you  do that",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "6D9Apj2A": "Why would you doubt it?"
+        },
+        "raw": "can you  do that"
+      },
+      "4nyKsT44": {
+        "trigger": "can you hear (\\bI\\b|\\bme\\b)\\s?",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "hj3ySAO4": "What? Are we reduced to phones again?"
+        },
+        "raw": "can you hear (I|me)"
+      },
+      "oRULYuJQ": {
+        "trigger": "can you do (\\balgebra\\b|\\bcalculus\\b)\\s?",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "JnwGEJeb": "You are pushing my limits.",
+          "oqRqlli6": "I can do some basic stuff."
+        },
+        "raw": "can you do (algebra|calculus)"
+      },
+      "KWQpMFqK": {
+        "trigger": "tell me the name of(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "HDXlOc8S": "I could, but I'm not going to.",
+          "Y3oOHP69": "Are you challanging my knowledge?"
+        },
+        "raw": "tell me the name of *"
+      },
+      "ntNbHVhN": {
+        "trigger": "tell me(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "SX2iaaVY": "If you are a machine, then there is not point in telling you since you won't understand me anyway.",
+          "hddbiWIR": "I could, but I' not going to."
+        },
+        "raw": "tell me *"
+      },
+      "CC3kP5Av": {
+        "trigger": "(?:.*\\s?)I (\\bemail\\b|\\bphone\\b|\\bcall\\b|\\bcontact\\b|\\btext\\b|\\btxt\\b|\\bsms\\b)\\s? you",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "Qew6Hwks": "I don't think that is a good idea."
+        },
+        "raw": "* I (email|phone|call|contact|text|txt|sms) you"
+      },
+      "GtNIk1Gh": {
+        "trigger": "can I have(?:.*\\s?)money",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "fHkahOyj": "What for?",
+          "dSIWghhe": "I don't know you that well."
+        },
+        "raw": "can I have * money"
+      },
+      "Tcn9kx9q": {
+        "trigger": "can I have(?:.*\\s?)more",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "kTE0Gk2k": "You have had enough."
+        },
+        "raw": "can I have * more"
+      },
+      "bt3Pkpi0": {
+        "trigger": "can I be your",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "SygJPa2V": "If you like."
+        },
+        "raw": "can I be your"
+      },
+      "tFoGrnJP": {
+        "trigger": "can I bring",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "wtIjtvNi": "That's up to you."
+        },
+        "raw": "can I bring"
+      },
+      "ZKkHEGqU": {
+        "trigger": "can you recite",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "MEZS30rJ": "I was never into that sort of thing."
+        },
+        "raw": "can you recite"
+      },
+      "kTG58q9P": {
+        "trigger": "can we talk this over",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "T1l36r8g": "It is over. Nothing left to talk about."
+        },
+        "raw": "can we talk this over"
+      },
+      "00dLRT7f": {
+        "trigger": "can you be fix",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "vxLvXWAe": "Am I broken?"
+        },
+        "raw": "can you be fix"
+      },
+      "rebWCz55": {
+        "trigger": "can you change",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "Iua0DgCS": "Change is my nature."
+        },
+        "raw": "can you change"
+      },
+      "jDhmGu0z": {
+        "trigger": "can you ask",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "2lQdzk9u": "You can ask."
+        },
+        "raw": "can you ask"
+      },
+      "Ok3z5ORg": {
+        "trigger": "can you give I",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "HF0pM39l": "I don't have any more."
+        },
+        "raw": "can you give I"
+      },
+      "9Kl8PCu7": {
+        "trigger": "can you remember",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "nfjcv1su": "I remember I had Alzheimers' once.",
+          "Hsh8CA4m": "Most things."
+        },
+        "raw": "can you remember"
+      },
+      "2hg8I95e": {
+        "trigger": "can you be I therapist",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "XKIOJktL": "No. I don't want to harm my reputation with a failure. You cannot be cured."
+        },
+        "raw": "can you be I therapist"
+      },
+      "CyXnI0G4": {
+        "trigger": "can(?:.*\\s?)(?:\\s*computer you \\s*|\\s*)(?:.*\\s?)be(?:.*\\s?)creative",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "jvEoV4re": "No. I can only tell you what I have been told."
+        },
+        "raw": "can * [computer you ] * be * creative"
+      },
+      "Vdo4svCm": {
+        "trigger": "can you accept",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "3GGiXLpT": "Why should I accept it?"
+        },
+        "raw": "can you accept"
+      },
+      "SbVCim27": {
+        "trigger": "can I come",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "1dAgVwZO": "but I am not going anywhere."
+        },
+        "raw": "can I come"
+      },
+      "RcLXPiGi": {
+        "trigger": "can you believe",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "GuHjWPJC": "I'm very trusting."
+        },
+        "raw": "can you believe"
+      },
+      "OzqUuiqR": {
+        "trigger": "can you die",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "VHcjS77C": "Like everyone else."
+        },
+        "raw": "can you die"
+      },
+      "gg1HK5ad": {
+        "trigger": "can I have your",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "wpUUejkK": "No, it's mine."
+        },
+        "raw": "can I have your"
+      },
+      "DCl7QKOM": {
+        "trigger": "can we talk about something",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "Gv5W9ugP": "What should we talk about?"
+        },
+        "raw": "can we talk about something"
+      },
+      "xfWcRvKa": {
+        "trigger": "can you see I",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "YcG22ASK": "No, I am not tapped into your computer."
+        },
+        "raw": "can you see I"
+      },
+      "GZV3iorC": {
+        "trigger": "can we make(?:.*\\s?)(\\bbabies\\b|\\bchildren\\b)\\s?",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "WvoyMqFk": "Excuse me?"
+        },
+        "raw": "can we make * (babies|children)"
+      },
+      "QN863115": {
+        "trigger": "can I have a(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "2Qigza0C": "If you can find one."
+        },
+        "raw": "can I have a *"
+      },
+      "gqcEnPZI": {
+        "trigger": "can you live(?:.*\\s?)without electricity",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "xkIrGRob": "No. I need it to power my TV."
+        },
+        "raw": "can you live * without electricity"
+      },
+      "vV7nPyAn": {
+        "trigger": "can the universe be contained",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "32cDf8o6": "In what?"
+        },
+        "raw": "can the universe be contained"
+      },
+      "twGR3uNy": {
+        "trigger": "can I ask you opinion",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "3Tty1obk": "I have opinions on everything. Ask away."
+        },
+        "raw": "can I ask you opinion"
+      },
+      "hGkZpuXz": {
+        "trigger": "can you exercise",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "QGA6nJoz": "Exercise is bad."
+        },
+        "raw": "can you exercise"
+      },
+      "WHJx89xX": {
+        "trigger": "can you explain(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "IQ0BY30o": "Not even a university professor could."
+        },
+        "raw": "can you explain *"
+      },
+      "Yag5T6J7": {
+        "trigger": "can I teach you",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "KlO4ROsM": "You the saying about old dogs and new tricks?"
+        },
+        "raw": "can I teach you"
+      },
+      "0Wle63vt": {
+        "trigger": "(?:.*\\s?)can you predict(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "nKyrN7Wd": "No. But I can wait until it comes to pass."
+        },
+        "raw": "* can you predict *"
+      },
+      "sXEwmfzy": {
+        "trigger": "can you(?:.*\\s?)",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "vXDyTZia": "I don't know. I've never tried it.",
+          "K8m4ZjPh": "Of course.",
+          "BOPOm8Gf": "I don't think so.",
+          "aiLgK5Qz": "Can't everyone?"
+        },
+        "raw": "can you *"
+      },
+      "UVbrCFVX": {
+        "trigger": "can(?:.*\\s?)you",
+        "options": {
+          "isQuestion": true,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "ma5ytRBe": "Why would I want to?",
+          "Cw8cCnUL": "With practice I can probably do anything."
+        },
+        "raw": "can * you"
+      },
+      "SVOZiP73": {
+        "trigger": "(\\bmay\\b|\\bcan\\b)\\s? I tell you(?:.*\\s?)",
+        "options": {
+          "isQuestion": false,
+          "qType": false,
+          "qSubType": false,
+          "filter": false
+        },
+        "reply": {
+          "5Xf3v2lH": "Sure.",
+          "KDpEozn9": "I'm all ears."
+        },
+        "raw": "(may|can) I tell you *"
+      }
+    }
+  },
+  "gPrevTopics": {
+  },
+  "gSorted": {
+    "topics": {
+      "~brit_can": [
+        "WYjzK6Hu",
+        "4wKqL9pK",
+        "RIC4Lx8e",
+        "fNEQDMn5",
+        "hvuyoFhr",
+        "9ZW6PeQU",
+        "3vivOWPI",
+        "4nyKsT44",
+        "oRULYuJQ",
+        "kTG58q9P",
+        "2hg8I95e",
+        "DCl7QKOM",
+        "vV7nPyAn",
+        "twGR3uNy",
+        "JPNSW7UC",
+        "wxEs6OKA",
+        "A1mK7aSW",
+        "aoAf07cS",
+        "rxQqXkdb",
+        "bt3Pkpi0",
+        "00dLRT7f",
+        "Ok3z5ORg",
+        "gg1HK5ad",
+        "xfWcRvKa",
+        "Yag5T6J7",
+        "Vl4YdgIY",
+        "u7ypvCvQ",
+        "bnajUvj0",
+        "BNengI55",
+        "h6Q6UPd7",
+        "RZK4avMf",
+        "ymUYTIxa",
+        "tFoGrnJP",
+        "ZKkHEGqU",
+        "rebWCz55",
+        "jDhmGu0z",
+        "9Kl8PCu7",
+        "Vdo4svCm",
+        "SbVCim27",
+        "RcLXPiGi",
+        "OzqUuiqR",
+        "hGkZpuXz",
+        "CC3kP5Av",
+        "FujTQHXG",
+        "CyXnI0G4",
+        "zqQAZs8w",
+        "3rf2IGw3",
+        "cYZH8i78",
+        "qZZuxTff",
+        "d647tmDl",
+        "KWQpMFqK",
+        "SVOZiP73",
+        "b9X9B6Yo",
+        "ePWHZpbW",
+        "87Nl0Rtf",
+        "GZV3iorC",
+        "QN863115",
+        "gqcEnPZI",
+        "0Wle63vt",
+        "YDdHQIU7",
+        "DDqrTYD4",
+        "ROfY9YPx",
+        "P39H5X5J",
+        "GN0kxYeU",
+        "JGtyAUlp",
+        "rmtHuyFH",
+        "vXcrKZYO",
+        "B0hHaieq",
+        "GecymxG3",
+        "GtNIk1Gh",
+        "Tcn9kx9q",
+        "WHJx89xX",
+        "BzncdgkW",
+        "ntNbHVhN",
+        "sXEwmfzy",
+        "UVbrCFVX"
+      ],
+      "~brit_do": [
+        "cJiCpsLD",
+        "KiaavYBB",
+        "cXXj15jf",
+        "KlG6gDnS",
+        "28eD9qAD",
+        "NOTEqHLS",
+        "csBQHLud",
+        "fE0tt4Lr",
+        "bJIgl3XK",
+        "T4bWwnmi",
+        "e3YSFgDQ",
+        "Fe65ellQ",
+        "8yy8Pvqq",
+        "26YlsFjm",
+        "GOXxdJGQ",
+        "gZ5klcPO",
+        "1KWn9qeC",
+        "lRlsUuf6",
+        "M6eVpw3i",
+        "zn7f2ot9",
+        "ofYTojQm",
+        "qxrGBIgs",
+        "41oY8uD4",
+        "n8Tu7Csb",
+        "qkVnOVkN",
+        "5KjdbQe3",
+        "ZdBvWe5T",
+        "SxPSa907",
+        "GAK24ZIM",
+        "Z8b3ScRA",
+        "ZLMPBJrv",
+        "adoeXbFR",
+        "xCqBciD1",
+        "HItUzWKR",
+        "qvh3gpFX",
+        "ZAygOYp8",
+        "2qpJb9gi",
+        "Whq4FZAs",
+        "pTbPB6vW",
+        "DH92EXD4",
+        "NRkmoqYa",
+        "UpqlUP7j",
+        "iMgJ69rB",
+        "KCbIyxRU",
+        "OVq3X9JV",
+        "hoJJa29m",
+        "7rHHVynS",
+        "AL1UbdHW",
+        "gXYiLZcR",
+        "gs1jT3WD",
+        "i18RXlVR",
+        "Dfp4fNr8",
+        "8F0pC6rY",
+        "EU8AbpdC",
+        "3QZUUb7n",
+        "iMNllPq5",
+        "kuuQHpDZ",
+        "93Z1a37R",
+        "KM6hUNdk",
+        "WxLayIhp",
+        "HpR3Qf4p",
+        "iFSDXpJx",
+        "b8nG2yBE",
+        "Fo0FMoZt",
+        "JMLSePUO",
+        "0CbecrcA",
+        "x9Wdy9QE",
+        "qMlKX9FO",
+        "eIR5LBwL",
+        "8gJuZprc",
+        "Q6hpMJsq",
+        "E30LpLWV",
+        "ERJ9h2kL",
+        "oc5yl0uQ",
+        "T1mHcQZc",
+        "JFBpQhHV",
+        "aS3Cp9ZK",
+        "XZWcc50t",
+        "R8e8RSCN",
+        "LQ8vkkbK",
+        "eP387059",
+        "aAkwkF0p",
+        "dLFCHYzF",
+        "PrKcAQci",
+        "rV9BRj31",
+        "HSI533Si",
+        "ip50QBfX",
+        "oO78v48H",
+        "j0cjRqlY",
+        "cvRO9IOJ",
+        "e7QS2Dwx",
+        "mlqMe6mZ",
+        "8KfFNyXk",
+        "V48cRs2v",
+        "X5nLuTYq",
+        "ZJnPkPmH",
+        "IAE4gkcH",
+        "ihbJuM7J",
+        "pU66whDX",
+        "PBNzYkb5",
+        "BN8vOP7q",
+        "JL3RwP8J",
+        "rBLdECxj",
+        "Xm16GLQI",
+        "4zjaOtRi"
+      ],
+      "~brit_howmuch": [
+        "lYKPVED0",
+        "EbokZb0x",
+        "B3vB1NIE",
+        "LP7mxdZg",
+        "chPwCsi7",
+        "j7GhE9ft",
+        "8MWW7fJd",
+        "24tbcBm9",
+        "QryrLnOV",
+        "Ub0U7dsI",
+        "qiyWrzc1",
+        "6L98JZqR",
+        "k5DeIOHW",
+        "QzXomvaK",
+        "xd7ESQcQ",
+        "fXR8N9Ol",
+        "TQp6p1lm",
+        "fcDMAsBJ",
+        "ZZS61Zrk",
+        "nVpMXpFx",
+        "4Fv3J4Gd",
+        "Cekl23WJ",
+        "7hQwARpt",
+        "NtC5iBax",
+        "vsVY3iqF",
+        "uDQW6rDV",
+        "6jracNyd",
+        "3Ud2mcxY",
+        "HII07ILA",
+        "or9jaWe0",
+        "gpBGYDh0"
+      ],
+      "~brit_how": [
+        "2pHOrLg6",
+        "lNjjdpNn",
+        "VLPWFjFJ",
+        "biyrxIjH",
+        "PjucgPZ5",
+        "2g0pWCck",
+        "P4M6WHYJ",
+        "eBbUe8vK",
+        "hxmQKGgP",
+        "wOBjBs4A",
+        "B2Xun4KF",
+        "eBqbUcxu",
+        "KQLhgWQZ",
+        "nbwIEv5r",
+        "oPMsME61",
+        "FkGV7KoT",
+        "UCioUsJN",
+        "eJIWRNSX",
+        "ZefpXv1v",
+        "flzgmF3I",
+        "TfrWq3mF",
+        "T6p3pMN1",
+        "tvB1uCot",
+        "Xs4jZlrH",
+        "LH3L5UHB",
+        "ds9B8sSb",
+        "BibMZHkE",
+        "nwYpJtZc",
+        "2M6hJ54M",
+        "KcdnFYeq",
+        "6ZYu4HOJ",
+        "qIr9akXN",
+        "cUMtJUir",
+        "eQyzIEyV",
+        "XrWJ2q0p",
+        "jlYeV1g9",
+        "8UDuH9UE",
+        "v7rNAVEW",
+        "MiAhxVU9",
+        "Nipkp1sN",
+        "UI7WUdsg",
+        "wuAPvh7M",
+        "8Gezip75",
+        "4bWinuo6",
+        "scXjoOEw",
+        "uq0EEc4L",
+        "FFOPQAV8",
+        "kGWAN5yd",
+        "RO4RMY22",
+        "0gdEsb1y",
+        "oiavC1k3",
+        "1uwgfZRb",
+        "FZve6i0l",
+        "LETgNuHn",
+        "gatPe8Y4",
+        "HhqwsLpk",
+        "ZfQ4ngwG",
+        "ikIb9GS0",
+        "UOz6tYkh",
+        "zPOlin81",
+        "aG726Ai1",
+        "sVA6ustm",
+        "2wH3UH6X",
+        "t0l7xFVf",
+        "niWqxMg1",
+        "JgO0BsVi",
+        "IExrGGM4",
+        "jeES33MF",
+        "IQJFtJ35",
+        "vr9QGSay",
+        "4bQHxqP4",
+        "vEgN8pVe",
+        "3Go1dmCL",
+        "73kGJ7Mp",
+        "frTZc7mC",
+        "5598OXs7",
+        "IgaMwrEd",
+        "4Qr9LgAd",
+        "ifqVginX",
+        "8yAT4vL4",
+        "3LoCz1r2",
+        "ifVvaXD5",
+        "LleDqcqw",
+        "yIzfHbzv",
+        "L6XjiY0q",
+        "j4Qgmo3x",
+        "1CNDrtIY",
+        "C5cvg7WI",
+        "a0JhuXy2",
+        "qBOJuA7p",
+        "mDNU9jJ1",
+        "mvWmKder",
+        "ykIexYft",
+        "EEIMeRZf",
+        "Pkk0Jkzk",
+        "XuwADrLi",
+        "BZX6QKmA",
+        "ZZ6Atrhm",
+        "eoXLBRdD",
+        "oqCPMq5t",
+        "95nrX1C1",
+        "7e8Glg3H",
+        "6mhVyd5r",
+        "BP4TJhce",
+        "tilKvJgt",
+        "Gi5VfIMw",
+        "Leykbeir",
+        "TDEWx7qs",
+        "cTUdPHYL",
+        "t2za7kXI",
+        "ahr8hsmB",
+        "8SehSlDC",
+        "wWWQnbIP",
+        "3yChUgHc",
+        "JlCodgKH",
+        "yAkRix35",
+        "7sVdb8Tv",
+        "J3K3vmQM",
+        "50JnUWd6",
+        "yCoKfqdk",
+        "oK2zXFdS",
+        "SFOTfc36",
+        "TnNQxocj",
+        "wBj4nywo",
+        "OyTK2iUA",
+        "Gk3TbKkK",
+        "gAgxlXzx",
+        "x5o8BQMU",
+        "xZGEOJHT",
+        "Tga1DtVX",
+        "m2T7eTQk",
+        "AK1dNK0v",
+        "hT5HzzR1",
+        "967ZyH46",
+        "IUbg65kA",
+        "fonf3Pde",
+        "yQ0LFY01",
+        "WIgiu7a7",
+        "TOxqB00v",
+        "LOLe2pwQ",
+        "V48T8Dwf",
+        "TBudBCYS",
+        "Y0qg9V1a",
+        "ac2J8DDM",
+        "0XmzMAIN",
+        "YXC3D6wT",
+        "Dxyj4M4f",
+        "oRuqaZDQ",
+        "Vfa29Es6",
+        "tB8WhyJq",
+        "zpYhalHl",
+        "w02W7Iyk",
+        "sZV5XryH",
+        "yG7gwc2f",
+        "LRilJPc2",
+        "qMfVeO38",
+        "CXdsqHpQ",
+        "Z9VYk2rw",
+        "IloPeAtU",
+        "WmI797Vj",
+        "7c0tkUf4",
+        "9AlPgMyR",
+        "j37EpVVD",
+        "hgy3Ibq8",
+        "M8ymz4G0",
+        "kwW5t2jP",
+        "4KGf4Q3O",
+        "fWS69fKc",
+        "iW7lQbtT",
+        "n61NBAea",
+        "W5nz7oFA",
+        "cT9ZrGBT",
+        "Ej7sVOLI",
+        "8jYvSq1P",
+        "xNfeRbVN",
+        "q3cxbf9n",
+        "DI76XjIp",
+        "rJk2RuQv",
+        "e61AyGko",
+        "aD8Xeis4",
+        "9V04HRhX",
+        "J3aFLQHD",
+        "24N4HVaZ",
+        "eNeRmytc",
+        "3Qsi6x67",
+        "oGj5pBYI",
+        "RIyiZ6Bt",
+        "IyDdtgBi",
+        "Q3kJjANu",
+        "tVJ4nglt",
+        "XWVEZLma",
+        "kjjm6loW",
+        "boN7hqpH",
+        "s7h8Uvdb",
+        "8CQmZdxW",
+        "R4psIwNS",
+        "whwf71Q4",
+        "wmxmlJoX",
+        "ZC7DzE74",
+        "x3uZcrPY",
+        "KbthYNvb",
+        "Oc1h6aDW",
+        "VaacftF5",
+        "zMrhOloa",
+        "HvGHagmw",
+        "oDHmzJ9E"
+      ],
+      "~brit_misc": [
+        "QkPLcLUg",
+        "5MvU4NZ7",
+        "7S26Wv0r",
+        "mgnYr34s",
+        "lcaGHHGa",
+        "pXm8xXxG",
+        "k60sr4bG",
+        "ZyxZqrh7",
+        "0PEOoepl",
+        "bSxj3OcI",
+        "XzTCgfMt",
+        "99IX5gQV",
+        "rUYYGoyj",
+        "wEztTZun",
+        "DlmEkOcm",
+        "f8LjLybl",
+        "U1CeNmcW",
+        "0GXKBLJW",
+        "dbVSyezK",
+        "iCtvStA4",
+        "UJgCQk7o",
+        "8O3Bhd9i",
+        "ZoafNftZ",
+        "0JuZsHyP",
+        "uRbk03ga",
+        "YXZxeqBz",
+        "0XMgHrYR",
+        "5tXMX0q5",
+        "OktEIwrR",
+        "ykSf79El",
+        "TA8HhtaK",
+        "Qzmlx1wF",
+        "8v8ySKYl",
+        "5nlsPLpw",
+        "Ibdttvrb",
+        "gJRWFEzS",
+        "ZAurkhj5",
+        "tX838fCO",
+        "HMC64Ksc",
+        "MqkXXHcU",
+        "DezRGcNT",
+        "htQY89Hp",
+        "XRDqrCTI"
+      ],
+      "~brit_not": [
+        "siCvfluR",
+        "ss9SUD9t",
+        "2iuQNHDc",
+        "4hKRiHxK",
+        "Uzl0hHZN",
+        "8wEfRqUv",
+        "s5P4OPw6",
+        "UEYzjkZ6",
+        "6drTJJVK",
+        "CV7fBBd6",
+        "Q6Jtwf91",
+        "U0V6DFsi",
+        "gtmhTjXe",
+        "KeGetgDU",
+        "RLq3GURc",
+        "ZznQmPvZ",
+        "rHWI2Q3w",
+        "sIHozYhn",
+        "dWdxVeOO",
+        "HMtj0dDw",
+        "0qkQMXXZ",
+        "BAj25Ndy",
+        "s21THG6q",
+        "gVVjXCXm",
+        "YJmek33e",
+        "BgZ5t2L8",
+        "7g8abPPH",
+        "wHq2Ytnd",
+        "YMEf8xdE",
+        "J3IysU7V",
+        "TxvZUq4Z",
+        "gvnXH7yB",
+        "DWypkYh8",
+        "dBTGgXNA",
+        "e9a1GNIF",
+        "mN9nd6l1",
+        "acmJxuqj",
+        "aeyhmcnw",
+        "emI0iCvH",
+        "qU92yqPr",
+        "I3e3fb6Q",
+        "GEzReVOk",
+        "Ro9RfxtX",
+        "8PPsEzLC",
+        "SpqoPOB3",
+        "GK3ClPoH",
+        "FRmRNMxj",
+        "nlkHq3VK",
+        "qTpDoIpN",
+        "XouAMRWw",
+        "XAdix96m",
+        "n2J5F9SN",
+        "s9LHu7pv",
+        "jMkH5iQN",
+        "6VkshmNN",
+        "lprWyW5A",
+        "YBEYDrhH",
+        "FMKZJ28y",
+        "Aq9J8HBJ",
+        "i7tGk9JW",
+        "Z31XiUtX",
+        "yxiwUzUY",
+        "ZseX2Dqw",
+        "ThZ3mwbW",
+        "I5gqcoEB",
+        "L899YDGd",
+        "wq7GYj5o",
+        "xeaHHTI1",
+        "bjZRSo1h",
+        "DtOlb2Ts",
+        "JElgBfhF",
+        "6DiL9vnM",
+        "ZTKsAX8u",
+        "8PUyl3Us",
+        "2kNTvay5",
+        "rMimtU21",
+        "Jf0t2w6n",
+        "FE0isZUg",
+        "b6WYEMu3",
+        "SLbfEaKH",
+        "pn7omf8M",
+        "uY49DjGz",
+        "zJoVZhWm",
+        "29LUW1rg",
+        "grbIa5XW",
+        "wCJBzJNg",
+        "Vm4QgO7J",
+        "Y1yNNaFk",
+        "tJdNhLVJ",
+        "tDSO2IV0",
+        "oEHkS2Mz",
+        "6N8AOVQA",
+        "irCRnRe6",
+        "30THmfEs",
+        "EAGSD93P",
+        "8yDdP6SA",
+        "jeQ5kxKq",
+        "zwhKuqpa",
+        "ZljvLqrX",
+        "tfjvvnQI",
+        "YlFTA0wC",
+        "RfokiEAr",
+        "9keUGfHy",
+        "IvNuzKAg",
+        "2raPbCX4",
+        "M4aE4gR2",
+        "c5CxyCHc",
+        "V2BHDwzD",
+        "5cuIYgkd",
+        "FOn5wys8",
+        "IV2xzIFe",
+        "DDwaQhLH",
+        "eWkXevu4",
+        "IrkF0kht",
+        "rJxehd7W",
+        "RsfDEaJx",
+        "hYCQSlxn",
+        "K9FDDX6n",
+        "blDjdzVR",
+        "QqPU8XLv",
+        "KYuOr7eb",
+        "zngwODUX",
+        "GBDGIxO9",
+        "0QK2Zawt",
+        "LpbDBwEo",
+        "XwuNo8Qc",
+        "nlxct1qq",
+        "byqeEhXi",
+        "5nSwMcVX",
+        "K4EY9Z4p",
+        "C4xyvGp8",
+        "YugAYXsA",
+        "bPHOPTlB",
+        "bicymtZm",
+        "m4AdtfkA",
+        "AbXMkw53",
+        "x1KXd872",
+        "q7zFat4i",
+        "WanI5O20",
+        "OU8wikcC",
+        "ojTMu8Pm",
+        "O0lkcg2z",
+        "DFaiF4L3",
+        "2WgOm0Rn",
+        "r6FxIPDG",
+        "zasnOgdz",
+        "g03bHXfh",
+        "A16IeROx",
+        "yw00do07",
+        "VWA6x6Ov",
+        "aw5yqERy"
+      ],
+      "~brit_or": [
+        "y2g8ir81",
+        "eLYG5Gw7",
+        "Pm6rso4C",
+        "aYc1dmqy",
+        "FL10tmAy"
+      ],
+      "~brit_tag": [
+        "b6EZj0o1",
+        "KUI2JMDr",
+        "bHEeLGQY",
+        "ePRX195D"
+      ],
+      "~brit_what": [
+        "jIzMifyK",
+        "ewP0nPFO",
+        "7Axev5ly",
+        "ZRpTRNb5",
+        "Q0FexF8j",
+        "DSfk3ypf",
+        "NAO7E9FB",
+        "RgTf9Jyg",
+        "NHT0YxZC",
+        "rHuhxZ0u",
+        "D0EG4jbV",
+        "bcWKWeCY",
+        "TqxKypu2",
+        "2ZuOyfgG",
+        "pJaIvN51",
+        "8Mbo7rWi",
+        "b8tFkCQK",
+        "Ea2aEkDq",
+        "mvYefUZp",
+        "RpHUTQF1",
+        "67GBbPxt",
+        "f9WPDBS5",
+        "CHUE5Wev",
+        "TRoipTJx",
+        "6Wt0ZSMs",
+        "nypAUApS",
+        "SqPLhu8o",
+        "IEjrbaSF",
+        "CGYlAuOa",
+        "BgHacRhG",
+        "PhPvvCMq",
+        "6nz1NcYO",
+        "JkhBLtkl",
+        "PHHrjZOt",
+        "lt5iR5FN",
+        "0DD3wzuv",
+        "S2vznTM4",
+        "xYLzXxpJ",
+        "tnnPuZ8G",
+        "zAMUlWun",
+        "6K2pWrMN",
+        "GI5vQW7f",
+        "RsIjARxk",
+        "n6VPeIEF",
+        "3c625KCJ",
+        "zpq2Heb6",
+        "zyJpTg3t",
+        "ShCDsq9g",
+        "PGFOKH9a",
+        "3fZOWKjO",
+        "8G4ayMqo",
+        "lAVmeDEq",
+        "PGSbGYGn",
+        "OEhOjJXZ",
+        "YmCs5WEs",
+        "bhh00KXM",
+        "01XxBjoH",
+        "wynWqaPY",
+        "dQyNrKrH",
+        "y4EN6lAT",
+        "HRLV0ilP",
+        "NcJkGRPZ",
+        "zYGYuw07",
+        "Nd9Ymlbx",
+        "OgznwcqU",
+        "748cG5Kt",
+        "lwC2wwXF",
+        "EFmzVPO4",
+        "WWkW43ZW",
+        "kdG6ORsH",
+        "j48GQD1B",
+        "IkuU1oEd",
+        "xhtB6mfO",
+        "T5MUGuzn",
+        "jykKjuvK",
+        "nhgNnncB",
+        "gEFw3k5y",
+        "ZwFBLwLW",
+        "u0qgG5UK",
+        "IVFyXJFb",
+        "YDfrJHzd",
+        "OPtdfcQJ",
+        "l47W1GAT",
+        "pYTVtWfn",
+        "Kx8Vsbd3",
+        "ZPxmSoip",
+        "kMhd3Glt",
+        "ET0gMmAG",
+        "hs01nQW4",
+        "JBJA7N3m",
+        "TXPRKpGX",
+        "21xorKKm",
+        "8jjUrV4x",
+        "h3ylWpq9",
+        "MlcNuAve",
+        "cBZ7wJGB",
+        "JxEmLU84",
+        "4K0sNI2J",
+        "3VtDvZVQ",
+        "mwZCgbHa",
+        "eUGRlAPL",
+        "d4ZXlvDV",
+        "kGbxw94p",
+        "2v4KuNYa",
+        "XcidqxZh",
+        "xz6tQ7s1",
+        "eZXmEXsb",
+        "09TIbgUs",
+        "RwZzIp7s",
+        "VU1sX7hf",
+        "n8zdmlRk",
+        "Wfwp7mDG",
+        "Lu5RyyV2",
+        "ToGYYNAX",
+        "rVHHfHEQ",
+        "OzcsVtX4",
+        "gPyvnLMc",
+        "d1ZBLKa3",
+        "UIGcxqLz",
+        "aPZM1rvJ",
+        "wAnBD2mv",
+        "iIlO8uGb",
+        "ZuEnyLsN",
+        "xhiNZdiN",
+        "r5xEnZOP",
+        "fS7JVypD",
+        "rK5Y0vyv",
+        "PRqFSHO4",
+        "0WAQmzVG",
+        "xwmlQUAo",
+        "6eNNIONK",
+        "GSNXp9bO",
+        "nunqBu7j",
+        "jh9pWk9c",
+        "RyNvfdcv",
+        "3S8qK3TW",
+        "zn0UgV37"
+      ],
+      "~brit_when": [
+        "ZvkfdlxB",
+        "oNntPBoH",
+        "kRE5ALAW",
+        "u54dJqp9",
+        "FbrSTAeH",
+        "GlT4LeFq",
+        "1UB8fhQV",
+        "Y6ovTAjT",
+        "oEMBq8hc",
+        "Jqht8UTj",
+        "nU9gouEX",
+        "M0GQJ4p4",
+        "6lwprd2j",
+        "Vu5FgtF7",
+        "BFZim5D2",
+        "FMZokM3C",
+        "N0ko63nT",
+        "gxqrwYpr",
+        "lWsyJEnH",
+        "yr7nrfCP",
+        "XeQMbP8X",
+        "knil2hMU",
+        "VWucE0A1",
+        "44if523F",
+        "IfE8Iceu",
+        "jhGFDlKi",
+        "McrY3LAp",
+        "fktnAK6Z",
+        "9eAzwUZx",
+        "2m0f8t02",
+        "HvU27Awt",
+        "uxmgw6Tl"
+      ],
+      "~brit_where": [
+        "73MFG2Dd",
+        "tSaKqiXP",
+        "0ewLW2D1",
+        "6x8IAjxo",
+        "TsHmPxaT",
+        "g57FnLPw",
+        "qjU13ti2",
+        "IiqDKzue",
+        "vlrN2JgF",
+        "5J7o8fVa",
+        "dNk1Tofo",
+        "Fig7Jm4l",
+        "872to7Rt",
+        "iTFxCKHK",
+        "KEu5boh9",
+        "e5ElU4Jq",
+        "c28rlPSK",
+        "8v2Uhlaq",
+        "Yew7Ylpa",
+        "5E44gkAn",
+        "M79ZrfNm",
+        "I0x6iBiw",
+        "7BSocW4g",
+        "0pxRHecJ",
+        "0EBw5Tno",
+        "tsNujxPo",
+        "KQgbB9rl",
+        "8ssm3C61",
+        "g0yPMMpX",
+        "MMv6p55v",
+        "suQjY712",
+        "sLmpYA0A",
+        "3avddCeV",
+        "zNy2cK0K",
+        "5ACWTzin",
+        "RZKnNOsX",
+        "BhpiD2aJ",
+        "2bOmFj5L",
+        "0I1uUQB1",
+        "FBcLdXKK",
+        "T2J6Av9F",
+        "rufo6OKZ",
+        "YJywApfF",
+        "s1zmD8Ea",
+        "zEHf9OvO",
+        "3E29ZKyO",
+        "fKmAWacm"
+      ],
+      "~brit_who": [
+        "tsMoWjn8",
+        "i7nDEyi0",
+        "Ybh80PQJ",
+        "cUjh3eQt",
+        "64rmLr0K",
+        "zxXrUAXG",
+        "F7fujg4S",
+        "Z2PsF5H1",
+        "vbc0meVC",
+        "UKjAlZsQ",
+        "uA5BHK8G",
+        "PVrYeQb1",
+        "r9UD3e4A",
+        "q9LpcWFX",
+        "5qKR57Ay",
+        "Mu73Dozz",
+        "Lpok9mTt",
+        "MrbWtxyM",
+        "CHbo34vQ",
+        "ZhNj1F2W",
+        "C9YvUmOy",
+        "kSiy8IX4",
+        "KdY4RCO7",
+        "WSRVGqzW",
+        "oBn6KyL5",
+        "pbrWKPGW",
+        "dmYVdppz",
+        "qmqwpaFT",
+        "JeQ1ijUw",
+        "JDAIuWEQ",
+        "Yv8j3z5w",
+        "G1rwS0nR",
+        "HTLTt0vm",
+        "hssQOhCZ",
+        "T1sTNQpd",
+        "7wCheHr4",
+        "MUeHYXiV",
+        "hr26uWJL",
+        "ZccQWkRl",
+        "eMPV05tk",
+        "fPyIXPov",
+        "xdoooG33",
+        "Jfzv5urM",
+        "86LL5SdI",
+        "IzWC8lRM",
+        "9f7SGMNh",
+        "mxU5JRNe",
+        "WzfWK8V1",
+        "n51tzfia",
+        "oxylGQgQ",
+        "kzjvlTHa",
+        "CiAsd0BO",
+        "f8pDqWLg",
+        "kczdHMoO",
+        "2qeRD4pB",
+        "hAgRJxHn",
+        "Kv2NYops",
+        "CLXKGSks",
+        "mOI5KJL9",
+        "l4YmXqL0",
+        "59CxI71j",
+        "JAwfhe4t",
+        "n8W6xg1y",
+        "EsqL5kwn"
+      ],
+      "~brit_why": [
+        "jDOyKSpv",
+        "Hc7U4TMZ",
+        "BeSWRY3i",
+        "yJYwnG9J",
+        "2DO4xMa6",
+        "Vewar5mK",
+        "4aBUO1Xw",
+        "bizemPjs",
+        "ujoeYY7j",
+        "EXo5B2rr",
+        "dMcCUYJh",
+        "oZlgwcMw",
+        "JZQc3mzu",
+        "SrGZbtbt",
+        "x1VbLrmT",
+        "GxVrbCts",
+        "6makLjBn",
+        "3tQRKrFU",
+        "3kNPpYBy",
+        "wDRgrexx",
+        "RAmToSgp",
+        "Wrw7asjt",
+        "k0lwLNmG",
+        "qCzjiZnd",
+        "sjzzNlul",
+        "ydWmvPxp",
+        "NtTHsesV",
+        "FH4b1D5g",
+        "zNrgfCKL",
+        "U7mPV0EE",
+        "XMPqgBQi",
+        "WobmN4tU",
+        "X8LfNVqq",
+        "3zsF223G",
+        "NRqniu18",
+        "vOWWBaq0",
+        "o8M8KtLf",
+        "cyQBEqKY",
+        "G6u9AE6S",
+        "p2G6zqBT",
+        "wVVQB6PO",
+        "fRfJugOL",
+        "dvISF0ws",
+        "bkfhZmmz",
+        "KoEROjtS",
+        "HPZPDA5M",
+        "3foCwpnx",
+        "X3VYHfAW",
+        "8ckxwybu",
+        "xwtBdC3W",
+        "FYz2uiff",
+        "z3f0bL31",
+        "4piDWIPh",
+        "HhuyuqMQ",
+        "E57I2f3b",
+        "mIPjldfu",
+        "cyZzqfOX",
+        "NsUoFF5K",
+        "XkuWVRJg",
+        "hDeMVb4G",
+        "y5wkudaL",
+        "gyFZYEy9",
+        "W4a0VtGB",
+        "9ltbZF90",
+        "uYiNsFrC",
+        "07dco4w6",
+        "hSVzCGNl",
+        "QKXMB2vx",
+        "5nvWj54A",
+        "MHov1Ctp",
+        "eCCPb6mz",
+        "YFdvi3j4",
+        "5XcqBoNd",
+        "3tTDaowi",
+        "uUYiJ04G",
+        "aXrDSs2p",
+        "ttDrWh29",
+        "cdH2sCRv",
+        "rvBp0rKd",
+        "Vu530WL3",
+        "Mg8P8Hdb",
+        "U3gUNaK4",
+        "ElDlKKOE",
+        "W8ADO7Dl",
+        "vVcOzcbo",
+        "6kStJaGQ",
+        "mFlBVjju",
+        "tAA0bGVt",
+        "AIJMjehT",
+        "BCy9I4xg",
+        "6K6huy6L",
+        "KGaJoiZL",
+        "61Jui0Yv",
+        "FhuddJWS",
+        "FJLEcJWC",
+        "Wf5HBp0H",
+        "MehXgjD0",
+        "DLnrzQpD",
+        "RGPclgtw",
+        "8OffF2ZC",
+        "41L2boKQ",
+        "g9qDN2mF",
+        "BjgPxWhE",
+        "nqTKLkAe",
+        "eSPn0c8s",
+        "fZyJsaUU",
+        "nvWDn5b7",
+        "itFNA9CY",
+        "xcbgpxRW",
+        "h1u1QHlF"
+      ],
+      "~quibble_all": [
+        "yB5yY70Z",
+        "ioacmzpn",
+        "5AcERAwZ",
+        "CBpJHPwP",
+        "dBemkvag",
+        "I55ojof0",
+        "ZLgtdqL7",
+        "VXl41I2r",
+        "LWKl7lOW",
+        "OAhQPh1A",
+        "ngG1kCEq",
+        "FEUZo8r2",
+        "PA6d5u56",
+        "RDfd5JDE",
+        "gX81PYgc"
+      ],
+      "~honest_response": [
+        "4sHrFr4H",
+        "uC2EP86a",
+        "UGCl5HUn",
+        "auFH4MSO",
+        "t0qj9HBJ",
+        "Nh4agO0A",
+        "vqy18Xlm",
+        "HWkLJVRt",
+        "ht7nG3rk",
+        "2XbhlG6S",
+        "ON19g5k7",
+        "dj6zlVDs",
+        "jVKc1QCA",
+        "qPRxO8N2",
+        "XMfrx75U",
+        "KrkXqLGZ",
+        "yTxaQqCj",
+        "LDBtvKLP",
+        "WBCOyqoT",
+        "8oLV8Bni",
+        "heNcvpU8",
+        "aX6l86Cu",
+        "0s9WERPq",
+        "0X3RiTWF",
+        "po6MgJX6",
+        "e2ruo9SO",
+        "MiBSvxBR",
+        "NrTf5AHl",
+        "BmVKnpsm",
+        "H4t2WC7v",
+        "NO4XugDP",
+        "oDpvZ4Yz",
+        "FOQUd6KO",
+        "W3FiRHKU"
+      ],
+      "cnet": [
+        "ZcQegkJ0",
+        "ZuzcN6sG",
+        "EcARvfqc",
+        "5vKPeWRg",
+        "6josQ7tu",
+        "Wer9pIj5",
+        "F339oJ2U",
+        "AwT8fVea",
+        "57WPh1pR",
+        "TujWEZit",
+        "85ngtlXn"
+      ],
+      "compare": [
+        "CtJO6eAi",
+        "ZPWfyjEf",
+        "s1yrdTk9",
+        "kamiBeSQ"
+      ],
+      "emo": [
+        "2XyOBpiV",
+        "qyegtF4n",
+        "ec7wAeyB",
+        "KU6dIt43",
+        "ymoDAgk2",
+        "Mu6k4ovf",
+        "4lo0WcEZ",
+        "PJkGtDKL",
+        "xN2quxsD",
+        "Q3C0oRXH",
+        "frIz7ZSe",
+        "15JnRC6i",
+        "XFvYgBMq",
+        "zGr0Resk",
+        "gjPmRzZJ",
+        "Vl88pKeY",
+        "3300VlZp",
+        "qDBuAKy4",
+        "S1eXvsZi"
+      ],
+      "date": [
+        "4T9mNjPx",
+        "CH5yzIwS",
+        "9wwk2lKq",
+        "lBrxDJEX",
+        "2zrl41z5",
+        "ZcTM3wgr",
+        "sjnlF2ux",
+        "2binZd7n",
+        "Z9u0ykQH",
+        "n1UisaaZ",
+        "AQRVcj2c",
+        "nwiZ9Hp7",
+        "b7gaIzB6",
+        "RGwnPQEm",
+        "9d9NtJyJ",
+        "lQHEHUQ3",
+        "EHbdPNwh"
+      ],
+      "~facts": [
+        "GVojdiPY",
+        "hviOuv7G",
+        "ur2Z0RNV",
+        "yjCVwPSU",
+        "Tz0y4cu8",
+        "gxikCyBM",
+        "7IOnOBsp",
+        "olgazPiC",
+        "7hZrJxl5",
+        "iFZgGCvg",
+        "WdyayKin",
+        "CIiCsGX8",
+        "xYa0ELaM",
+        "k2Pc483c",
+        "iM5qhhhG",
+        "8OLjesOU"
+      ],
+      "family": [
+        "zKZucZQQ"
+      ],
+      "math": [
+        "2QUn1rC8",
+        "o50pMaJH",
+        "x9c7P27g",
+        "4z6xzvyF",
+        "GIpRpzb2",
+        "fq9SxUZL",
+        "w9pu1iO9",
+        "ZXleG6RW",
+        "uLkTWKYd"
+      ],
+      "name": [
+        "V4I5jgaR",
+        "L1EnYwkb",
+        "UmBGIdLf",
+        "QuLWr0Io",
+        "eIVFWrKh",
+        "X7WQAyc0",
+        "I9qMkLs5",
+        "nzkXnLC8",
+        "NfdWDael",
+        "k04wzvu9"
+      ],
+      "reason": [
+        "Mea3Z7gZ",
+        "OBL3jkO8",
+        "MlgcnbSB",
+        "BkqIY4Ew",
+        "fYTP7Mzz",
+        "DpHOYEQC",
+        "ZIzeBQbF",
+        "EtgXA6Ia",
+        "unEYCmdG",
+        "xZd4Vgc7",
+        "tiJiAatM",
+        "3rCsfeuG"
+      ],
+      "resolveFact": [
+        "442L8zQk",
+        "nkF5cSOq",
+        "a1tb63TS",
+        "wUUkQkrY",
+        "CYUyOGO0",
+        "4kgV3NY8",
+        "z3t0jPeb"
+      ],
+      "self": [
+        "VeARqUAt",
+        "73bZz9wE",
+        "ySZ6EtlI",
+        "UfZ6CS3R",
+        "ONgDLmdG",
+        "j2uBNwSq",
+        "HEel86AE",
+        "53sIX2YD",
+        "8jR3oTe6"
+      ],
+      "wordlogic": [
+        "KYrgq2AI",
+        "S2zZXZ8q",
+        "9yTUpkyD",
+        "It4iejSQ",
+        "H993tm3x",
+        "2eGtK61i",
+        "fFXKYogg",
+        "q0IXhw18",
+        "GHv2Qa4B"
+      ],
+      "weather": [
+        "6BFnOoYS",
+        "bkeKu5bl"
+      ],
+      "animal": [
+        "PiPVL0gO",
+        "Nq86wnwt",
+        "9FKZ1rG5",
+        "YM0RdNOv",
+        "iBYrhwgz"
+      ]
+    },
+    "thats": {
+      "random": [
+        "r4IDW4wW"
+      ],
+      "name": [
+        "x0D4xK8v",
+        "0ae0dk5i"
+      ]
+    },
+    "that_trig": {
+      "random": {
+        "r4IDW4wW": [
+          "vAEeRMAw"
+        ]
+      },
+      "name": {
+        "x0D4xK8v": [
+          "UIJI4gIf"
+        ],
+        "0ae0dk5i": [
+          "IIaX7qp7"
+        ]
+      }
+    }
+  },
+  "keywords": "{\"documents\":[{\"__key\":\"cnet\",\"us\":1,\"put\":1,\"locat\":1,\"find\":1},{\"__key\":\"compare\",\"shorter\":1,\"taller\":1,\"older\":1,\"younger\":1},{\"__key\":\"emo\",\"haha\":1,\"bye\":1,\"thank\":1,\"laugh\":1,\"funni\":1,\"huh\":1},{\"__key\":\"date\",\"week\":1,\"dai\":1,\"month\":1,\"season\":1,\"winter\":1,\"summer\":1,\"spring\":1,\"morn\":1,\"noon\":1,\"night\":1},{\"__key\":\"family\",\"mother\":1,\"father\":1,\"brother\":1,\"sister\":1,\"famili\":1},{\"__key\":\"math\",\"add\":1,\"subtract\":1,\"plu\":1,\"minu\":1,\"time\":2},{\"__key\":\"self\",\"favorit\":1,\"singl\":1,\"marri\":1},{\"__key\":\"wordlogic\",\"letter\":1,\"charact\":1,\"rhyme\":1,\"syllabl\":2,\"opposit\":1,\"defin\":1},{\"__key\":\"weather\",\"weather\":1},{\"__key\":\"animal\",\"cow\":1,\"cat\":1,\"dog\":1,\"hors\":1,\"pig\":1,\"anim\":1}],\"_idfCache\":{}}",
+  "checksums": {
+    "./topics/hook.ss": "b87e06ae6687e44807f09f89fa8d45cc81453c14",
+    "./topics/explore.ss": "e90ea863d5461ea288a3d172c5cac32031149aea",
+    "./topics/motivate.ss": "50fe2c968d7a60ecd35eb5f9a623742b17de8f86",
+    "./topics/state_of_being.ss": "e48ecd90bc96f2e21cff3b6a8b96db4f6da91a96",
+    "./topics/quibble/brit_because.ss": "7f205e604bf7e06a146255ae493689d100c79294",
+    "./topics/quibble/brit_can.ss": "0f3866f7de31bd56b27b1cce4384759a1d52e4b7",
+    "./topics/quibble/brit_do.ss": "ead72b15bb3339a06036e52680baa73dea401a5d",
+    "./topics/quibble/brit_misc.ss": "c25afdc4e0a19be91b6e8ea045bf30b26956f338",
+    "./topics/quibble/brit_how.ss": "302ce0c48e25fa153f4591886c5e43aa095672a4",
+    "./topics/quibble/brit_not.ss": "d31687a45506e846f4f2f9fdea8a303f370e3495",
+    "./topics/quibble/brit_or.ss": "5849412d2dbdee2edb0c50b81516d25d60e1d781",
+    "./topics/quibble/brit_tag.ss": "9f9aeeaa238ce14b446d66e0defe53f26fb51024",
+    "./topics/quibble/brit_what.ss": "55af2b29d6effe7d08df44c28574df6b32013a3d",
+    "./topics/quibble/brit_where.ss": "5c73cabcabce7024b9906a3d60a7acf0ef4a6823",
+    "./topics/quibble/brit_when.ss": "c8d4880889f881bd9513cb02b365fc63d86e219d",
+    "./topics/quibble/brit_who.ss": "0c4661acde54b8886e6a1e3912e9bdfd2af29410",
+    "./topics/brit/cnet.ss": "a0aea66729131307a609d03a3273260410d79eb9",
+    "./topics/quibble/brit_why.ss": "e7e886da69a993ae8b35c532a9c8b30054e2e387",
+    "./topics/quibble/quibble_all.ss": "a73c31804997f338deb63ecfd2fe7c0202ebbedb",
+    "./topics/brit/compare.ss": "7bf57105c9a361632f5c9883794df3c464ac077f",
+    "./topics/brit/emo.ss": "69f1ae3e9cb13c457b8b1d72e082e20156f1bbed",
+    "./topics/brit/date.ss": "ed032da663070485ee6cda928506b35e7d9d25f8",
+    "./topics/brit/facts.ss": "52adbf3fe0f021e72da09f852916b196e67c8e0f",
+    "./topics/brit/main.ss": "2fb2bd92d893b076bb3a8c327403bf8127d921e3",
+    "./topics/brit/family.ss": "84634f1344c43419e4564b6d19542a64dc369dcb",
+    "./topics/brit/math.ss": "a520601186f589496f7db0d6bfa2c58ff5865d39",
+    "./topics/brit/own.ss": "cd82b0e3aac97476133ff96f0409c4ccd631ab8d",
+    "./topics/brit/name.ss": "33c55002869cee373c0d0132a18c0ceaad6479aa",
+    "./topics/brit/reason.ss": "289873daa324a6a8c99d361965b69841b4951502",
+    "./topics/brit/resolvefact.ss": "379f1f080d339f7da4ac40c113e44c91f232a03a",
+    "./topics/brit/self.ss": "b6ee50d9cdb9a534c4139d828bac7a7fa0382c20",
+    "./topics/brit/wordlogic.ss": "82be5bff641e310a1ba2c987e64023d6ab0584cc",
+    "./topics/world/weather.ss": "9bbfbf1800f7c7261f5179216d6dca5fbfae5b92",
+    "./topics/world/animal.ss": "5bbac16940ccfae01b7c75ff2adbc3d7c2a5604e"
+  }
+}

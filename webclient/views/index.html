@@ -96,7 +96,6 @@
         var id = $("#id").find("span").val();
         var count = $("#conversation").find("span").val();
         var ct = $("#ct").find("span").val();
-        console.log(stats.lastMessage);
 
         $("#raw").html(stats.lastMessage.raw);
         $("#lemString").html(stats.lastMessage.lemString);
@@ -134,10 +133,12 @@
         }
       });
 
+
+
       socket.on('chat message', function(msgObj){
         var msg = msgObj.text;
-
-        $('#messages').append($('<li>').text(msg));
+        var btn = '<button class="btn btn-default btn-xs pull-right" type="submit">Edit</button>'
+        $('#messages').append($('<li>').text(msg).append(btn));
 
         var newscrollHeight = $("#messageArea")[0].scrollHeight;
         if(newscrollHeight > oldscrollHeight){ 

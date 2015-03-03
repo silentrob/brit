@@ -59,15 +59,12 @@ exports.resolveUserFact = function(subject, verb, cb) {
   var memory = this.user.memory;
   memory.db.get({subject:subject, predicate:verb}, function(err, result){
     if (!_.isEmpty(result)) {
-      console.log("SideA", result);
       cb(null, result[0].object);
     } else {
       memory.db.get({object:subject, predicate:verb}, function(err, result){
         if (!_.isEmpty(result)) {
-          console.log("SideB", result);
           cb(null, result[0].subject);
         } else {
-          console.log("SideC");
           cb(null,"");
         }
       });
