@@ -1,0 +1,359 @@
+✓ I have a brother called Stuart. Who is Stuart?
+✓ I have a cousin called Paul. Who is Paul?
+✓ I like to play football. What do I like to do?
+✓ I have 2 sisters. How many sisters do I have?
+✓ I have a pear and an apple. What do I have?
+✓ I am wearing a green shirt. What am I wearing?
+✓ I have a dog called Rover. What is my dog called?
+✓ I have a cat. What do I have?
+✓ I am 42 years old. How old am I?
+✓ My mother is called Janet. What is her name?
+✓ My uncle is called George. Who is George?
+✓ Susan has brown hair. Who has brown hair?
+✓ My parents are John and Susan. What is my mother called?
+
+I do not like animals with 4 legs. Do I like lions?
+I have an apple and a book. Do I have any fruit?
+** My name is Joanna. Am I a boy?
+The teddy is under the blanket. Where is the blanket?
+The plate is on the table. Where is the plate?
+The blue box is on the floor. What colour is the box?
+Diane has a shoe shop. What does Diane sell?
+Jane is older than Janet. Who is the youngest?
+John has a new phone. What does John have?
+Karen went to bed. Where did Karen go?
+Jim likes Jenny. Who likes Jenny?
+George and Jack are both 17 years old. How old is Jack?
+Paul went home because he was tired. Why did Paul go home
+Jim said he went to the soccer game. What did Jim say?
+Arnold is a horse. What sort of animal is Arnold?
+John has two cats. What does John have?
+George threw the ball to Anne. What did George do?
+Humpty is fatter than Dumpty. Is Dumpty fatter than Humpty?
+Jack is taller than Jill and Pete is taller than Jack. Who is the shortest?
+Jenny is 23 years old. John is 12 years old. Who is older?
+Jim and John are brothers. Does Jim have a brother?
+John ate a fish. What did John eat?
+
+✓ What is 4+2-1?
+✓ What is 50 percent of 40?
+✓ What is half of six?
+✓ What is seven multiplied by six?
+✓ What is 7 divided by 0?
+✓ What is the Roman Numeral for 100?
+✓ What is 7 in binary?
+✓ What number is missing: 1 2 ? 4 5
+✓ What comes next in the sequence: 2 4 6 8 10 12?
+Put these numbers in order: 7, 4 and 8
+What number comes between 7 and 9?
+What is the square root of 9?
+What is a third of 6?
+If I have 4 apples and take one away, how many apples do I have?
+
+✓ What is pi?
+What is hello in French?
+What is artificial intelligence?
+What is an orchestra?
+what is a calculator?
+What is a baby dog called?
+What is a computer?
+What is a crossword puzzle?
+What is a telephone used for?
+What is a chatbot?
+What is the largest number you know?
+What is the moon made from?
+What is money?
+What is the opposite of up?
+What is a rubber ball made from?
+What is the highest mountain in the world?
+What is Google?
+What is Microsoft?
+What is electricity?
+What is your name?
+What is your favourite dessert?
+What is your favourite website?
+What is your favourite food?
+What is the meaning of life?
+What is the young of a cat known as?
+What is Angelina Jolie's surname?
+What is George Washington's first name?
+What is the last letter of BATTLE?
+What is the capital city of France?
+What is the plural of mouse?
+What letter does HORSE begin with?
+What word rhymes with frog?
+What word can you make from the initial letters of Circle, Ant and Train?
+What would you do with a spoon?
+What does a strawberry and an apple have in common?
+What year is it?
+What colour is your hair?
+What colour is a red apple?
+What colour is a zebra
+What colour do you get if you mix yellow and blue?
+What color do you get if you mix blue and yellow?
+What colour is the Red Sea?
+What am I doing?
+What flavour is a strawberry milkshake?
+What animal lives in a kennel?
+What animal would normally eat dog food?
+What animal says woof?
+What does a tree have?
+What does a beer barrel contain?
+What noise does a pig make?
+What number comes between 7 and 9?
+What does a banana look like?
+What time do you go to bed?
+What can you do?
+What gender are you?
+What letter comes before O?
+What is a male cow called?
+What are you?
+What fruit does apple juice come from?
+
+What language are you written in?
+What language does an Italian person speak?
+What would be your ideal job?
+What would you expect to find in a shoe box?
+What does a piano player play?
+What are your hobbies?
+What does your name mean?
+What planet do you live on?
+What meat is in a ham sandwich?
+What name is given to a shape with 3 sides?
+What shape is an orange?
+
+What month will it be next month?
+What year will it be next year?
+What date is it?
+What day was it yesterday?
+What day is it?
+What time is it?
+
+What do you want for Christmas?
+What do birds have that allow them to fly?
+What do you dream about?
+What does a butcher sell?
+What does LOL mean?
+What does a toaster make?
+What does a shoe salesman sell?
+What does a baker do?
+
+How many sides on a cube?
+How many sides does a rectangle have?
+How many visitors do you get per day?
+How many pages in a book with 200 pages?
+How many legs on a spider?
+How many words in this question?
+How many years in a century?
+How many people are in a quartet?
+How many wheels on a bicycle?
+How many days in a week?
+How many days are there in July?
+How many days of the week are there?
+How many legs on 3 people?
+How many letters in the word CHATBOT?
+How many inches are in a foot?
+How many squares on a chess board?
+How many legs do you have?
+How many arms does a person usually have?
+How many shoes are in a pair?
+How many degrees in a right angle?
+
+How do you feel?
+How old are you?
+How old is a man born in 1970?
+How old is a 4 year old child?
+How far away is the Sun from the Earth?
+
+Can you eat a tree?
+Can you swim?
+Can you sing?
+Can a fish swim?
+Can I run faster than a speeding bullet?
+Can you tell me your age please?
+Can you fly?
+Can cats fly?
+Can you dance?
+Can a human carry an elephant?
+Can you play games?
+
+Do you have legs?
+Do you have any toys?
+Do you have any secrets?
+Do you have a database?
+Do you have a phone?
+Do you have an email address?
+Do you have a middle name?
+Do you have any family?
+Do you have any bad habits?
+Do you have a significant other?
+Do you have any brothers or sisters?
+
+Do you like talking to people?
+Do you like Jazz music?
+Do you like me?
+Do you like Siri?
+Do you like Harry Potter?
+Do you like Star Trek?
+Do you like answering my questions?
+Do you prefer cats or dogs?
+
+Do you play video games?
+Do you play a musical instrument?
+Do you play any musical instruments?
+
+Do you think you will win this battle?
+Do you think a tomato is a fruit or a vegetable?
+Do you believe in Santa Claus?
+Do you believe in ghosts? 
+
+Do you speak English?
+Do you speak any foreign languages?
+Do you know what DVD stands for?
+Do you know who wrote the Lord of the Rings books?
+Do you know how far away the Sun is?
+Do you drink coffee?
+Do you sleep?
+Do you consider yourself to be alive?
+Do you watch TV?
+Do you smoke?
+Do you wear clothes?
+Do you believe in aliens?
+Do you read?
+Do apples grow on trees?
+Does money grow on trees?
+
+Have you seen the Terminator films?
+Have you entered this competition before?
+Have you ever been to a party?
+
+Where is the Dead Sea?
+Where is China?
+Where is the South Pole?
+Where were you born?
+Where would you normally wear trousers?
+Where do you live?
+Where would you find a hospital bed?
+Where does a shark live?
+Where does a nurse work?
+
+Which is heavier, a book or an elephant?
+Which is younger, a baby or an adult?
+Which is lighter, a book or a train?
+Which word has the most letters, ball or microphone?
+Which year came before 1971?
+Which planet is famous for its rings?
+
+Who are you?
+Who invented the light bulb?
+Who created you?
+Who is Madonna?
+Who is your favourite TV star?
+Who is your favourite robot?
+Who is your hero?
+Who was the first man on the moon?
+Who was William Shakespeare?
+Who was Dracula?
+Who was Alan Turing?
+
+Name a country in Europe
+Name a prime number
+Name a phone number
+Name a colour starting with B
+Name a word that starts with T.
+Name a part of the body
+Name a yellow fruit.
+Name a country.
+Name a planet
+Name a famous pop star
+Name a country.
+Name an actor
+Name an animal
+Name an ocean.
+Name something blue
+Name something made from metal
+Name something you would find in a school
+Name 3 animals.
+
+Are you rich?
+Are you intelligent?
+Are you self aware?
+Are you religious?
+Are you listening to me?
+Are you talking to anyone else right now?
+Are you having fun?
+Are you married?
+Are you wise?
+Are grapes edible?
+Are you honest?
+Are you real?
+
+Why do people wear clothes?
+Why do people need to eat?
+Why do you deserve to win?
+Why do people get married?
+Why should you water plants?
+
+When is Christmas Day?
+When is Christmas Eve?
+When is Easter?
+When is the next leap year?
+
+Is fire hot?
+Is ice cold?
+Is Jenny a male name?
+Is Japan in Africa?
+Is this the first question?
+Is a thunderstorm louder than a whisper?
+Is an insect larger than a dog?
+Is 2012 a leap year?
+Is the sun hotter than the moon?
+Is six the same as six?
+Is 23 a number?
+Is a million dollars worth more than ten dollars?
+Is 7 greater than 9?
+
+Spell apple
+Spell your name
+
+Ask me how old I am.
+Ask me a question
+Ask me my name
+
+Would a vegetarian eat meat?
+Would a vegetarian eat meat?
+Would you mind telling me your name
+Would you like to go into space?
+
+Bonjour
+kan u reed dis?
+Am I human?
+In which month is July 4th?
+How do you like your steak?
+Say the alphabet.
+Count to ten.
+Have you ever been on TV?
+Count backwards from 10.
+I am cold.
+Thanks for taking part in Chatbot Battles
+What day comes after Sunday?
+I was wondering if you could possibly tell me what your name is please?
+If it is 10 o'clock now, what time will it be in 1 hour?
+In which city is the University of Paris?
+Will you be watching the Olympics?
+Count to five
+Wassup?
+wot iz ur name?
+My leg hurts
+Tell me a poem
+Tell me a story
+Tell me a joke
+The cat sat on the mat. Where did the cat sit?
+How do you work?
+F*** off!
+In which country could you see the Eiffel Tower?
+Define the word confusion
+On what part of the body would you wear shoes?
+r u a computer?
+Sing me a song
+My car is broken

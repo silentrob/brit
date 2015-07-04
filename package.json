@@ -1,0 +1,27 @@
+{
+  "name": "brit2",
+  "version": "1.0.0",
+  "description": "New Brit Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "mongoose": "^4.0.3",
+    "sfacts": "0.0.12",
+    "conceptnet": "silentrob/conceptnet",
+    "slack-client": "^1.4.0",
+    "superscript": "^0.8.8"
+  },
+  "devDependencies": {
+    "async": "^1.0.0",
+    "clusterfck": "^0.6.0",
+    "lemmer": "^0.1.2",
+    "pos": "^0.1.9",
+    "underscore": "^1.8.3",
+    "conceptnet": "silentrob/conceptnet"
+  }
+}
