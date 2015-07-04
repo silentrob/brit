@@ -8,6 +8,7 @@
   },
   "author": "",
   "license": "ISC",
+  "private": true,
   "dependencies": {
     "debug": "^2.2.0",
     "mongoose": "^4.0.3",
