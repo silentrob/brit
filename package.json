@@ -10,10 +10,13 @@
   "license": "ISC",
   "private": true,
   "dependencies": {
-    "debug": "^2.2.0",
-    "mongoose": "^4.0.3",
-    "sfacts": "0.0.12",
     "conceptnet": "silentrob/conceptnet",
+    "debug": "^2.2.0",
+    "install": "^0.1.8",
+    "moment-timezone": "^0.4.0",
+    "mongoose": "^4.0.3",
+    "npm": "^2.12.1",
+    "sfacts": "0.0.12",
     "slack-client": "^1.4.0",
     "superscript": "^0.8.8"
   },
