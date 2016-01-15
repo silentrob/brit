@@ -15,9 +15,11 @@
     "moment": "^2.9.0",
     "mongoose": "^3.8.24",
     "request": "^2.46.0",
+    "roman-numerals": "^0.3.2",
     "sfacts": "*",
     "slack-client": "^1.2.0",
-    "superscript": "^0.6.5",
+    "ss-parser": "^0.1.1",
+    "superscript": "latest",
     "twilio": "^1.11.1",
     "underscore": "^1.7.0"
   },

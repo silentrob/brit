@@ -10,7 +10,6 @@ var options = {
   }
 }
 
-
 var data = [
   './data/bigrams.tbl',
   './data/trigrams.tbl',
@@ -22,7 +21,6 @@ var data = [
 var botData = [
   './data/botfacts.tbl'
 ];
-
 
 var facts = require("sfacts");
 

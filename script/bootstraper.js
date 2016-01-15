@@ -8,15 +8,15 @@ var worldData = [
   // './data/worlddata/basicgeography.tbl',
   './data/concepts.top',
   './data/names.top',
-  './data/oppisite.tbl',
+  './data/opposites.tbl',
   './data/prepositionhierarchy.top',
   './data/verbhierarchy.top',
   './data/worlddata/animals.tbl',
   './data/worlddata/color.tbl'
 ];
 
-facts.load(worldData, "britfacts", function(err, res){
-  var parse = require("superscript/lib/parse")(res);
+facts.load(worldData, "britfacts", function(err, facts){
+  var parse = require("ss-parser")(facts);
   var exists = fs.existsSync('./data.json');
   var contents = {};
   var sums = {};
@@ -31,7 +31,7 @@ facts.load(worldData, "britfacts", function(err, res){
     parse.merge(contents, result, function(err, results) {
 
       fs.writeFile('./data.json', JSON.stringify(results), function (err) {
-  		  console.log("Loaded");
+        console.log("Loaded");
       });
     });
   });
