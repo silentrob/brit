@@ -48,7 +48,7 @@
 < topic
 
 
-> topic:system ~honest_response
+> topic:system:pws ~honest_response
   
   + * ~noanswer *   
   - OK. You disagree with me.
@@ -124,6 +124,13 @@
 
   + ^not(like) I *~3 (leave you|go|got) *~2 [now|soon]
   @ ~emogoodbye
+
+  + I *~3 (leave you|go|got) *~2 [now|soon]
+  %% (find(like)) {
+    - ^continue
+  } else {
+    @ ~emogoodbye
+  }
 
   // are you for real
   + * ~emoskeptic *

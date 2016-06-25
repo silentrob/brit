@@ -1,7 +1,7 @@
 
 // Auth Token - You can generate your token from 
 // https://<slack_name>.slack.com/services/new/bot
-var token = "xoxb-3438375882-S8B2ChDlY1sqKhkvLjtycqeX";
+var token = "";
 var botName = "brit";
 
 // This is the main Bot interface
