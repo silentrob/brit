@@ -80,21 +80,6 @@ exports.getMonth = function(cb) {
 	}
 	cb(null, reply);
 }
-=======
-  var now = moment().tz("America/Vancouver");
-  now.dayOfYear();
-  var doy = now.dayOfYear();
-
-  if (doy > 80 && doy < 172) {
-    return "spring";
-  } else if (doy > 172 && doy < 266) {
-    return "summer";
-  } else if (doy > 266 && doy < 357) {
-    return "fall";
-  } else if ( doy < 80 || doy > 357) {
-    return "winter";
-  }
-};
 
 exports.getDOW = function(cb) {
   cb(null, moment().tz("America/Vancouver").format("dddd"));
@@ -156,4 +141,3 @@ exports.getMonth = function(cb) {
   }
   cb(null, reply);
 };
->>>>>>> b8b8490b4f4fc074d2206848bab57461ec53fc27

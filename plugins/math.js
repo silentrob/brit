@@ -6,10 +6,10 @@
   - sequence functions
 */
 
-var math = require("../node_modules/superscript/lib/math"); 
+var math = require("../node_modules/superscript/lib/bot/math"); 
 var roman = require('roman-numerals');
 var debug = require("debug")("mathPlugin");
-var Utils = require("../node_modules/superscript/lib/utils");
+var Utils = require("../node_modules/superscript/lib/bot/utils").default;
 
 exports.evaluateExpression = function(cb) {
   if (this.message.numericExp || (this.message.halfNumericExp && this.user.prevAns)) {
@@ -102,8 +102,5 @@ exports.evenOdd = function(cb) {
     
   } else {
     cb(null,"Which number ?");
-  }
-  
+  }  
 }
-
-

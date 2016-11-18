@@ -633,10 +633,10 @@
   - You're asking me for advice? 
   - Not much. 
 
-  ?:WH:LOC:country ^not(i) * from
+  ? ^not(i) * from
   - Canada
 
-  ?:WH:LOC:country * i * from
+  ? * i * from
   - I don't think you told me. Where are you from?
   - I'm not sure.
 

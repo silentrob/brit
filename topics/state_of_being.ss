@@ -1,4 +1,4 @@
-< topic state_of_being
+> topic state_of_being
 
 	+ i *~2 feel *~2 ~feeling_sad *~2
 	- I'm sorry to hear that, what can I do to cheer you up?
@@ -9,4 +9,4 @@
 	- Have you talked to anyone about it?
 	
 
-> topic
+< topic

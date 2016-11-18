@@ -13,11 +13,11 @@
 	?:WH * <adjective>
 	- ^tooAdjective()
 
-	?:ENTY:color *
-	- ^colorLookup()
+//	?:ENTY:color *
+//	- ^colorLookup()
 
-	? what [else] is <adjective1>
-	- ^colorLookup()
+// ? what [else] is <adjective1>
+//	- ^colorLookup()
 
 	// my car is red
 	+ my <noun1> is (<adjective1>|<adverb1>)
@@ -30,11 +30,11 @@
 
 	// Resolve Fact 
 	? is [the] <noun1> <adjective1>
-	- ^resolveFact()
+	- Yes
+	- No
 
-	?:CH * (prefer|like) *
-	- ^makeChoice()
-
+	// ?:CH * (prefer|like) *
+	// - ^makeChoice()
 
 	?:NUM:money *
 	- ^findMoney()

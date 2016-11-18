@@ -1,7 +1,4 @@
 
-
-
-
 + * (hanging out|spending time) with <name1>
 - {^known(true)} How is <cap2> doing?
 - {^known(false)} Who is <cap2>?

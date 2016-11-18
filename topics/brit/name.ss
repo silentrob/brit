@@ -51,10 +51,10 @@
 ?:WH * your name
 - My name is Brit.
 
-  % My name is Brit.
-  +  * (lovely|nice|great) name.
-  - {^hasName(false)} Thank you. {@__ask_name__}
-  - {^hasName(true)} Thanks ^get(name). I like your name too!
-  - Thank you.
+ // % My name is Brit.
+ // +  * (lovely|nice|great) name.
+ // - {^hasName(false)} Thank you. {@__ask_name__}
+ // - {^hasName(true)} Thanks ^get(name). I like your name too!
+ // - Thank you.
 
 < topic

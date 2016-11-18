@@ -18,7 +18,6 @@ exports.weather = function(cb) {
   }
 }
 
-
 exports.temp = function(cb) {
   
   if (this.message.names) {

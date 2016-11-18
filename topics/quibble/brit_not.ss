@@ -680,7 +680,7 @@
   - Too often.
 
   ? how much * little * not
-   Too little.
+  - Too little.
 
   ? how much 
   - Not enough, obviously.  

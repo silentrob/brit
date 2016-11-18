@@ -1,6 +1,6 @@
 var debug = require("debug")("UserFacts");
 var _ = require("underscore");
-var Utils = require("superscript/lib/utils");
+var Utils = require("../node_modules/superscript/lib/bot/utils").default;
 
 exports.save = function(key, value, cb) {
   var memory = this.user.memory;
@@ -46,10 +46,8 @@ exports.createUserFact = function(s,v,o,cb) {
   } else {
     debug("Possible Error with fact", this.message.raw);
     cb(null,"")
-  }
-    
+  }    
 }
-
 
 // What does my dad like to play?
 exports.resolveUserFact = function(subject, verb, cb) {

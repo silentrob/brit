@@ -1,5 +1,5 @@
 var _ = require("underscore");
-var Utils  = require("superscript/lib/utils");
+var Utils = require("../node_modules/superscript/lib/bot/utils").default;
 
 exports.getFavorite = function(thing, cb) {
   var that = this;

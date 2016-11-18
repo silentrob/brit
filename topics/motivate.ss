@@ -1,4 +1,4 @@
-< topic motivate
+> topic motivate
 
 	+ __ask_question__
 	- Where did you grow up?
@@ -6,4 +6,4 @@
   - Are you married?
   - What did you do last weekend?
   
-> topic
+< topic

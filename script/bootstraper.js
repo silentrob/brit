@@ -1,4 +1,4 @@
-var facts = require("sfacts");
+// var facts = require("sfacts");
 var fs = require("fs");
 
 var worldData = [
@@ -15,25 +15,10 @@ var worldData = [
   './data/worlddata/color.tbl'
 ];
 
-facts.load(worldData, "britfacts", function(err, facts){
-  var parse = require("ss-parser")(facts);
-  var exists = fs.existsSync('./data.json');
-  var contents = {};
-  var sums = {};
+var parse = require("ss-parser").default;
 
-  if (exists) {
-    contents = fs.readFileSync('./data.json', 'utf-8');
-    contents = JSON.parse(contents);
-    sums = contents.checksums;
-  }
-
-  parse.loadDirectory('./topics', sums,  function(err, result) {
-    parse.merge(contents, result, function(err, results) {
-
-      fs.writeFile('./data.json', JSON.stringify(results), function (err) {
-        console.log("Loaded");
-      });
-    });
+parse.loadDirectory('./topics', function(err, result) {
+  fs.writeFile('./data.json', JSON.stringify(result), function (err) {
+    console.log("Loaded");
   });
 });
-

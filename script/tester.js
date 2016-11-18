@@ -1,14 +1,11 @@
 
 
-var superscript     = require("superscript");
-var debug           = require('debug')("Server");
-var fs              = require("fs");
-var Utils           = require("../node_modules/superscript/lib/utils");
-var async           = require("async");
-var mongoose        = require('mongoose');
-var sfact           = require("sfacts");
-
-var factSystem = sfact.create("/Users/robellis/projects/bot/superscript-editor/testbot");
+var superscript = require("superscript").default;
+var fs = require("fs");
+var Utils = require("../node_modules/superscript/lib/bot/utils").default;
+var async = require("async");
+var mongoose = require('mongoose');
+var sfact = require("sfacts");
 
 mongoose.connect('mongodb://localhost/testbot', { server: { socketOptions: { keepAlive: 1 } } }, function(err){
   if (err) console.log("Error connecting to the MongoDB --", err);
@@ -16,15 +13,12 @@ mongoose.connect('mongodb://localhost/testbot', { server: { socketOptions: { kee
 
 var botOptions = {
   mongoose : mongoose,
-  factSystem: factSystem,
   editMode : true,
-  scope: {
-    cnet : require("conceptnet")({host:'127.0.0.1', user:'root', pass:''})
-  }
-}
+  importFile: "./data.json",
+  pluginsPath: "/Users/robellis/projects/brit/plugins"
+};
 
 var questionFile = "./questions/loebner.txt";
-
 
 var eCount = 0;
 var mCount = 0;
@@ -34,20 +28,19 @@ var botHandle = function(bot, message, cb) {
     if (reply.string == "") {
       console.log(message);
     } else {
-      console.log(message , "=>" , reply.string );
+      console.log("%s => (%s) %s",message, reply.topicName, reply.string);
     }
     cb(null);
   });
 }
 
- 
 new superscript(botOptions, function(err, botInstance){
   
   var fileContents = fs.readFileSync(questionFile,"utf-8");
 
   var itor = function(line, cb){
     var input = Utils.trim(line);
-    if (input[0] != "#" && input != "") {
+    if (input[0] !== "#" && input !== "") {
       botHandle(botInstance, input, cb);
     } else {
       cb(null)
@@ -56,11 +49,10 @@ new superscript(botOptions, function(err, botInstance){
 
   if (fileContents) {
     var fileArray = fileContents.split("\n");
-    var part = fileArray.slice(0,10);
-
+    var part = fileArray.slice(0,30);
     async.map(part, itor, function(){
       console.log("Done");
       process.exit(1);
-    })
+    });
   }
 });
