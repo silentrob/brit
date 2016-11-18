@@ -1,5 +1,8 @@
 > topic math (add subtract plus minus time times )
 
+  + what is *
+  - ^evaluateExpression()
+  
   ?:NUM:expression *
   - ^evaluateExpression()
 

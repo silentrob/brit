@@ -27,6 +27,7 @@ var botHandle = function(bot, message, cb) {
   bot.reply("userx", message.trim(), function(err, reply){ 
     if (reply.string == "") {
       console.log(message);
+      console.log(JSON.stringify(reply.debug.matched_gambit, null, 2));
     } else {
       console.log("%s => (%s) %s",message, reply.topicName, reply.string);
     }
@@ -49,7 +50,7 @@ new superscript(botOptions, function(err, botInstance){
 
   if (fileContents) {
     var fileArray = fileContents.split("\n");
-    var part = fileArray.slice(0,30);
+    var part = fileArray.slice(0,14);
     async.map(part, itor, function(){
       console.log("Done");
       process.exit(1);

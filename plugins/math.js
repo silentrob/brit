@@ -6,25 +6,25 @@
   - sequence functions
 */
 
-var math = require("../node_modules/superscript/lib/bot/math"); 
 var roman = require('roman-numerals');
 var debug = require("debug")("mathPlugin");
+var math = require("../node_modules/superscript/lib/bot/math").default; 
 var Utils = require("../node_modules/superscript/lib/bot/utils").default;
 
-exports.evaluateExpression = function(cb) {
-  if (this.message.numericExp || (this.message.halfNumericExp && this.user.prevAns)) {
-    var answer = math.parse(this.message.cwords, this.user.prevAns);
-    if (answer) {
-      this.user.prevAns = answer;
-      var suggestedReply = "I think it is " + answer;
-    } else {
-      var suggestedReply =  "What do I look like, a computer?";
-    }
-    cb(null, suggestedReply);
-  } else {
-    cb(true, "");
-  } 
-}
+// exports.evaluateExpression = function(cb) {  
+//   if (this.message.numericExp || (this.message.halfNumericExp && this.user.prevAns)) {
+//     var answer = math.parse(this.message.cwords, this.user.prevAns);
+//     if (answer) {
+//       this.user.prevAns = answer;
+//       var suggestedReply = "I think it is " + answer;
+//     } else {
+//       var suggestedReply =  "What do I look like, a computer?";
+//     }
+//     cb(null, suggestedReply);
+//   } else {
+//     cb(true, "");
+//   } 
+// }
 
 exports.numToRoman = function(cb) {
   suggest = "I think it is " + roman.toRoman(this.message.numbers[0]);
