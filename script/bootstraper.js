@@ -16,7 +16,7 @@ var worldData = [
 
 var parse = require("ss-parser").default;
 
-parse.loadDirectory('./topics', function(err, result) {
+parse.loadDirectory('./chat', function(err, result) {
   fs.writeFile('./data.json', JSON.stringify(result), function (err) {
     console.log("Loaded");
   });

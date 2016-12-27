@@ -1,5 +1,3 @@
-
-
 var superscript = require("superscript").default;
 var fs = require("fs");
 var Utils = require("../node_modules/superscript/lib/bot/utils").default;
