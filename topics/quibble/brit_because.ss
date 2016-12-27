@@ -1,4 +1,4 @@
-> topic:system ~britt_because
+> topic britt_because {system}
 
   + * (because|cause) * be * fact
   - Facts aren't real. They are just our interpretations of reality.

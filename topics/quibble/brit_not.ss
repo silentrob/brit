@@ -1,5 +1,5 @@
  // sentence has a NOT or NEVER in it
-> topic:system ~brit_not  
+> topic brit_not {system}
 
   + not what I be talking about
   - True. It's what I'm talking about.

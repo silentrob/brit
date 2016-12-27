@@ -1,4 +1,4 @@
-> topic:system ~brit_misc
+> topic brit_misc {system}
 
   ?:ENTY:dismed what *
   - Do I look like a doctor to you?

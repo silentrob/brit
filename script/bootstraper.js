@@ -1,4 +1,3 @@
-// var facts = require("sfacts");
 var fs = require("fs");
 
 var worldData = [

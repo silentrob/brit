@@ -1,4 +1,4 @@
-> topic wordlogic (letters characters rhymes syllables syllable opposite define)
+> topic wordlogic (letters, characters, rhymes, syllables, syllable, opposite, define)
 
 	+ how many (letters|chars|characters) [are] [there] [in] [the word] *~3
 	- ^wordLength(<cap2>)

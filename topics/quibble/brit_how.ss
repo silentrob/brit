@@ -1,4 +1,4 @@
-> topic:system ~brit_howmuch
+> topic brit_howmuch {system}
 
 	? how many fingers *
 	- anything from 0 to 10, eleven if you are a mutant. 
@@ -100,7 +100,7 @@
 
 < topic
 
-> topic:system ~brit_how
+> topic ~brit_how {system}
 	? how do you respond when *
 	- I just say something at random. I know the answer isn't really important.
 	- I think long and hard about it.

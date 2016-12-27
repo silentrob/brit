@@ -35,7 +35,7 @@ var botHandle = function(bot, message, cb) {
   });
 }
 
-new superscript(botOptions, function(err, botInstance){
+superscript.setup(botOptions, (err, botInstance) => {
   
   var fileContents = fs.readFileSync(questionFile,"utf-8");
 
@@ -50,8 +50,8 @@ new superscript(botOptions, function(err, botInstance){
 
   if (fileContents) {
     var fileArray = fileContents.split("\n");
-    var part = fileArray.slice(0,14);
-    async.map(part, itor, function(){
+    var part = fileArray.slice(0, 5);
+    async.map(part, itor, function() {
       console.log("Done");
       process.exit(1);
     });

@@ -1,24 +1,24 @@
-> topic math (add subtract plus minus time times )
+> topic math (add, subtract, plus, minus, time, times )
 
   + what is *
   - ^evaluateExpression()
   
-  ?:NUM:expression *
+  ? *
   - ^evaluateExpression()
 
-  ?:DESC:def * roman (numerial|numeral) *
+  ? * roman (numerial|numeral) *
   - ^numToRoman()
 
-  ?:DESC:def * (hex|hexdecimal) *
+  ? * (hex|hexdecimal) *
   - ^numToHex()
 
-  ?:DESC:def * binary *
+  ? * binary *
   - ^numToBinary()
 
-  ?:NUM:other * (missing) *
+  ? * (missing) *
   - ^numMissing()
 
-  ?:NUM:other * (sequence) *
+  ? * (sequence) *
   - ^numSequence()
 
   ? is *1 [a|an] (even|odd) [number]

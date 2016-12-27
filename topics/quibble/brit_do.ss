@@ -1,4 +1,4 @@
-> topic:system ~brit_do
+> topic brit_do {system}
 
   // VERB DO
   ? * do you wish 

@@ -1,4 +1,4 @@
-> topic self (favorite single married)
+> topic self (favorite, single, married)
 
   + __something_random__
   - damn. I have had a headache for like 14 days now.

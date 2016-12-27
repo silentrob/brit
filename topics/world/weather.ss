@@ -1,9 +1,9 @@
 > topic weather (weather)
 	
-	?:WH * weather *
+	? * weather *
 	- ^weather()
 
-	?:WH * (temp|temperature) *
+	? * (temp|temperature) *
 	- ^temp()
 
 < topic

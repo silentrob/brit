@@ -1,4 +1,4 @@
-> topic:keep emo (haha bye thanks laugh funny huh)
+> topic emo (haha, bye, thanks, laugh, funny, huh) {keep}
 
   + ~emohello [*~2]
   - Hi! ^topicRedirect(name,__ask_name__)

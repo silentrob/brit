@@ -1,4 +1,4 @@
-> topic:system ~brit_or
+> topic brit_or {system}
 
   ? are you *~2 or *~2
   - Neither :)

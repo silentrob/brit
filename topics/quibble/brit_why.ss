@@ -1,4 +1,4 @@
-> topic:system ~brit_why
+> topic brit_why {system}
 
 	? (why would I lie|why would I be lying|why would I lie to you)
 	- because it is human nature to lie. 

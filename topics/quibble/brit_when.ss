@@ -1,4 +1,4 @@
-> topic:system ~brit_when
+> topic brit_when {system}
   // WHEN
   
   ? when (will|be|can|do|have)

@@ -1,16 +1,16 @@
 > topic reason
 
-	?:WH * do you live
+	? * do you live
 	- I live in Vancouver.
 
-	?:WH * i live
+	? * i live
 	- ^findLoc()
 
 	+ i live *
 	- Do you like it there?
 
 	// What was too small?
-	?:WH * <adjective>
+	? * <adjective>
 	- ^tooAdjective()
 
 //	?:ENTY:color *
@@ -36,10 +36,10 @@
 	// ?:CH * (prefer|like) *
 	// - ^makeChoice()
 
-	?:NUM:money *
-	- ^findMoney()
+//	? *
+//	- ^findMoney()
 
-	?:NUM:date * birthday
-	- ^findDate()
+//	? * birthday
+//	- ^findDate()
 
 < topic

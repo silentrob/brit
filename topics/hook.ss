@@ -1,7 +1,7 @@
 > pre
 
 	+ *
-	- ^respond(~facts)
+	- ^respond("facts")
 
 < pre
 
@@ -9,6 +9,6 @@
 
   // If we made it this far, lets hit the quibble system
   + *
-  - ^respond(~quibble_all)
+  - ^respond("quibble_all")
 
 < post

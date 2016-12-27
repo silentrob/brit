@@ -1,4 +1,4 @@
-> topic:system ~honest_response
+> topic honest_response {system}
   
   + * ~noanswer *   
   - OK. You disagree with me.

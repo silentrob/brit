@@ -1,4 +1,4 @@
-> topic date (week day month season winter summer spring morning noon night)
+> topic date (week, day, month, season, winter, summer, spring, morning, noon, night)
 
   + what is the date [today]
   - ^getDate()

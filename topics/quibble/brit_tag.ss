@@ -1,4 +1,4 @@
-> topic:system ~brit_tag
+> topic brit_tag {system}
     
   ?:TG * are you
   - I like to think I am.

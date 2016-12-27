@@ -1,49 +1,49 @@
-> topic:system ~quibble_all
+> topic quibble_all {system}
 
   + * (or) *
-  - ^respond(~brit_or) 
+  - ^respond("brit_or") 
 
   ?:TG *
-  - ^respond(~brit_tag) 
+  - ^respond("brit_tag") 
 
   + * (never|not) * 
-  - ^respond(~brit_not) 
+  - ^respond("brit_not") 
 
   + * who *
-  - ^respond(~brit_who) 
+  - ^respond("brit_who") 
 
   + * what *
-  - ^respond(~brit_what) 
+  - ^respond("brit_what") 
 
   + * when * 
-  - ^respond(~brit_when) 
+  - ^respond("brit_when") 
 
   + * where *
-  - ^respond(~brit_where) 
+  - ^respond("brit_where") 
 
-  + * ~why *
-  - ^respond(~brit_why) 
+  + * why *
+  - ^respond("brit_why") 
 
   + * how (many|much) *
-  - ^respond(~brit_howmuch) 
+  - ^respond("brit_howmuch") 
 
   + ^not(much|many) * how *
-  - ^respond(~brit_how) 
+  - ^respond("brit_how") 
 
   + * (because|cause) *
-  - ^respond(~brit_because) 
+  - ^respond("brit_because") 
 
   + * (can) *
-  - ^respond(~brit_can) 
+  - ^respond("brit_can") 
 
   + * (do) * 
-  - ^respond(~brit_do) 
+  - ^respond("brit_do") 
 
   + * 
-  - ^respond(~brit_misc) 
+  - ^respond("brit_misc") 
 
   + * 
-  - ^respond(~honest_response)
+  - ^respond("honest_response")
 
 < topic
 

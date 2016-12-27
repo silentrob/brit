@@ -1,4 +1,4 @@
-> topic:system ~brit_where
+> topic brit_where {system}
   ? * do * you
   - Whereever I can. 
   - Usually at the same place.

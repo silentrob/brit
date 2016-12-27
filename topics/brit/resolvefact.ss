@@ -14,7 +14,7 @@
   - ^resolveUserFact(<cap1>, play)
 
   // What is the name of my friend
-  ?:WH ^has(friend) * is the name  *~2 friend *
+  ? ^has(friend) * is the name  *~2 friend *
   - Your friends name is ^get(friend).
 
   // who is my brother

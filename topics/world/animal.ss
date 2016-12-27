@@ -1,4 +1,4 @@
-> topic animal (cow cat dog horse pig animal)
+> topic animal (cow, cat, dog, horse, pig, animal)
 
   + where does a *1 live
   - ^aLocation(<cap>)

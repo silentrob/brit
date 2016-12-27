@@ -1,4 +1,4 @@
-> topic compare (shorter taller older younger)
+> topic compare (shorter, taller, older, younger)
 
   // Tom is taller than Mary and Tom is shorter than Joan.
   + [if] <name1> [is|be] [more|less] <adjectives> (then|than) <name2> ~extensions <names> [is|be] <adjectives> (then|than) <name3>
@@ -12,7 +12,7 @@
   // Who is the tallest
   // Who is the older A or B
   // Do you know who is the tallest
-  ?:HUM:ind *~3 who *~2 <adjectives> [<name1> or <name2>]
+  ? *~3 who *~2 <adjectives> [<name1> or <name2>]
   - ^resolveAdjective() 
 
   // Which of them is the oldest

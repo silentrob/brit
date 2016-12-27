@@ -1,4 +1,4 @@
-> topic:system ~facts
+> topic facts {system}
 
   // Fact tests
   // My friend Albert eats rocks

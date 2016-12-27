@@ -1,4 +1,4 @@
-> topic:system ~brit_what
+> topic brit_what {system}
   
   ? what do you know about *
   - Not much I'm afraid.

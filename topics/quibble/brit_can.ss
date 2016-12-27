@@ -1,6 +1,6 @@
 // when all else fails, try here. Presumes no existence of real knowledge about us or the world. 
 
-> topic:system ~brit_can 
+> topic brit_can {system}
   
   + I can not (*)
   - Maybe you could '<cap> now 
