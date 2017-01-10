@@ -13,34 +13,36 @@ var botOptions = {
   mongoose : mongoose,
   editMode : true,
   importFile: "./data.json",
+  factSystem: { clean: true },
   pluginsPath: "/Users/robellis/projects/brit/plugins"
 };
 
 var questionFile = "./questions/loebner.txt";
 
-var eCount = 0;
-var mCount = 0;
-
 var botHandle = function(bot, message, cb) {
-  bot.reply("userx", message.trim(), function(err, reply){ 
+  bot.reply("userx", message.input, function(err, reply){ 
     if (reply.string == "") {
-      console.log(message);
+      console.log(message.input);
       console.log(JSON.stringify(reply.debug.matched_gambit, null, 2));
     } else {
-      console.log("%s => (%s) %s",message, reply.topicName, reply.string);
+      if (message.assert) {
+        console.log("%s => (%s) %s [%s]", message.input, reply.topicName, reply.string, message.assert);
+      } else {
+        console.log("%s => (%s) %s", message.input, reply.topicName, reply.string);  
+      }
+      
     }
     cb(null);
   });
 }
 
-superscript.setup(botOptions, (err, botInstance) => {
-  
+var loebner = function(botInstance, cb) {
   var fileContents = fs.readFileSync(questionFile,"utf-8");
 
   var itor = function(line, cb){
     var input = Utils.trim(line);
     if (input[0] !== "#" && input !== "") {
-      botHandle(botInstance, input, cb);
+      botHandle(botInstance, {input}, cb);
     } else {
       cb(null)
     }
@@ -48,10 +50,36 @@ superscript.setup(botOptions, (err, botInstance) => {
 
   if (fileContents) {
     var fileArray = fileContents.split("\n");
-    var part = fileArray.slice(0, 5);
-    async.map(part, itor, function() {
-      console.log("Done");
-      process.exit(1);
-    });
+    var part = fileArray.slice(0, 2);
+    async.mapSeries(part, itor, cb);
   }
+};
+
+var toytask = function(botInstance, cb) {
+  var fileContents = fs.readFileSync("./questions/tasks/task_qa1_train.txt", "utf-8");
+  
+  var itor = function(line, cb) {
+    
+    if (line !== "" ){
+      var parts = line.split("\t");
+      var input = Utils.trim(parts[0].replace(/(^\d+)/, ""));
+      botHandle(botInstance, {input, assert: parts[1]}, cb);
+    } else {
+      cb(null);
+    }
+  }
+
+  if (fileContents) {
+    var fileArray = fileContents.split("\n");
+    var part = fileArray.slice(0, 15);
+    async.mapSeries(part, itor, cb);
+  }
+};
+
+superscript.setup(botOptions, (err, botInstance) => {
+  
+  loebner(botInstance, function() {
+    console.log("Done");
+    process.exit(1);
+  });
 });

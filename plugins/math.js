@@ -8,10 +8,12 @@
 
 var roman = require('roman-numerals');
 var debug = require("debug")("mathPlugin");
-var math = require("../node_modules/superscript/lib/bot/math").default; 
 var Utils = require("../node_modules/superscript/lib/bot/utils").default;
 
-// exports.evaluateExpression = function(cb) {  
+exports.evaluateExpression = function(cb) {
+  cb(null, "");
+}
+
 //   if (this.message.numericExp || (this.message.halfNumericExp && this.user.prevAns)) {
 //     var answer = math.parse(this.message.cwords, this.user.prevAns);
 //     if (answer) {
@@ -66,26 +68,27 @@ exports.numMissing = function(cb) {
 
 // Sequence
 exports.numSequence = function(cb) {
-  if (this.message.lemWords.indexOf("sequence") != -1 && this.message.numbers.length != 0) {
-    debug("Finding the next number in the series")
-    var numArray = this.message.numbers.map(function(item){return parseInt(item)})
-    numArray = numArray.sort(function(a, b){return a-b});
+  // if (this.message.lemWords.indexOf("sequence") != -1 && this.message.numbers.length != 0) {
+  //   debug("Finding the next number in the series")
+  //   var numArray = this.message.numbers.map(function(item){return parseInt(item)})
+  //   numArray = numArray.sort(function(a, b){return a-b});
     
-    if (math.arithGeo(numArray) == "Arithmetic") {
-      for(var i = 1; i < numArray.length; i++) {
-        var x = numArray[i] - numArray[i-1];
-      }
-      suggest = "I think it is " + (parseInt(numArray.pop()) + x);
-    } else if (math.arithGeo(numArray) == "Geometric") {
-      var a = numArray[1];
-      var r = a / numArray[0];
-      suggest = "I think it is " + numArray.pop() * r;
-    }
+  //   if (math.arithGeo(numArray) == "Arithmetic") {
+  //     for(var i = 1; i < numArray.length; i++) {
+  //       var x = numArray[i] - numArray[i-1];
+  //     }
+  //     suggest = "I think it is " + (parseInt(numArray.pop()) + x);
+  //   } else if (math.arithGeo(numArray) == "Geometric") {
+  //     var a = numArray[1];
+  //     var r = a / numArray[0];
+  //     suggest = "I think it is " + numArray.pop() * r;
+  //   }
 
-    cb(null, suggest);
-  } else {
-    cb(true, "");
-  }
+  //   cb(null, suggest);
+  // } else {
+  //   cb(true, "");
+  // }
+  cb(true, "");
 }
 
 // returns the state of a number

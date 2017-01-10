@@ -1,4 +1,4 @@
-> topic quibble_all {system}
+> topic quibble_all {system, keep}
 
   + * (or) *
   - ^respond("brit_or") 

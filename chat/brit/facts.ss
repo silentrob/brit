@@ -1,5 +1,8 @@
 > topic facts {system}
 
+  + *1 (moved|went|journeyed|travelled|travel) [back] to the *1
+  - ^createUserFact(<cap1>, 'locatedAt', <cap3>)
+
   // Fact tests
   // My friend Albert eats rocks
   // Albert eat rock

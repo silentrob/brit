@@ -1,4 +1,4 @@
-> topic brit_howmuch {system}
+> topic brit_howmuch {system, keep}
 
 	? how many fingers *
 	- anything from 0 to 10, eleven if you are a mutant. 

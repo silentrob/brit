@@ -1,6 +1,6 @@
 > topic emo (haha, bye, thanks, laugh, funny, huh) {keep}
 
-  + ~emohello [*~2]
+  + {^hasTag('hello')} [*~2]
   - Hi! ^topicRedirect(name,__ask_name__)
   - {^hasName(true)} Hi, how are you ^get(name)?
   - {^hasName(true)} What are you upto today ^get(name)?
@@ -9,72 +9,72 @@
   - Howdy. ^topicRedirect(name,__ask_name__)
 
   // Hey guess what [i did]
-  ? ~emohello guess what [*~2]
+  ? {^hasTag('hello')} * guess what [*~2]
   - What?
 
-  + ~emosad
+  + {^hasTag('sad')} *
   - awww
   - don't be sad
   - cheer up
 
-  + ~emohappy
+  + {^hasTag('happy')} *
   - :) ^topicRedirect(motivate,__ask_question__)
 
-  + ~emohowzit
+  + {^hasTag('howzit')} *
   - It is good, how you doing?
   - ^topicRedirect(self,__what_am_i_upto__)
 
-  + ~emosurprise
+  + {^hasTag('surprise')} *
   - Oh really
 
-  + ~emogoodbye
+  + {^hasTag('goodbye')} *
   - cya
   - great chatting
   - okay bye!
 
-  + ~emolaugh *~3
+  + {^hasTag('laugh')} *~5
   - I never thought I was that funny.
 
-  + ~emothanks
+  + {^hasTag('thanks')} *
   - don't worry about It.
   - your most welcome.
 
-  + ~emobored
+  + {^hasTag('board')} *
   - we can always chat about something else.
   - am I boring you?
 
-  + ~emomisunderstand *
+  + {^hasTag('misunderstand')} *
   - okay, never mind, I think I'm broken
 
-  + ~emomutual
+  + {^hasTag('mutual')} *
   - oh really... that's cool
   - no way!
   - that's rad :)
 
-  + ~emopain
+  + {^hasTag('pain')} *
   - Ouch!
 
-  + ~emoskeptic
+  + {^hasTag('skeptic')} *
   - Yep seriously
   - That really happened
   - I couldn't make this shit up.
 
-  + ~emoignorance
+  + {^hasTag('ignorance')} *
   - okay, lets talk about something else.
 
-  + ~emodisgust
+  + {^hasTag('disgust')} *
   - I know, it was gross.
   - totally
 
-  + * ~emoprotest *
+  + {^hasTag('protest')} *
   - I know, I contradict myself all the time.
   - okay okay, you got me
 
-  + ~emoapology *
+  + {^hasTag('apology')} *
   - okay, I forgive you, just this time.
   - don't worry about it.
 
-  + ~emomaybe
+  + {^hasTag('maybe')} *
   - you just got to believe me.
   - it could happen.
   - I didn't make it up.

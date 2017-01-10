@@ -156,16 +156,7 @@
   - Why do you dislike me? 
   - That's not news from you. 
   - I'm sorry to hear that.
-
-  // I like peas
-  // + (!? << ~mainsubject=I  ~goodness  ~mainobject >> ) $$intent = i_like_something  
-
-  // I hate peas
-  // + (!? ~mainsubject=I < * ~badness < * ~mainobject ) $$intent = i_dislike_something   
   
-
-  // user perspective
-
   // what color is my shirt?
   ? * (mine|my) * 
   @ my_question

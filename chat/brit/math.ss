@@ -3,9 +3,6 @@
   + what is *
   - ^evaluateExpression()
   
-  ? *
-  - ^evaluateExpression()
-
   ? * roman (numerial|numeral) *
   - ^numToRoman()
 

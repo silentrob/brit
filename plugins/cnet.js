@@ -1,10 +1,9 @@
 
 var debug = require("debug")("Reason Plugin");
-var history = require("../node_modules/superscript/lib/bot/history");
-var Utils = require("../node_modules/superscript/lib/bot/utils").default;
-var wd = require("../node_modules/superscript/lib/bot/reply/wordnet"); 
-var _ = require("underscore");
-var moment = require("moment");
+// var Utils = require("../node_modules/superscript/lib/bot/utils").default;
+// var wd = require("../node_modules/superscript/lib/bot/reply/wordnet"); 
+// var _ = require("lodash");
+// var moment = require("moment");
 
 exports.usedFor = function(cb) {
   cb(null, "");

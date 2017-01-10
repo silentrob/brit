@@ -1,4 +1,4 @@
-var _ = require("underscore");
+var _ = require("lodash");
 
 exports.aGender = function(gender, thing, cb) {
   this.facts.db.get({predicate:gender, object:thing}, function(e,r){
