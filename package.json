@@ -11,6 +11,7 @@
   "author": "Rob Ellis",
   "license": "MIT",
   "dependencies": {
+    "async": "^0.9.2",
     "debug": "latest",
     "lodash": "^4.17.3",
     "moment": "^2.9.0",
@@ -18,7 +19,7 @@
     "mongoose": "latest",
     "request": "^2.46.0",
     "roman-numerals": "^0.3.2",
-    "superscript": "1.0.0-alpha12",
+    "superscript": "alpha",
     "underscore": "^1.7.0"
   },
   "devDependencies": {

@@ -100,7 +100,7 @@
 
 < topic
 
-> topic ~brit_how {system}
+> topic brit_how {system}
 	? how do you respond when *
 	- I just say something at random. I know the answer isn't really important.
 	- I think long and hard about it.
