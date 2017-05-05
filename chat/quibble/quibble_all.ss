@@ -3,8 +3,8 @@
   + * (or) *
   - ^respond("brit_or") 
 
-  ?:TG *
-  - ^respond("brit_tag") 
+// ?:TG *
+// - ^respond("brit_tag") 
 
   + * (never|not) * 
   - ^respond("brit_not") 
@@ -27,7 +27,7 @@
   + * how (many|much) *
   - ^respond("brit_howmuch") 
 
-  + ^not(much|many) * how *
+  + {^not("much|many")} * how *
   - ^respond("brit_how") 
 
   + * (because|cause) *

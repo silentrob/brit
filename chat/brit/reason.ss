@@ -10,8 +10,8 @@
 	- Do you like it there?
 
 	// What was too small?
-	? * <adjective>
-	- ^tooAdjective()
+//	? * <adjective>
+	//- ^tooAdjective()
 
 //	?:ENTY:color *
 //	- ^colorLookup()
@@ -25,8 +25,8 @@
 
 	// what is black
 	// what is too big
-	? what be (<adjective1>|<adverb1>)
-	- ^tooAdjective()
+	//? what be (<adjective1>|<adverb1>)
+	//- ^tooAdjective()
 
 	// Resolve Fact 
 	? is [the] <noun1> <adjective1>

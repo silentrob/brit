@@ -14,14 +14,14 @@ var botOptions = {
   editMode : true,
   importFile: "./data.json",
   factSystem: { clean: true },
-  pluginsPath: "/Users/robellis/projects/brit/plugins"
+  pluginsPath: "/Users/robellis/projects/personal/brit/plugins"
 };
 
 var questionFile = "./questions/loebner.txt";
 
 var botHandle = function(bot, message, cb) {
   bot.reply("userx", message.input, function(err, reply){ 
-    if (reply.string == "") {
+    if (reply.string === "") {
       console.log(message.input);
       console.log(JSON.stringify(reply.debug.matched_gambit, null, 2));
     } else {
@@ -37,7 +37,7 @@ var botHandle = function(bot, message, cb) {
 }
 
 var loebner = function(botInstance, cb) {
-  var fileContents = fs.readFileSync(questionFile,"utf-8");
+  var fileContents = fs.readFileSync(questionFile, "utf-8");
 
   var itor = function(line, cb){
     var input = Utils.trim(line);
@@ -50,28 +50,7 @@ var loebner = function(botInstance, cb) {
 
   if (fileContents) {
     var fileArray = fileContents.split("\n");
-    var part = fileArray.slice(0, 2);
-    async.mapSeries(part, itor, cb);
-  }
-};
-
-var toytask = function(botInstance, cb) {
-  var fileContents = fs.readFileSync("./questions/tasks/task_qa1_train.txt", "utf-8");
-  
-  var itor = function(line, cb) {
-    
-    if (line !== "" ){
-      var parts = line.split("\t");
-      var input = Utils.trim(parts[0].replace(/(^\d+)/, ""));
-      botHandle(botInstance, {input, assert: parts[1]}, cb);
-    } else {
-      cb(null);
-    }
-  }
-
-  if (fileContents) {
-    var fileArray = fileContents.split("\n");
-    var part = fileArray.slice(0, 15);
+    var part = fileArray.slice(0, 3);
     async.mapSeries(part, itor, cb);
   }
 };
@@ -80,6 +59,6 @@ superscript.setup(botOptions, (err, botInstance) => {
   
   loebner(botInstance, function() {
     console.log("Done");
-    process.exit(1);
+    process.exit(0);
   });
 });

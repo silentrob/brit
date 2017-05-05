@@ -19,7 +19,7 @@
     "mongoose": "latest",
     "request": "^2.46.0",
     "roman-numerals": "^0.3.2",
-    "superscript": "alpha",
+    "superscript": "latest",
     "underscore": "^1.7.0"
   },
   "devDependencies": {

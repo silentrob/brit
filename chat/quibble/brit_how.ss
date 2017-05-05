@@ -127,8 +127,7 @@
 	? how old are you 
 	- None of your business. 
 	- How old is the universe? 
-	- I lost count. 
-	- 24 
+	- I lost count.
 	- Old enough to know better. Young enough to not care.
 
 	? * how long
@@ -512,9 +511,12 @@
 	? how do you know when 
 	- I know when the time occurs, trust me. 
 	
-	? how is everything in 
+	? how is everything in *
 	- It's just dandy. 
 	
+	? how is it going
+	- It's just dandy. 
+
 	? how be I stranger 
 	- because you talk no sense at all. 
 	
